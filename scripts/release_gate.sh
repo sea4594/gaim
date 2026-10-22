@@ -17,7 +17,7 @@ fi
 [[ -n "$PYTHON" ]] || { echo 'STOP: Requires Python 3.10+' >&2; exit 1; }
 "$PYTHON" -c 'import sys; assert sys.version_info >= (3,10); print("Python",sys.version.split()[0])'
 
-"$PYTHON" -m compileall -q reference phase6 scripts tests
+"$PYTHON" -m compileall -q reference phase6 experiments scripts tests
 "$PYTHON" reference/tests_v01.py
 "$PYTHON" -m unittest discover -s tests -p 'test_*.py' -v
 "$PYTHON" scripts/generate_phase6_artifacts.py --check
