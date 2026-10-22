@@ -1,0 +1,774 @@
+{
+  "definition": "Two independent samples of 120 hand-constructed final-round boards; full games with 80 fixed seeds; 1152 fixed zero-edit two-round investment fixtures; 80-seed flip dominance probes.",
+  "final_development": {
+    "cases": 120,
+    "objective": "single NOW-band turn, enumerate up to four edits",
+    "results": {
+      "baseline": {
+        "both_winning_and_losing_plans": 18,
+        "states_where_special_can_lose": 0,
+        "states_where_special_can_win": 0,
+        "tested_legal_plans": 20461,
+        "winnable": 18
+      },
+      "bridge_flip": {
+        "both_winning_and_losing_plans": 19,
+        "states_where_special_can_lose": 114,
+        "states_where_special_can_win": 10,
+        "tested_legal_plans": 40560,
+        "winnable": 19
+      },
+      "bridge_split": {
+        "both_winning_and_losing_plans": 19,
+        "states_where_special_can_lose": 85,
+        "states_where_special_can_win": 15,
+        "tested_legal_plans": 32276,
+        "winnable": 19
+      },
+      "flip": {
+        "both_winning_and_losing_plans": 19,
+        "states_where_special_can_lose": 114,
+        "states_where_special_can_win": 10,
+        "tested_legal_plans": 40560,
+        "winnable": 19
+      },
+      "split": {
+        "both_winning_and_losing_plans": 19,
+        "states_where_special_can_lose": 85,
+        "states_where_special_can_win": 15,
+        "tested_legal_plans": 32276,
+        "winnable": 19
+      },
+      "transfer": {
+        "both_winning_and_losing_plans": 18,
+        "states_where_special_can_lose": 111,
+        "states_where_special_can_win": 13,
+        "tested_legal_plans": 57410,
+        "winnable": 18
+      }
+    },
+    "seed": 4606,
+    "special_win_examples": {
+      "bridge_flip": {
+        "case": 0,
+        "hp": 2,
+        "plan": [
+          [
+            "flip",
+            2
+          ],
+          [
+            "damp",
+            3
+          ]
+        ],
+        "power": [
+          3,
+          3,
+          2
+        ],
+        "tokens": [
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ]
+        ]
+      },
+      "bridge_split": {
+        "case": 0,
+        "hp": 2,
+        "plan": [
+          [
+            "shift",
+            2,
+            1
+          ],
+          [
+            "split",
+            3,
+            -1
+          ]
+        ],
+        "power": [
+          3,
+          3,
+          2
+        ],
+        "tokens": [
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ]
+        ]
+      },
+      "flip": {
+        "case": 0,
+        "hp": 2,
+        "plan": [
+          [
+            "flip",
+            2
+          ],
+          [
+            "damp",
+            3
+          ]
+        ],
+        "power": [
+          3,
+          3,
+          2
+        ],
+        "tokens": [
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ]
+        ]
+      },
+      "split": {
+        "case": 0,
+        "hp": 2,
+        "plan": [
+          [
+            "shift",
+            2,
+            1
+          ],
+          [
+            "split",
+            3,
+            -1
+          ]
+        ],
+        "power": [
+          3,
+          3,
+          2
+        ],
+        "tokens": [
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ]
+        ]
+      },
+      "transfer": {
+        "case": 0,
+        "hp": 2,
+        "plan": [
+          [
+            "shift",
+            3,
+            -1
+          ],
+          [
+            "transfer",
+            0,
+            1
+          ]
+        ],
+        "power": [
+          3,
+          3,
+          2
+        ],
+        "tokens": [
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ]
+        ]
+      }
+    }
+  },
+  "final_holdout": {
+    "cases": 120,
+    "objective": "single NOW-band turn, enumerate up to four edits",
+    "results": {
+      "baseline": {
+        "both_winning_and_losing_plans": 22,
+        "states_where_special_can_lose": 0,
+        "states_where_special_can_win": 0,
+        "tested_legal_plans": 21659,
+        "winnable": 22
+      },
+      "bridge_flip": {
+        "both_winning_and_losing_plans": 26,
+        "states_where_special_can_lose": 118,
+        "states_where_special_can_win": 14,
+        "tested_legal_plans": 43293,
+        "winnable": 26
+      },
+      "bridge_split": {
+        "both_winning_and_losing_plans": 24,
+        "states_where_special_can_lose": 90,
+        "states_where_special_can_win": 18,
+        "tested_legal_plans": 33329,
+        "winnable": 24
+      },
+      "flip": {
+        "both_winning_and_losing_plans": 26,
+        "states_where_special_can_lose": 118,
+        "states_where_special_can_win": 14,
+        "tested_legal_plans": 43293,
+        "winnable": 26
+      },
+      "split": {
+        "both_winning_and_losing_plans": 24,
+        "states_where_special_can_lose": 90,
+        "states_where_special_can_win": 18,
+        "tested_legal_plans": 33329,
+        "winnable": 24
+      },
+      "transfer": {
+        "both_winning_and_losing_plans": 23,
+        "states_where_special_can_lose": 111,
+        "states_where_special_can_win": 11,
+        "tested_legal_plans": 57904,
+        "winnable": 23
+      }
+    },
+    "seed": 5716,
+    "special_win_examples": {
+      "bridge_flip": {
+        "case": 3,
+        "hp": 4,
+        "plan": [
+          [
+            "flip",
+            3
+          ],
+          [
+            "shift",
+            4,
+            -1
+          ]
+        ],
+        "power": [
+          3,
+          2,
+          2
+        ],
+        "tokens": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ]
+      },
+      "bridge_split": {
+        "case": 4,
+        "hp": 2,
+        "plan": [
+          [
+            "damp",
+            1
+          ],
+          [
+            "split",
+            2,
+            -1
+          ],
+          [
+            "shift",
+            3,
+            -1
+          ]
+        ],
+        "power": [
+          1,
+          3,
+          2
+        ],
+        "tokens": [
+          [
+            0,
+            -1,
+            2
+          ],
+          [
+            1,
+            -1,
+            2
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      "flip": {
+        "case": 3,
+        "hp": 4,
+        "plan": [
+          [
+            "flip",
+            3
+          ],
+          [
+            "shift",
+            4,
+            -1
+          ]
+        ],
+        "power": [
+          3,
+          2,
+          2
+        ],
+        "tokens": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ]
+      },
+      "split": {
+        "case": 4,
+        "hp": 2,
+        "plan": [
+          [
+            "damp",
+            1
+          ],
+          [
+            "split",
+            2,
+            -1
+          ],
+          [
+            "shift",
+            3,
+            -1
+          ]
+        ],
+        "power": [
+          1,
+          3,
+          2
+        ],
+        "tokens": [
+          [
+            0,
+            -1,
+            2
+          ],
+          [
+            1,
+            -1,
+            2
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      "transfer": {
+        "case": 16,
+        "hp": 5,
+        "plan": [
+          [
+            "shift",
+            3,
+            1
+          ],
+          [
+            "transfer",
+            1,
+            2
+          ]
+        ],
+        "power": [
+          3,
+          3,
+          2
+        ],
+        "tokens": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            -1,
+            2
+          ],
+          [
+            0,
+            -1,
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "flip_probe": {
+    "immediate": {
+      "counts": {
+        "bad": 911,
+        "both_good_bad_available": 40,
+        "candidate_actions": 1635,
+        "good": 173,
+        "neutral": 551,
+        "only_bad_available": 153,
+        "only_good_available": 5,
+        "rounds_with_flip": 343
+      },
+      "seeds": 80,
+      "warning": "single-action immediate score, conditional on states reached by one-step greedy policy"
+    },
+    "reckless": {
+      "results": {
+        "forced_flips": 277,
+        "survivals": 12,
+        "wins": 0
+      },
+      "seeds": 80,
+      "warning": "reversal first on the first legal target is intentionally reckless and has other greedy support edits"
+    }
+  },
+  "greedy": {
+    "caveat": "one-step greed intentionally misses delayed investments",
+    "results": {
+      "baseline": {
+        "actions": {
+          "damp": 171,
+          "hold": 398,
+          "shift": 160
+        },
+        "alive": 19,
+        "mean_power": 5.19,
+        "wins": 17
+      },
+      "bridge": {
+        "actions": {
+          "damp": 171,
+          "hold": 398,
+          "shift": 160
+        },
+        "alive": 19,
+        "mean_power": 5.19,
+        "wins": 17
+      },
+      "bridge_flip": {
+        "actions": {
+          "damp": 180,
+          "flip": 58,
+          "hold": 391,
+          "shift": 191
+        },
+        "alive": 41,
+        "mean_power": 5.78,
+        "wins": 29
+      },
+      "bridge_split": {
+        "actions": {
+          "damp": 173,
+          "hold": 387,
+          "shift": 149,
+          "split": 18
+        },
+        "alive": 19,
+        "mean_power": 5.19,
+        "wins": 17
+      },
+      "flip": {
+        "actions": {
+          "damp": 180,
+          "flip": 58,
+          "hold": 391,
+          "shift": 191
+        },
+        "alive": 41,
+        "mean_power": 5.78,
+        "wins": 29
+      },
+      "resonator": {
+        "actions": {
+          "damp": 171,
+          "hold": 398,
+          "shift": 160
+        },
+        "alive": 19,
+        "mean_power": 5.19,
+        "wins": 17
+      },
+      "split": {
+        "actions": {
+          "damp": 173,
+          "hold": 387,
+          "shift": 149,
+          "split": 18
+        },
+        "alive": 19,
+        "mean_power": 5.19,
+        "wins": 17
+      },
+      "transfer": {
+        "actions": {
+          "damp": 170,
+          "hold": 398,
+          "shift": 161,
+          "transfer": 15
+        },
+        "alive": 19,
+        "mean_power": 5.28,
+        "wins": 19
+      }
+    },
+    "seeds": 80
+  },
+  "investment": {
+    "cases": 1152,
+    "examples": {
+      "baseline": {},
+      "bridge": {
+        "help": {
+          "before_power": [
+            3,
+            1,
+            3
+          ],
+          "buy_end": [
+            3,
+            2,
+            3
+          ],
+          "buy_outcome": "win",
+          "dst": 1,
+          "pair_count": 1,
+          "pair_strength": 1,
+          "pass_end": [
+            3,
+            1,
+            3
+          ],
+          "pass_outcome": "loss: target",
+          "src": 0
+        },
+        "hurt": {
+          "before_power": [
+            2,
+            3,
+            3
+          ],
+          "buy_end": [
+            1,
+            3,
+            3
+          ],
+          "buy_outcome": "loss: target",
+          "dst": 1,
+          "pair_count": 0,
+          "pair_strength": 1,
+          "pass_end": [
+            2,
+            3,
+            3
+          ],
+          "pass_outcome": "win",
+          "src": 0
+        }
+      },
+      "resonator": {
+        "help": {
+          "before_power": [
+            1,
+            1,
+            3
+          ],
+          "buy_end": [
+            2,
+            3,
+            3
+          ],
+          "buy_outcome": "win",
+          "dst": 1,
+          "pair_count": 1,
+          "pair_strength": 2,
+          "pass_end": [
+            3,
+            1,
+            3
+          ],
+          "pass_outcome": "loss: target",
+          "src": 0
+        },
+        "hurt": {
+          "before_power": [
+            2,
+            3,
+            3
+          ],
+          "buy_end": [
+            1,
+            3,
+            3
+          ],
+          "buy_outcome": "loss: target",
+          "dst": 1,
+          "pair_count": 0,
+          "pair_strength": 1,
+          "pass_end": [
+            2,
+            3,
+            3
+          ],
+          "pass_outcome": "win",
+          "src": 0
+        }
+      }
+    },
+    "results": {
+      "baseline": {
+        "neutral": 1152,
+        "size1_0pairs_neutral": 192,
+        "size1_1pairs_neutral": 192,
+        "size1_2pairs_neutral": 192,
+        "size2_0pairs_neutral": 192,
+        "size2_1pairs_neutral": 192,
+        "size2_2pairs_neutral": 192
+      },
+      "bridge": {
+        "help": 108,
+        "hurt": 40,
+        "neutral": 1004,
+        "size1_0pairs_hurt": 12,
+        "size1_0pairs_neutral": 180,
+        "size1_1pairs_help": 8,
+        "size1_1pairs_hurt": 8,
+        "size1_1pairs_neutral": 176,
+        "size1_2pairs_help": 36,
+        "size1_2pairs_hurt": 4,
+        "size1_2pairs_neutral": 152,
+        "size2_0pairs_hurt": 12,
+        "size2_0pairs_neutral": 180,
+        "size2_1pairs_help": 16,
+        "size2_1pairs_hurt": 4,
+        "size2_1pairs_neutral": 172,
+        "size2_2pairs_help": 48,
+        "size2_2pairs_neutral": 144
+      },
+      "resonator": {
+        "help": 96,
+        "hurt": 48,
+        "neutral": 1008,
+        "size1_0pairs_hurt": 12,
+        "size1_0pairs_neutral": 180,
+        "size1_1pairs_hurt": 12,
+        "size1_1pairs_neutral": 180,
+        "size1_2pairs_hurt": 8,
+        "size1_2pairs_neutral": 184,
+        "size2_0pairs_hurt": 12,
+        "size2_0pairs_neutral": 180,
+        "size2_1pairs_help": 36,
+        "size2_1pairs_hurt": 4,
+        "size2_1pairs_neutral": 152,
+        "size2_2pairs_help": 60,
+        "size2_2pairs_neutral": 132
+      }
+    }
+  }
+}
