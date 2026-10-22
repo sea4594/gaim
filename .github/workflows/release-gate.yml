@@ -4,12 +4,15 @@ on:
     branches: [main]
   pull_request:
 jobs:
-  phase6:
+  full-gate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
       - name: Full offline release gate
         run: bash scripts/release_gate.sh

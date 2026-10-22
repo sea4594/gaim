@@ -1,28 +1,37 @@
 #!/usr/bin/env bash
-# The complete Phase 6 gate; strict, offline and no third-party dependencies.
+# GAIM Phase 7 complete release gate. No tests may be skipped.
 set -euo pipefail
 cd "$(dirname "$0")/.."
-if ! python3 -c 'import sys; sys.exit(sys.version_info < (3,10))' >/dev/null 2>&1; then
-  for d in /opt/homebrew/opt/python@3.11/libexec/bin /usr/local/opt/python@3.11/libexec/bin; do
-    if [[ -x "$d/python3" ]]; then
-      export PATH="$d:$PATH"
-      break
+
+# Avoid macOS' older /usr/bin/python3 shadowing Homebrew Python.
+PYTHON="${GAIM_PYTHON:-}"
+if [[ -z "$PYTHON" ]]; then
+  for candidate in python3 python3.15 python3.14 python3.13 python3.12 python3.11 python3.10 \
+    /opt/homebrew/bin/python3.11 /usr/local/bin/python3.11; do
+    if command -v "$candidate" >/dev/null 2>&1 && \
+      "$candidate" -c 'import sys; sys.exit(0 if sys.version_info >= (3,10) else 1)' >/dev/null 2>&1; then
+      PYTHON="$candidate"; break
     fi
   done
 fi
-command -v python3 >/dev/null || { echo 'Python 3 required' >&2; exit 1; }
-python3 - <<'PY'
-import sys
-assert sys.version_info >= (3, 10), 'GAIM Phase 6 requires Python >=3.10'
-print('Python',sys.version.split()[0])
-PY
-python3 -m compileall -q reference phase6 scripts tests
-python3 reference/tests_v01.py
-python3 -m unittest discover -s tests -p 'test_*.py' -v
-python3 scripts/generate_phase6_artifacts.py --check
+[[ -n "$PYTHON" ]] || { echo 'STOP: Requires Python 3.10+' >&2; exit 1; }
+"$PYTHON" -c 'import sys; assert sys.version_info >= (3,10); print("Python",sys.version.split()[0])'
+
+"$PYTHON" -m compileall -q reference phase6 scripts tests
+"$PYTHON" reference/tests_v01.py
+"$PYTHON" -m unittest discover -s tests -p 'test_*.py' -v
+"$PYTHON" scripts/generate_phase6_artifacts.py --check
+
+command -v node >/dev/null || { echo 'STOP: Requires Node.js 20+' >&2; exit 1; }
+command -v npm >/dev/null || { echo 'STOP: Requires npm' >&2; exit 1; }
+node -e 'if(+process.versions.node.split(".")[0]<20) process.exit(1)'
+# Local vendored TypeScript 5.8.3 package; no npm registry dependency.
+npm ci --offline --ignore-scripts --no-audit --no-fund
+npm run build
+npm run test:node
 bash -n scripts/release_gate.sh
 if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   git diff --check
   git diff --cached --check
 fi
-printf '\nPHASE 6 RELEASE GATE PASSED\n'
+printf '\nGAIM PHASE 7 FULL RELEASE GATE PASSED\n'
