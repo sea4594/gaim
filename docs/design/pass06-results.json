@@ -1,0 +1,213 @@
+{
+  "method": "same two-round greedy planner for each ruleset; seeded scenarios, not representative human tests",
+  "development": {
+    "seeds": [
+      9000,
+      9023
+    ],
+    "horizon": 2,
+    "variants": {
+      "open": {
+        "wins": 14,
+        "survivals": 16,
+        "rounds": 206,
+        "actions": 278,
+        "storm_second_picks": 0
+      },
+      "market": {
+        "wins": 20,
+        "survivals": 22,
+        "rounds": 215,
+        "actions": 303,
+        "storm_second_picks": 35
+      },
+      "operator": {
+        "wins": 10,
+        "survivals": 12,
+        "rounds": 207,
+        "actions": 276,
+        "storm_second_picks": 0
+      },
+      "market_operator": {
+        "wins": 12,
+        "survivals": 15,
+        "rounds": 213,
+        "actions": 294,
+        "storm_second_picks": 22
+      },
+      "recycle": {
+        "wins": 14,
+        "survivals": 16,
+        "rounds": 206,
+        "actions": 288,
+        "storm_second_picks": 0
+      },
+      "regulator": {
+        "wins": 13,
+        "survivals": 15,
+        "rounds": 204,
+        "actions": 273,
+        "storm_second_picks": 0
+      },
+      "market_recycle": {
+        "wins": 20,
+        "survivals": 22,
+        "rounds": 215,
+        "actions": 321,
+        "storm_second_picks": 35
+      }
+    }
+  },
+  "holdout": {
+    "seeds": [
+      9300,
+      9311
+    ],
+    "horizon": 2,
+    "variants": {
+      "open": {
+        "wins": 7,
+        "survivals": 10,
+        "rounds": 103,
+        "actions": 146,
+        "storm_second_picks": 0
+      },
+      "market": {
+        "wins": 9,
+        "survivals": 11,
+        "rounds": 108,
+        "actions": 149,
+        "storm_second_picks": 21
+      },
+      "paid_market": {
+        "wins": 9,
+        "survivals": 11,
+        "rounds": 108,
+        "actions": 167,
+        "storm_second_picks": 21
+      },
+      "operator": {
+        "wins": 6,
+        "survivals": 8,
+        "rounds": 101,
+        "actions": 150,
+        "storm_second_picks": 0
+      },
+      "market_operator": {
+        "wins": 8,
+        "survivals": 10,
+        "rounds": 107,
+        "actions": 161,
+        "storm_second_picks": 11
+      },
+      "recycle": {
+        "wins": 7,
+        "survivals": 10,
+        "rounds": 103,
+        "actions": 151,
+        "storm_second_picks": 0
+      },
+      "regulator": {
+        "wins": 6,
+        "survivals": 10,
+        "rounds": 103,
+        "actions": 142,
+        "storm_second_picks": 0
+      },
+      "market_recycle": {
+        "wins": 9,
+        "survivals": 11,
+        "rounds": 108,
+        "actions": 153,
+        "storm_second_picks": 21
+      },
+      "paid_market_recycle": {
+        "wins": 9,
+        "survivals": 11,
+        "rounds": 108,
+        "actions": 170,
+        "storm_second_picks": 21
+      }
+    }
+  },
+  "one_round_negative_control": {
+    "seeds": [
+      8100,
+      8111
+    ],
+    "horizon": 1,
+    "variants": {
+      "open": {
+        "wins": 7,
+        "survivals": 8,
+        "rounds": 96,
+        "actions": 126,
+        "storm_second_picks": 0
+      },
+      "market": {
+        "wins": 7,
+        "survivals": 8,
+        "rounds": 96,
+        "actions": 126,
+        "storm_second_picks": 0
+      },
+      "operator": {
+        "wins": 4,
+        "survivals": 6,
+        "rounds": 101,
+        "actions": 131,
+        "storm_second_picks": 0
+      },
+      "market_operator": {
+        "wins": 4,
+        "survivals": 6,
+        "rounds": 101,
+        "actions": 131,
+        "storm_second_picks": 0
+      },
+      "recycle": {
+        "wins": 7,
+        "survivals": 8,
+        "rounds": 96,
+        "actions": 135,
+        "storm_second_picks": 0
+      },
+      "regulator": {
+        "wins": 7,
+        "survivals": 8,
+        "rounds": 96,
+        "actions": 126,
+        "storm_second_picks": 0
+      },
+      "market_recycle": {
+        "wins": 7,
+        "survivals": 8,
+        "rounds": 96,
+        "actions": 135,
+        "storm_second_picks": 0
+      }
+    }
+  },
+  "operator_category_probe": {
+    "cases": 160,
+    "available_type_total": 910,
+    "missing_action_type_cases": 0,
+    "unavailable_categories_total": 0,
+    "zero_legal_card_console_total": 0,
+    "all_four_consoles_have_legal_category": 160
+  },
+  "order_only_negative_control": {
+    "diagnostics": {
+      "cases": 100,
+      "market_some_win": 0,
+      "market_all_win": 0,
+      "market_mixed_win": 0,
+      "base_win": 0,
+      "market_better_final_hp_possible": 34,
+      "market_worse_final_hp_possible": 50
+    },
+    "example": {},
+    "caveat": "no-edit storm-order stress test; 2**6 choices per seed, includes many unwinnable seeds"
+  },
+  "interpretation": "Choice can improve heuristically-played wins but this is not a fun score; operator hand menus weaken the policy, paid draft does not strongly affect most matches."
+}

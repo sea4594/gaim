@@ -1,0 +1,305 @@
+{
+  "note": "Greedy two-round heuristic witnesses, not optimality proofs",
+  "control": {
+    "mode": "open",
+    "seed": 9001,
+    "result": "loss: breach",
+    "hp": -2,
+    "capacitors": [
+      2,
+      0,
+      2
+    ],
+    "rounds": [
+      {
+        "round": 1,
+        "draft": null,
+        "edits": [],
+        "hp": 7,
+        "capacitors": [
+          0,
+          0,
+          0
+        ],
+        "outcome": ""
+      },
+      {
+        "round": 2,
+        "draft": null,
+        "edits": [],
+        "hp": 7,
+        "capacitors": [
+          0,
+          0,
+          0
+        ],
+        "outcome": ""
+      },
+      {
+        "round": 3,
+        "draft": null,
+        "edits": [
+          [
+            "hold",
+            2
+          ]
+        ],
+        "hp": 7,
+        "capacitors": [
+          0,
+          0,
+          1
+        ],
+        "outcome": ""
+      },
+      {
+        "round": 4,
+        "draft": null,
+        "edits": [
+          [
+            "shift",
+            2,
+            1
+          ],
+          [
+            "hold",
+            5
+          ]
+        ],
+        "hp": 5,
+        "capacitors": [
+          0,
+          0,
+          2
+        ],
+        "outcome": ""
+      },
+      {
+        "round": 5,
+        "draft": null,
+        "edits": [
+          [
+            "hold",
+            7
+          ],
+          [
+            "damp",
+            5
+          ]
+        ],
+        "hp": 4,
+        "capacitors": [
+          2,
+          0,
+          2
+        ],
+        "outcome": ""
+      },
+      {
+        "round": 6,
+        "draft": null,
+        "edits": [],
+        "hp": -2,
+        "capacitors": [
+          2,
+          0,
+          2
+        ],
+        "outcome": "loss: breach"
+      }
+    ]
+  },
+  "market": {
+    "mode": "market",
+    "seed": 9001,
+    "result": "win",
+    "hp": 5,
+    "capacitors": [
+      3,
+      3,
+      3
+    ],
+    "rounds": [
+      {
+        "round": 1,
+        "draft": 0,
+        "edits": [],
+        "hp": 7,
+        "capacitors": [
+          0,
+          0,
+          0
+        ],
+        "outcome": ""
+      },
+      {
+        "round": 2,
+        "draft": 0,
+        "edits": [],
+        "hp": 7,
+        "capacitors": [
+          0,
+          0,
+          0
+        ],
+        "outcome": ""
+      },
+      {
+        "round": 3,
+        "draft": 0,
+        "edits": [
+          [
+            "hold",
+            2
+          ]
+        ],
+        "hp": 7,
+        "capacitors": [
+          0,
+          0,
+          1
+        ],
+        "outcome": ""
+      },
+      {
+        "round": 4,
+        "draft": 1,
+        "edits": [
+          [
+            "shift",
+            2,
+            1
+          ],
+          [
+            "hold",
+            5
+          ]
+        ],
+        "hp": 5,
+        "capacitors": [
+          0,
+          0,
+          2
+        ],
+        "outcome": ""
+      },
+      {
+        "round": 5,
+        "draft": 1,
+        "edits": [
+          [
+            "accelerate",
+            10
+          ],
+          [
+            "hold",
+            7
+          ],
+          [
+            "damp",
+            5
+          ]
+        ],
+        "hp": 5,
+        "capacitors": [
+          2,
+          1,
+          2
+        ],
+        "outcome": ""
+      },
+      {
+        "round": 6,
+        "draft": 1,
+        "edits": [
+          [
+            "hold",
+            9
+          ],
+          [
+            "flip",
+            7
+          ],
+          [
+            "accelerate",
+            12
+          ],
+          [
+            "accelerate",
+            13
+          ]
+        ],
+        "hp": 5,
+        "capacitors": [
+          2,
+          1,
+          3
+        ],
+        "outcome": ""
+      },
+      {
+        "round": 7,
+        "draft": 0,
+        "edits": [
+          [
+            "accelerate",
+            14
+          ],
+          [
+            "damp",
+            9
+          ]
+        ],
+        "hp": 5,
+        "capacitors": [
+          2,
+          3,
+          3
+        ],
+        "outcome": ""
+      },
+      {
+        "round": 8,
+        "draft": null,
+        "edits": [
+          [
+            "hold",
+            16
+          ],
+          [
+            "hold",
+            15
+          ]
+        ],
+        "hp": 5,
+        "capacitors": [
+          2,
+          3,
+          3
+        ],
+        "outcome": ""
+      },
+      {
+        "round": 9,
+        "draft": null,
+        "edits": [
+          [
+            "flip",
+            16
+          ],
+          [
+            "flip",
+            17
+          ]
+        ],
+        "hp": 5,
+        "capacitors": [
+          3,
+          3,
+          3
+        ],
+        "outcome": "win"
+      }
+    ]
+  }
+}
