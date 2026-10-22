@@ -1,0 +1,297 @@
+{
+  "schema": "gaim-phase05-research-v1",
+  "research_only": true,
+  "development": {
+    "seed_range": [
+      7000,
+      7063
+    ],
+    "planner": "one-round greedy utility; draft comparison is myopic",
+    "data": {
+      "control": {
+        "draft_newer": 0,
+        "hold": 321,
+        "shift": 181,
+        "damp": 151,
+        "flip": 62,
+        "wins": 23,
+        "survivals": 38,
+        "hp_total": 113,
+        "power_total": 411,
+        "games": 64
+      },
+      "draft": {
+        "draft": 428,
+        "draft_newer": 0,
+        "hold": 321,
+        "shift": 181,
+        "damp": 151,
+        "flip": 62,
+        "wins": 23,
+        "survivals": 38,
+        "hp_total": 113,
+        "power_total": 411,
+        "games": 64
+      },
+      "accelerate": {
+        "draft_newer": 0,
+        "hold": 223,
+        "shift": 156,
+        "accelerate": 194,
+        "flip": 55,
+        "damp": 125,
+        "wins": 34,
+        "survivals": 52,
+        "hp_total": 204,
+        "power_total": 434,
+        "games": 64
+      },
+      "draft_accelerate": {
+        "draft": 430,
+        "draft_newer": 0,
+        "hold": 223,
+        "shift": 156,
+        "accelerate": 194,
+        "flip": 55,
+        "damp": 125,
+        "wins": 34,
+        "survivals": 52,
+        "hp_total": 204,
+        "power_total": 434,
+        "games": 64
+      },
+      "heat": {
+        "draft_newer": 0,
+        "hold": 307,
+        "shift": 155,
+        "damp": 134,
+        "wins": 8,
+        "survivals": 15,
+        "hp_total": 28,
+        "power_total": 388,
+        "games": 64,
+        "flip": 44
+      },
+      "accelerate_no_damp": {
+        "draft_newer": 0,
+        "hold": 208,
+        "shift": 139,
+        "accelerate": 181,
+        "flip": 54,
+        "wins": 25,
+        "survivals": 38,
+        "hp_total": 108,
+        "power_total": 405,
+        "games": 64
+      },
+      "accelerate_no_hold": {
+        "draft_newer": 0,
+        "damp": 186,
+        "shift": 98,
+        "accelerate": 197,
+        "flip": 30,
+        "wins": 15,
+        "survivals": 48,
+        "hp_total": 151,
+        "power_total": 392,
+        "games": 64
+      },
+      "accelerate_no_flip": {
+        "draft_newer": 0,
+        "hold": 256,
+        "shift": 165,
+        "accelerate": 192,
+        "damp": 144,
+        "wins": 36,
+        "survivals": 43,
+        "hp_total": 150,
+        "power_total": 436,
+        "games": 64
+      }
+    }
+  },
+  "holdout": {
+    "seed_range": [
+      9000,
+      9031
+    ],
+    "planner": "one-round greedy utility; draft comparison is myopic",
+    "data": {
+      "control": {
+        "shift": 60,
+        "hold": 175,
+        "damp": 84,
+        "flip": 23,
+        "wins": 9,
+        "survivals": 15,
+        "hp_total": 45,
+        "power_total": 198,
+        "games": 32
+      },
+      "draft": {
+        "draft": 218,
+        "shift": 60,
+        "hold": 175,
+        "damp": 84,
+        "flip": 23,
+        "wins": 9,
+        "survivals": 15,
+        "hp_total": 45,
+        "power_total": 198,
+        "games": 32
+      },
+      "accelerate": {
+        "shift": 58,
+        "hold": 116,
+        "damp": 71,
+        "flip": 27,
+        "accelerate": 105,
+        "wins": 17,
+        "survivals": 21,
+        "hp_total": 96,
+        "power_total": 226,
+        "games": 32
+      },
+      "draft_accelerate": {
+        "draft": 218,
+        "shift": 58,
+        "hold": 116,
+        "damp": 71,
+        "flip": 27,
+        "accelerate": 105,
+        "wins": 17,
+        "survivals": 21,
+        "hp_total": 96,
+        "power_total": 226,
+        "games": 32
+      },
+      "heat": {
+        "shift": 48,
+        "hold": 163,
+        "damp": 77,
+        "flip": 18,
+        "wins": 4,
+        "survivals": 5,
+        "hp_total": 15,
+        "power_total": 176,
+        "games": 32
+      },
+      "accelerate_no_damp": {
+        "shift": 53,
+        "hold": 104,
+        "flip": 22,
+        "accelerate": 94,
+        "wins": 16,
+        "survivals": 18,
+        "hp_total": 54,
+        "power_total": 204,
+        "games": 32
+      },
+      "accelerate_no_hold": {
+        "shift": 35,
+        "damp": 96,
+        "flip": 18,
+        "accelerate": 95,
+        "wins": 8,
+        "survivals": 21,
+        "hp_total": 52,
+        "power_total": 197,
+        "games": 32
+      },
+      "accelerate_no_flip": {
+        "shift": 61,
+        "hold": 124,
+        "damp": 74,
+        "accelerate": 101,
+        "wins": 15,
+        "survivals": 17,
+        "hp_total": 71,
+        "power_total": 215,
+        "games": 32
+      }
+    }
+  },
+  "one_edit_finale": {
+    "sample_size": 1000,
+    "seed": 1509,
+    "scope": "final round, pass or ONE edit per round only",
+    "counts": {
+      "total": 1000,
+      "control_one_action_win": 53,
+      "accelerate_one_action_win": 60,
+      "accel_candidate_better_than_pass": 238,
+      "accel_candidate_worse_than_pass": 0
+    },
+    "examples": {
+      "rescue": {
+        "power": [
+          2,
+          3,
+          3
+        ],
+        "hp": 1,
+        "tokens": [
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            -1,
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "missions": {
+    "seeds": 64,
+    "missions": {
+      "standard": {
+        "wins": 23,
+        "alive": 38,
+        "avg_power_numer": 411,
+        "sync_rounds_total": 60,
+        "distinct_large_lanes_total": 110
+      },
+      "shield": {
+        "wins": 11,
+        "alive": 39,
+        "avg_power_numer": 410,
+        "sync_rounds_total": 53,
+        "distinct_large_lanes_total": 111
+      },
+      "choreography": {
+        "wins": 26,
+        "alive": 37,
+        "avg_power_numer": 407,
+        "sync_rounds_total": 65,
+        "distinct_large_lanes_total": 106
+      },
+      "voltage": {
+        "wins": 32,
+        "alive": 37,
+        "avg_power_numer": 414,
+        "sync_rounds_total": 51,
+        "distinct_large_lanes_total": 119
+      }
+    },
+    "warning": "Different goals, win counts NOT direct evidence of enjoyment"
+  },
+  "test_controls": {
+    "release_gate": "run scripts/release_gate.sh",
+    "reference_untouched": true,
+    "no_production_promotion": true,
+    "human_playtests": 0
+  },
+  "notes": [
+    "same myopic planner across all modes, not an optimal solver",
+    "draft comparison evaluates public choice only by immediate utility and cannot value storm timing 2-3 turns later",
+    "one-edit finale experiment cannot establish four-action round strategy",
+    "mission win rates not comparable because win criteria differ",
+    "favorable extra-action results may reflect lower difficulty, not increased depth"
+  ]
+}
