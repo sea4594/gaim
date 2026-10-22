@@ -1,0 +1,15 @@
+name: Release gate
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  phase6:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Full offline release gate
+        run: bash scripts/release_gate.sh

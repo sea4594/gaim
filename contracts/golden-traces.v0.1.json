@@ -1,0 +1,6501 @@
+{
+  "playerCount": 4,
+  "ruleset": "charge-loom/v0.1",
+  "traces": [
+    {
+      "actions": [
+        [
+          [
+            "shift",
+            2,
+            1
+          ],
+          [
+            "shift",
+            3,
+            -1
+          ]
+        ],
+        [
+          [
+            "hold",
+            3
+          ],
+          [
+            "shift",
+            4,
+            1
+          ]
+        ],
+        [
+          [
+            "hold",
+            5
+          ],
+          [
+            "shift",
+            6,
+            1
+          ],
+          [
+            "shift",
+            8,
+            -1
+          ]
+        ],
+        [
+          [
+            "hold",
+            6
+          ],
+          [
+            "hold",
+            7
+          ],
+          [
+            "hold",
+            10
+          ]
+        ],
+        [
+          [
+            "hold",
+            9
+          ],
+          [
+            "shift",
+            10,
+            -1
+          ],
+          [
+            "shift",
+            12,
+            1
+          ]
+        ],
+        [
+          [
+            "hold",
+            11
+          ],
+          [
+            "hold",
+            13
+          ],
+          [
+            "shift",
+            14,
+            1
+          ],
+          [
+            "shift",
+            15,
+            -1
+          ]
+        ],
+        [
+          [
+            "hold",
+            14
+          ],
+          [
+            "hold",
+            15
+          ],
+          [
+            "shift",
+            18,
+            -1
+          ]
+        ],
+        [],
+        []
+      ],
+      "scenarioId": "verified-3",
+      "views": [
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 1,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 2,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 3,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 0,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 1,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 1,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 2,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 3,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 4,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 5,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 1,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "outcome": null,
+          "planningRound": 2,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 1,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 2,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 3,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 4,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 5,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 6,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 7,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 8,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 2,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "outcome": null,
+          "planningRound": 3,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            2
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 3,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 4,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 5,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 6,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 7,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 8,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 9,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 10,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 3,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 4,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            2,
+            2
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 5,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 6,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 7,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 8,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 9,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": true,
+              "band": 2,
+              "id": 10,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 11,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 12,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 13,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 4,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "outcome": null,
+          "planningRound": 5,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            3,
+            2
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 6,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 7,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 9,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 10,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 11,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 12,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 13,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 14,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 15,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 5,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "outcome": null,
+          "planningRound": 6,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            3,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 9,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 10,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 11,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 12,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 13,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 14,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 16,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 17,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 18,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 6,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 7,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            3,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 11,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 13,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 14,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 16,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 17,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 18,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 7,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 8,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            3,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 14,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 16,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 17,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 18,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 8,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 9,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            2,
+            3,
+            3
+          ],
+          "charges": [],
+          "completedRound": 9,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [],
+          "outcome": "win",
+          "planningRound": null,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": []
+        }
+      ]
+    },
+    {
+      "actions": [
+        [
+          [
+            "shift",
+            1,
+            1
+          ],
+          [
+            "shift",
+            2,
+            -1
+          ],
+          [
+            "shift",
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            "hold",
+            1
+          ],
+          [
+            "hold",
+            2
+          ],
+          [
+            "hold",
+            3
+          ],
+          [
+            "shift",
+            5,
+            -1
+          ]
+        ],
+        [
+          [
+            "damp",
+            3
+          ],
+          [
+            "hold",
+            4
+          ],
+          [
+            "hold",
+            5
+          ],
+          [
+            "shift",
+            7,
+            1
+          ]
+        ],
+        [
+          [
+            "damp",
+            1
+          ],
+          [
+            "damp",
+            3
+          ],
+          [
+            "shift",
+            10,
+            1
+          ]
+        ],
+        [
+          [
+            "hold",
+            9
+          ],
+          [
+            "hold",
+            10
+          ],
+          [
+            "shift",
+            11,
+            -1
+          ]
+        ],
+        [
+          [
+            "hold",
+            12
+          ],
+          [
+            "shift",
+            13,
+            1
+          ],
+          [
+            "shift",
+            15,
+            -1
+          ]
+        ],
+        [
+          [
+            "hold",
+            14
+          ],
+          [
+            "shift",
+            16,
+            1
+          ]
+        ],
+        [
+          [
+            "hold",
+            16
+          ],
+          [
+            "shift",
+            14,
+            1
+          ],
+          [
+            "shift",
+            17,
+            -1
+          ],
+          [
+            "shift",
+            18,
+            1
+          ]
+        ],
+        [
+          [
+            "shift",
+            14,
+            1
+          ],
+          [
+            "shift",
+            18,
+            1
+          ]
+        ]
+      ],
+      "scenarioId": "verified-8",
+      "views": [
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 1,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 2,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 3,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 0,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 1,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 1,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 2,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 3,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 4,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 5,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 1,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 2,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 1,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 2,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 3,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 4,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 5,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 6,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 7,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 8,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 2,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "outcome": null,
+          "planningRound": 3,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 1,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 2,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 3,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 4,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 5,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 6,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 7,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 8,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 9,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 10,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 3,
+          "coolant": 2,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 4,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            2,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 4,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 5,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 6,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 7,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 8,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 9,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 10,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 11,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 12,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 13,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 4,
+          "coolant": 0,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 5,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            2,
+            2,
+            1
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 9,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 10,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 11,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 12,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 13,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 14,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 15,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 5,
+          "coolant": 0,
+          "hull": 6,
+          "nextWave": [
+            {
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 6,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "capacitors": [
+            2,
+            2,
+            1
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 9,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 10,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 11,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 12,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 13,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 14,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 15,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 16,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 17,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 18,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 6,
+          "coolant": 0,
+          "hull": 6,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 7,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "capacitors": [
+            2,
+            3,
+            1
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 12,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 14,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 15,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 16,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 17,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 18,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 7,
+          "coolant": 0,
+          "hull": 6,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 8,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "capacitors": [
+            3,
+            3,
+            1
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 14,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 16,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 17,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 18,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 8,
+          "coolant": 0,
+          "hull": 5,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 9,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            3,
+            3,
+            2
+          ],
+          "charges": [],
+          "completedRound": 9,
+          "coolant": 0,
+          "hull": 1,
+          "nextWave": [],
+          "outcome": "win",
+          "planningRound": null,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": []
+        }
+      ]
+    },
+    {
+      "actions": [
+        [],
+        [
+          [
+            "hold",
+            2
+          ],
+          [
+            "hold",
+            3
+          ],
+          [
+            "shift",
+            4,
+            1
+          ]
+        ],
+        [
+          [
+            "damp",
+            1
+          ],
+          [
+            "hold",
+            5
+          ]
+        ],
+        [
+          [
+            "damp",
+            2
+          ],
+          [
+            "damp",
+            3
+          ],
+          [
+            "hold",
+            6
+          ],
+          [
+            "shift",
+            7,
+            1
+          ]
+        ],
+        [
+          [
+            "hold",
+            9
+          ],
+          [
+            "hold",
+            10
+          ],
+          [
+            "shift",
+            12,
+            1
+          ],
+          [
+            "shift",
+            13,
+            -1
+          ]
+        ],
+        [
+          [
+            "hold",
+            11
+          ],
+          [
+            "hold",
+            12
+          ],
+          [
+            "hold",
+            13
+          ]
+        ],
+        [
+          [
+            "hold",
+            14
+          ],
+          [
+            "shift",
+            16,
+            1
+          ],
+          [
+            "shift",
+            17,
+            -1
+          ],
+          [
+            "shift",
+            18,
+            -1
+          ]
+        ],
+        [
+          [
+            "shift",
+            13,
+            -1
+          ],
+          [
+            "shift",
+            15,
+            -1
+          ]
+        ],
+        [
+          [
+            "shift",
+            16,
+            -1
+          ],
+          [
+            "shift",
+            18,
+            -1
+          ]
+        ]
+      ],
+      "scenarioId": "verified-10",
+      "views": [
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 1,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 2,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 3,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 0,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "outcome": null,
+          "planningRound": 1,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 1,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 2,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 3,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 4,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 5,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 1,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "outcome": null,
+          "planningRound": 2,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 1,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 2,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 3,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 4,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 5,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 6,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 7,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 8,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 2,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 3,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 2,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 3,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 4,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 5,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 6,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 7,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 8,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 9,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 10,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 3,
+          "coolant": 2,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 4,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            2
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 5,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 6,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 7,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 8,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 9,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 10,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 11,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 12,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 13,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 4,
+          "coolant": 0,
+          "hull": 5,
+          "nextWave": [
+            {
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 5,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 6,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 9,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 10,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 11,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 12,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 13,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 14,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 15,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 5,
+          "coolant": 0,
+          "hull": 5,
+          "nextWave": [
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 6,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 9,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 10,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 11,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 12,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 13,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 14,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 15,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 16,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 17,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 18,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 6,
+          "coolant": 0,
+          "hull": 3,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 7,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 11,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 12,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 13,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 14,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 15,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 16,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 17,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 18,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 7,
+          "coolant": 0,
+          "hull": 3,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 8,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "capacitors": [
+            1,
+            2,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 14,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 16,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 17,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 18,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 8,
+          "coolant": 0,
+          "hull": 1,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 9,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            2,
+            3,
+            3
+          ],
+          "charges": [],
+          "completedRound": 9,
+          "coolant": 0,
+          "hull": 1,
+          "nextWave": [],
+          "outcome": "win",
+          "planningRound": null,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": []
+        }
+      ]
+    },
+    {
+      "actions": [
+        [
+          [
+            "shift",
+            3,
+            -1
+          ]
+        ],
+        [
+          [
+            "hold",
+            1
+          ],
+          [
+            "hold",
+            2
+          ],
+          [
+            "hold",
+            3
+          ]
+        ],
+        [
+          [
+            "hold",
+            5
+          ],
+          [
+            "shift",
+            6,
+            1
+          ]
+        ],
+        [
+          [
+            "damp",
+            2
+          ],
+          [
+            "hold",
+            7
+          ]
+        ],
+        [
+          [
+            "damp",
+            5
+          ],
+          [
+            "damp",
+            8
+          ],
+          [
+            "hold",
+            9
+          ]
+        ],
+        [
+          [
+            "hold",
+            11
+          ],
+          [
+            "hold",
+            12
+          ]
+        ],
+        [
+          [
+            "hold",
+            15
+          ],
+          [
+            "shift",
+            17,
+            1
+          ],
+          [
+            "shift",
+            18,
+            -1
+          ]
+        ],
+        [
+          [
+            "hold",
+            17
+          ]
+        ],
+        []
+      ],
+      "scenarioId": "verified-14",
+      "views": [
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 1,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 2,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 3,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 0,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "outcome": null,
+          "planningRound": 1,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 1,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 2,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 3,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 4,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 5,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 1,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 2,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 1,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 2,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 3,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 4,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 5,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 6,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 7,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 8,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 2,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 3,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 1,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 2,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 3,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 4,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 5,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 6,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 7,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 8,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 9,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 10,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 3,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "outcome": null,
+          "planningRound": 4,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            2,
+            1
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 5,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 6,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 7,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 8,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 9,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 10,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 11,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 12,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 13,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 4,
+          "coolant": 2,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "outcome": null,
+          "planningRound": 5,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            3,
+            1
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 7,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 9,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 10,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 11,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 12,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 13,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 14,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 5,
+          "coolant": 0,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 6,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            3,
+            2
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 9,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 11,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 12,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 13,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 14,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 16,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 17,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 18,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 6,
+          "coolant": 0,
+          "hull": 6,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 7,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            3,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 11,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 12,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 14,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 16,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 17,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 18,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 7,
+          "coolant": 0,
+          "hull": 6,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 8,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "capacitors": [
+            3,
+            3,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 16,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 17,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 18,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 8,
+          "coolant": 0,
+          "hull": 6,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 9,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            3,
+            3,
+            3
+          ],
+          "charges": [],
+          "completedRound": 9,
+          "coolant": 0,
+          "hull": 2,
+          "nextWave": [],
+          "outcome": "win",
+          "planningRound": null,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": []
+        }
+      ]
+    },
+    {
+      "actions": [
+        [],
+        [
+          [
+            "hold",
+            4
+          ],
+          [
+            "hold",
+            5
+          ]
+        ],
+        [
+          [
+            "damp",
+            2
+          ]
+        ],
+        [
+          [
+            "hold",
+            7
+          ],
+          [
+            "shift",
+            10,
+            -1
+          ]
+        ],
+        [
+          [
+            "shift",
+            11,
+            1
+          ]
+        ],
+        [
+          [
+            "hold",
+            11
+          ],
+          [
+            "hold",
+            13
+          ],
+          [
+            "shift",
+            15,
+            -1
+          ]
+        ],
+        [
+          [
+            "damp",
+            12
+          ],
+          [
+            "hold",
+            14
+          ],
+          [
+            "hold",
+            15
+          ],
+          [
+            "shift",
+            16,
+            1
+          ]
+        ],
+        [
+          [
+            "damp",
+            13
+          ],
+          [
+            "hold",
+            17
+          ],
+          [
+            "hold",
+            18
+          ]
+        ],
+        []
+      ],
+      "scenarioId": "verified-15",
+      "views": [
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 1,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 2,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 3,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 0,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 1,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 1,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 2,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 3,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 4,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 5,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 1,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 2,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 1,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 2,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 3,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 2,
+              "id": 4,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 2,
+              "id": 5,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 6,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 7,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 8,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 2,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 3,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            2,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 4,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 5,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 6,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 7,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 8,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 9,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 10,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 3,
+          "coolant": 2,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "outcome": null,
+          "planningRound": 4,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            2,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 4,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 5,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 6,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 7,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 8,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 9,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 10,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 11,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 12,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 13,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 4,
+          "coolant": 2,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 5,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            2,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 7,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 9,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 10,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 11,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 12,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 13,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 14,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 15,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 5,
+          "coolant": 2,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 6,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "capacitors": [
+            2,
+            2,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 11,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 12,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 13,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 14,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 16,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 17,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 18,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 6,
+          "coolant": 2,
+          "hull": 7,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 7,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "capacitors": [
+            2,
+            2,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 11,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 13,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 14,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 16,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 17,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 18,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 7,
+          "coolant": 1,
+          "hull": 7,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 8,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "capacitors": [
+            2,
+            3,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 14,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 16,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 17,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 18,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 8,
+          "coolant": 0,
+          "hull": 7,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 9,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            2,
+            3,
+            3
+          ],
+          "charges": [],
+          "completedRound": 9,
+          "coolant": 0,
+          "hull": 3,
+          "nextWave": [],
+          "outcome": "win",
+          "planningRound": null,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": []
+        }
+      ]
+    },
+    {
+      "actions": [
+        [
+          [
+            "shift",
+            1,
+            -1
+          ],
+          [
+            "shift",
+            2,
+            -1
+          ],
+          [
+            "shift",
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            "hold",
+            1
+          ],
+          [
+            "hold",
+            2
+          ],
+          [
+            "hold",
+            3
+          ],
+          [
+            "shift",
+            4,
+            1
+          ]
+        ],
+        [
+          [
+            "hold",
+            7
+          ],
+          [
+            "hold",
+            8
+          ]
+        ],
+        [
+          [
+            "damp",
+            2
+          ],
+          [
+            "hold",
+            6
+          ],
+          [
+            "shift",
+            9,
+            1
+          ],
+          [
+            "shift",
+            10,
+            -1
+          ]
+        ],
+        [
+          [
+            "damp",
+            7
+          ],
+          [
+            "hold",
+            10
+          ],
+          [
+            "shift",
+            9,
+            1
+          ],
+          [
+            "shift",
+            12,
+            -1
+          ]
+        ],
+        [
+          [
+            "hold",
+            11
+          ],
+          [
+            "hold",
+            13
+          ],
+          [
+            "shift",
+            14,
+            1
+          ],
+          [
+            "shift",
+            15,
+            -1
+          ]
+        ],
+        [
+          [
+            "hold",
+            14
+          ],
+          [
+            "hold",
+            15
+          ],
+          [
+            "shift",
+            18,
+            1
+          ]
+        ],
+        [
+          [
+            "hold",
+            17
+          ]
+        ],
+        [
+          [
+            "shift",
+            15,
+            -1
+          ],
+          [
+            "shift",
+            18,
+            -1
+          ]
+        ]
+      ],
+      "scenarioId": "verified-17",
+      "views": [
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 1,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 2,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 3,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 0,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 1,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 1,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 2,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 3,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 4,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 5,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 1,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 2,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 1,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 2,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 3,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 4,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 5,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 6,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 7,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 8,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 2,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 3,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 1,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 2,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 3,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 4,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 5,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 6,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": true,
+              "band": 2,
+              "id": 7,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 2,
+              "id": 8,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 9,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 10,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 3,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 4,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            3,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 6,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 7,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 8,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 9,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 10,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 11,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 12,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 13,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 4,
+          "coolant": 2,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 5,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            3,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 6,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 7,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 8,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 9,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 10,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 11,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 12,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 13,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 14,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 15,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 5,
+          "coolant": 1,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "outcome": null,
+          "planningRound": 6,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            3,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 10,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 11,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 12,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 13,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 14,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 16,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 17,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 18,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 6,
+          "coolant": 1,
+          "hull": 7,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 7,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            3,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 11,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 13,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 14,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 16,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 17,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 18,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 7,
+          "coolant": 1,
+          "hull": 7,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 8,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            3,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 14,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 16,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 17,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 18,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 8,
+          "coolant": 1,
+          "hull": 7,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 9,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            2,
+            3,
+            3
+          ],
+          "charges": [],
+          "completedRound": 9,
+          "coolant": 1,
+          "hull": 5,
+          "nextWave": [],
+          "outcome": "win",
+          "planningRound": null,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": []
+        }
+      ]
+    },
+    {
+      "actions": [
+        [
+          [
+            "shift",
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            "hold",
+            5
+          ],
+          [
+            "shift",
+            4,
+            -1
+          ]
+        ],
+        [
+          [
+            "hold",
+            4
+          ],
+          [
+            "shift",
+            5,
+            1
+          ]
+        ],
+        [
+          [
+            "hold",
+            8
+          ]
+        ],
+        [
+          [
+            "hold",
+            9
+          ],
+          [
+            "shift",
+            11,
+            -1
+          ],
+          [
+            "shift",
+            12,
+            -1
+          ]
+        ],
+        [
+          [
+            "damp",
+            8
+          ],
+          [
+            "hold",
+            11
+          ]
+        ],
+        [
+          [
+            "hold",
+            14
+          ],
+          [
+            "hold",
+            15
+          ],
+          [
+            "shift",
+            16,
+            -1
+          ]
+        ],
+        [
+          [
+            "damp",
+            11
+          ],
+          [
+            "hold",
+            17
+          ],
+          [
+            "hold",
+            18
+          ],
+          [
+            "shift",
+            14,
+            1
+          ]
+        ],
+        []
+      ],
+      "scenarioId": "verified-18",
+      "views": [
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 1,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 2,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 3,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 0,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 1,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 1,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 2,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 3,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 4,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 5,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 1,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 2,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            0
+          ],
+          "charges": [
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 1,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 2,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 3,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 4,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": true,
+              "band": 2,
+              "id": 5,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 6,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 7,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 8,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 2,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 3,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            2
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 4,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 5,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 6,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 7,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 8,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 9,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 10,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 3,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "outcome": null,
+          "planningRound": 4,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            0,
+            2
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 4,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 5,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 6,
+              "lane": 2,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 7,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 8,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 9,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 10,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 11,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 12,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 13,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            }
+          ],
+          "completedRound": 4,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "outcome": null,
+          "planningRound": 5,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            0,
+            2,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 8,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 9,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 10,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 11,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 12,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 13,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 14,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 5,
+          "coolant": 3,
+          "hull": 7,
+          "nextWave": [
+            {
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "outcome": null,
+          "planningRound": 6,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "capacitors": [
+            1,
+            2,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 9,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 11,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 12,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 13,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 14,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 16,
+              "lane": 2,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 17,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 2,
+              "id": 18,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 6,
+          "coolant": 2,
+          "hull": 7,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 7,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "capacitors": [
+            3,
+            2,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 11,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 14,
+              "lane": 0,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 16,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 17,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": false,
+              "band": 1,
+              "id": 18,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            }
+          ],
+          "completedRound": 7,
+          "coolant": 2,
+          "hull": 7,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 8,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "capacitors": [
+            3,
+            2,
+            3
+          ],
+          "charges": [
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 14,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 0,
+              "id": 15,
+              "lane": 1,
+              "polarity": "NEGATIVE",
+              "strength": 3
+            },
+            {
+              "alreadyHeld": false,
+              "band": 0,
+              "id": 16,
+              "lane": 1,
+              "polarity": "POSITIVE",
+              "strength": 1
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 17,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 2
+            },
+            {
+              "alreadyHeld": true,
+              "band": 1,
+              "id": 18,
+              "lane": 0,
+              "polarity": "NEGATIVE",
+              "strength": 3
+            }
+          ],
+          "completedRound": 8,
+          "coolant": 1,
+          "hull": 6,
+          "nextWave": [],
+          "outcome": null,
+          "planningRound": 9,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "capacitors": [
+            3,
+            3,
+            3
+          ],
+          "charges": [],
+          "completedRound": 9,
+          "coolant": 1,
+          "hull": 1,
+          "nextWave": [],
+          "outcome": "win",
+          "planningRound": null,
+          "protocolVersion": 1,
+          "ruleset": "charge-loom/v0.1",
+          "slotOwners": []
+        }
+      ]
+    }
+  ]
+}

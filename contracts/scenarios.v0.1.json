@@ -1,0 +1,776 @@
+{
+  "ruleset": "charge-loom/v0.1",
+  "scenarios": [
+    {
+      "id": "verified-3",
+      "seed": 3,
+      "waves": [
+        [
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 2
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 2
+          }
+        ]
+      ]
+    },
+    {
+      "id": "verified-8",
+      "seed": 8,
+      "waves": [
+        [
+          {
+            "lane": 0,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": 1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": 1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 2
+          },
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": 1,
+            "strength": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": "verified-10",
+      "seed": 10,
+      "waves": [
+        [
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": 1,
+            "strength": 2
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 2
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 2
+          },
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 2
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": "verified-14",
+      "seed": 14,
+      "waves": [
+        [
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "polarity": 1,
+            "strength": 2
+          },
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 2
+          },
+          {
+            "lane": 0,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 2
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": "verified-15",
+      "seed": 15,
+      "waves": [
+        [
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 2
+          },
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 2
+          },
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": "verified-17",
+      "seed": 17,
+      "waves": [
+        [
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 2
+          },
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 2
+          },
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": 1,
+            "strength": 2
+          }
+        ]
+      ]
+    },
+    {
+      "id": "verified-18",
+      "seed": 18,
+      "waves": [
+        [
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 2
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "polarity": -1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "polarity": 1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "polarity": -1,
+            "strength": 2
+          }
+        ]
+      ]
+    }
+  ],
+  "source": "reference/charge_loom_v01.py"
+}
