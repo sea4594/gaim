@@ -1,0 +1,271 @@
+{
+  "method": "Exact no-edit terminal counterfactuals in reproducible synthetic states. No assumption of equal difficulty, no human-cooperation inference.",
+  "echo": {
+    "counts": {
+      "cases": 600,
+      "generated_echoes": 237,
+      "base_wins": 22,
+      "echo_wins": 22,
+      "rescued_wins": 1,
+      "lost_wins": 1,
+      "greater_hp": 13,
+      "lower_hp": 114,
+      "same_hp": 473
+    },
+    "first_win_rescue": {
+      "idx": 58,
+      "tokens": [
+        [
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1,
+          2,
+          0
+        ]
+      ],
+      "power": [
+        1,
+        1,
+        3
+      ],
+      "hp": 6,
+      "baseline": [
+        "loss: target",
+        1,
+        [
+          1,
+          3,
+          3
+        ]
+      ],
+      "aftershock": [
+        "win",
+        2,
+        [
+          2,
+          3,
+          3
+        ]
+      ]
+    },
+    "first_win_lost": {
+      "idx": 326,
+      "tokens": [
+        [
+          1,
+          1,
+          1,
+          3,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          1,
+          -1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          -1,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          -1,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          -1,
+          2,
+          1
+        ]
+      ],
+      "power": [
+        3,
+        3,
+        3
+      ],
+      "hp": 6,
+      "baseline": [
+        "win",
+        1,
+        [
+          3,
+          3,
+          3
+        ]
+      ],
+      "aftershock": [
+        "loss: breach",
+        -1,
+        [
+          3,
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  "shunt": {
+    "counts": {
+      "cases": 600,
+      "shunt_available": 96,
+      "shunt_choices": 104,
+      "shunt_changes_hp": 96,
+      "rescues_win": 1,
+      "destroys_win": 1,
+      "survival_rescue": 10,
+      "capital_spent": 104
+    },
+    "examples": {
+      "211": {
+        "tokens": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            0,
+            -1,
+            2
+          ],
+          [
+            0,
+            2,
+            -1,
+            2
+          ],
+          [
+            0,
+            1,
+            -1,
+            1
+          ],
+          [
+            0,
+            0,
+            -1,
+            1
+          ]
+        ],
+        "hp": 5,
+        "power": [
+          2,
+          3,
+          3
+        ],
+        "base": "loss: breach",
+        "shunt": [
+          [
+            0,
+            "win",
+            1,
+            [
+              2,
+              3,
+              3
+            ]
+          ],
+          [
+            1,
+            "win",
+            1,
+            [
+              3,
+              2,
+              3
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  "paired_games": {
+    "seeds": [
+      13400,
+      13463
+    ],
+    "lookahead": "one-step independent edits",
+    "limitations": "No agent explicitly values future echoes or resource spending beyond its immediate heuristic.",
+    "variants": {
+      "control": {
+        "edits": 743,
+        "shunt_purchases": 0,
+        "games": 64,
+        "wins": 33,
+        "survival_hp": 189,
+        "echoes": 0,
+        "shunt_saved_hp": 0
+      },
+      "echo_breach": {
+        "edits": 754,
+        "shunt_purchases": 0,
+        "games": 64,
+        "wins": 33,
+        "survival_hp": 188,
+        "echoes": 27,
+        "shunt_saved_hp": 0
+      },
+      "shunt": {
+        "edits": 761,
+        "shunt_purchases": 27,
+        "games": 64,
+        "wins": 33,
+        "survival_hp": 231,
+        "echoes": 0,
+        "shunt_saved_hp": 51
+      }
+    }
+  }
+}
