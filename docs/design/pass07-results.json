@@ -1,0 +1,590 @@
+{
+  "council": {
+    "cases": 600,
+    "caveat": "Synthetic final states sampled uniformly, not naturally visited by players. No action edits.",
+    "counts": {
+      "both_lose": 429,
+      "both_win": 115,
+      "different_final_power": 564,
+      "different_hull": 233,
+      "different_win_outcome": 56,
+      "states": 600
+    },
+    "examples": [
+      {
+        "before": [
+          0,
+          2,
+          1
+        ],
+        "hp": 2,
+        "left_power": [
+          0,
+          2,
+          1
+        ],
+        "left_result": "loss: breach",
+        "right_power": [
+          0,
+          2,
+          0
+        ],
+        "right_result": "loss: target"
+      },
+      {
+        "before": [
+          0,
+          1,
+          3
+        ],
+        "hp": 2,
+        "left_power": [
+          0,
+          1,
+          3
+        ],
+        "left_result": "loss: breach",
+        "right_power": [
+          0,
+          1,
+          2
+        ],
+        "right_result": "loss: target"
+      },
+      {
+        "before": [
+          0,
+          3,
+          3
+        ],
+        "hp": 2,
+        "left_power": [
+          0,
+          3,
+          3
+        ],
+        "left_result": "loss: breach",
+        "right_power": [
+          0,
+          3,
+          2
+        ],
+        "right_result": "loss: target"
+      }
+    ]
+  },
+  "games": {
+    "interpretation": "Same forecast-aware action heuristic; unaware of grid demand. Wager selection chooses best immediate return. Not a fair contest of optimized agents.",
+    "lookahead": 1,
+    "seeds": [
+      14000,
+      14019
+    ],
+    "variants": {
+      "council": {
+        "action_distribution": {
+          "accelerate": 60,
+          "damp": 43,
+          "flip": 9,
+          "hold": 66,
+          "shift": 34
+        },
+        "totals": {
+          "actions": 212,
+          "alive": 13,
+          "blackouts": 5,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 49,
+          "power_total": 94,
+          "serviced": 46,
+          "slots": 632,
+          "wagers": 0,
+          "wagers_won": 0,
+          "wins": 11
+        }
+      },
+      "demand": {
+        "action_distribution": {
+          "accelerate": 56,
+          "damp": 35,
+          "flip": 5,
+          "hold": 63,
+          "shift": 39
+        },
+        "totals": {
+          "actions": 198,
+          "alive": 11,
+          "blackouts": 32,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 25,
+          "power_total": 63,
+          "serviced": 81,
+          "slots": 612,
+          "wagers": 0,
+          "wagers_won": 0,
+          "wins": 4
+        }
+      },
+      "demand_pledge": {
+        "action_distribution": {
+          "accelerate": 57,
+          "damp": 37,
+          "flip": 5,
+          "hold": 64,
+          "shift": 38
+        },
+        "totals": {
+          "actions": 201,
+          "alive": 11,
+          "blackouts": 30,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 30,
+          "power_total": 74,
+          "serviced": 83,
+          "slots": 612,
+          "wagers": 13,
+          "wagers_won": 13,
+          "wins": 5
+        }
+      },
+      "flex_demand": {
+        "action_distribution": {
+          "accelerate": 58,
+          "damp": 41,
+          "flip": 4,
+          "hold": 64,
+          "shift": 35
+        },
+        "totals": {
+          "actions": 202,
+          "alive": 10,
+          "blackouts": 15,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 31,
+          "power_total": 41,
+          "serviced": 102,
+          "slots": 628,
+          "wagers": 0,
+          "wagers_won": 0,
+          "wins": 0
+        }
+      },
+      "market": {
+        "action_distribution": {
+          "accelerate": 59,
+          "damp": 47,
+          "flip": 16,
+          "hold": 74,
+          "shift": 47
+        },
+        "totals": {
+          "actions": 243,
+          "alive": 17,
+          "blackouts": 0,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 76,
+          "power_total": 143,
+          "serviced": 0,
+          "slots": 684,
+          "wagers": 0,
+          "wagers_won": 0,
+          "wins": 15
+        }
+      },
+      "milestones": {
+        "action_distribution": {
+          "accelerate": 56,
+          "damp": 40,
+          "flip": 8,
+          "hold": 67,
+          "shift": 32
+        },
+        "totals": {
+          "actions": 203,
+          "alive": 12,
+          "blackouts": 12,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 36,
+          "power_total": 93,
+          "serviced": 38,
+          "slots": 616,
+          "wagers": 0,
+          "wagers_won": 0,
+          "wins": 10
+        }
+      },
+      "pledge": {
+        "action_distribution": {
+          "accelerate": 59,
+          "damp": 46,
+          "flip": 17,
+          "hold": 75,
+          "shift": 47
+        },
+        "totals": {
+          "actions": 244,
+          "alive": 17,
+          "blackouts": 0,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 78,
+          "power_total": 151,
+          "serviced": 0,
+          "slots": 684,
+          "wagers": 16,
+          "wagers_won": 16,
+          "wins": 16
+        }
+      },
+      "tide": {
+        "action_distribution": {
+          "accelerate": 52,
+          "damp": 32,
+          "flip": 12,
+          "hold": 76,
+          "shift": 49
+        },
+        "totals": {
+          "actions": 221,
+          "alive": 16,
+          "blackouts": 0,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 68,
+          "power_total": 135,
+          "serviced": 0,
+          "slots": 660,
+          "wagers": 0,
+          "wagers_won": 0,
+          "wins": 11
+        }
+      }
+    }
+  },
+  "holdout20": {
+    "interpretation": "Same forecast-aware action heuristic; unaware of grid demand. Wager selection chooses best immediate return. Not a fair contest of optimized agents.",
+    "lookahead": 1,
+    "seeds": [
+      19500,
+      19519
+    ],
+    "variants": {
+      "council": {
+        "action_distribution": {
+          "accelerate": 44,
+          "damp": 31,
+          "flip": 13,
+          "hold": 67,
+          "shift": 36
+        },
+        "totals": {
+          "actions": 191,
+          "alive": 12,
+          "blackouts": 7,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 33,
+          "power_total": 83,
+          "serviced": 42,
+          "slots": 612,
+          "wagers": 0,
+          "wagers_won": 0,
+          "wins": 8
+        }
+      },
+      "demand": {
+        "action_distribution": {
+          "accelerate": 50,
+          "damp": 37,
+          "flip": 11,
+          "hold": 73,
+          "shift": 36
+        },
+        "totals": {
+          "actions": 207,
+          "alive": 10,
+          "blackouts": 35,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 19,
+          "power_total": 57,
+          "serviced": 83,
+          "slots": 632,
+          "wagers": 0,
+          "wagers_won": 0,
+          "wins": 2
+        }
+      },
+      "demand_pledge": {
+        "action_distribution": {
+          "accelerate": 50,
+          "damp": 38,
+          "flip": 10,
+          "hold": 76,
+          "shift": 36
+        },
+        "totals": {
+          "actions": 210,
+          "alive": 10,
+          "blackouts": 35,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 15,
+          "power_total": 65,
+          "serviced": 83,
+          "slots": 632,
+          "wagers": 14,
+          "wagers_won": 14,
+          "wins": 3
+        }
+      },
+      "flex_demand": {
+        "action_distribution": {
+          "accelerate": 53,
+          "damp": 36,
+          "flip": 9,
+          "hold": 77,
+          "shift": 38
+        },
+        "totals": {
+          "actions": 213,
+          "alive": 12,
+          "blackouts": 16,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 30,
+          "power_total": 42,
+          "serviced": 102,
+          "slots": 632,
+          "wagers": 0,
+          "wagers_won": 0,
+          "wins": 1
+        }
+      },
+      "market": {
+        "action_distribution": {
+          "accelerate": 52,
+          "damp": 41,
+          "flip": 21,
+          "hold": 78,
+          "shift": 44
+        },
+        "totals": {
+          "actions": 236,
+          "alive": 17,
+          "blackouts": 0,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 69,
+          "power_total": 133,
+          "serviced": 0,
+          "slots": 668,
+          "wagers": 0,
+          "wagers_won": 0,
+          "wins": 12
+        }
+      },
+      "milestones": {
+        "action_distribution": {
+          "accelerate": 41,
+          "damp": 31,
+          "flip": 15,
+          "hold": 69,
+          "shift": 37
+        },
+        "totals": {
+          "actions": 193,
+          "alive": 10,
+          "blackouts": 17,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 22,
+          "power_total": 89,
+          "serviced": 31,
+          "slots": 608,
+          "wagers": 0,
+          "wagers_won": 0,
+          "wins": 7
+        }
+      },
+      "pledge": {
+        "action_distribution": {
+          "accelerate": 49,
+          "damp": 41,
+          "flip": 21,
+          "hold": 79,
+          "shift": 45
+        },
+        "totals": {
+          "actions": 235,
+          "alive": 16,
+          "blackouts": 0,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 70,
+          "power_total": 142,
+          "serviced": 0,
+          "slots": 664,
+          "wagers": 16,
+          "wagers_won": 16,
+          "wins": 15
+        }
+      },
+      "tide": {
+        "action_distribution": {
+          "accelerate": 48,
+          "damp": 40,
+          "flip": 20,
+          "hold": 82,
+          "shift": 38
+        },
+        "totals": {
+          "actions": 228,
+          "alive": 16,
+          "blackouts": 0,
+          "draft_new": 0,
+          "games": 20,
+          "hp_total": 60,
+          "power_total": 124,
+          "serviced": 0,
+          "slots": 668,
+          "wagers": 0,
+          "wagers_won": 0,
+          "wins": 7
+        }
+      }
+    }
+  },
+  "mission_actions": {
+    "cases": 300,
+    "caveat": "Only pass/single-edit final rounds; not evidence of session-wide strategic diversity",
+    "counts": {
+      "missions_with_win": 103,
+      "multi_winnable": 30,
+      "states": 300
+    },
+    "examples": []
+  },
+  "objectives": {
+    "caveat": "One no-edit final round; missions are existing prototype rules and cannot establish varied optimal strategies.",
+    "counts": {
+      "cases": 400,
+      "choreography_wins": 11,
+      "mission_results_diverge": 30,
+      "shield_wins": 9,
+      "standard_wins": 27,
+      "voltage_wins": 0
+    },
+    "examples": [
+      {
+        "hp": 5,
+        "power": [
+          0,
+          2,
+          3
+        ],
+        "results": {
+          "choreography": false,
+          "shield": true,
+          "standard": true,
+          "voltage": false
+        }
+      },
+      {
+        "hp": 7,
+        "power": [
+          3,
+          2,
+          0
+        ],
+        "results": {
+          "choreography": true,
+          "shield": true,
+          "standard": true,
+          "voltage": false
+        }
+      }
+    ]
+  },
+  "pledge": {
+    "caveat": "No edits; condition selected knowing visible current board, not secret future waves.",
+    "counts": {
+      "better": 21,
+      "equal": 174,
+      "offers": 1596,
+      "paid": 94,
+      "states": 240,
+      "worse": 1401
+    },
+    "example": {
+      "baseline": [
+        1,
+        2,
+        3
+      ],
+      "pledge": [
+        "sync",
+        0
+      ],
+      "power": [
+        1,
+        1,
+        2
+      ],
+      "tokens": [
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          0,
+          -1,
+          2
+        ]
+      ],
+      "wager": [
+        2,
+        2,
+        3
+      ]
+    },
+    "sample_size": 240
+  },
+  "two_step_manual_small_sets": {
+    "method": "Same lookahead=2 policy via experiments.phase07_survey.games(n=6,...); exploratory and too small to rank mechanics",
+    "seeds_14000_to_14005": {
+      "council": 2,
+      "market": 4,
+      "milestones": 3,
+      "pledge": 5
+    },
+    "seeds_19500_to_19505": {
+      "council": 3,
+      "market": 5,
+      "milestones": 4,
+      "pledge": 6
+    }
+  }
+}
