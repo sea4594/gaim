@@ -1,0 +1,499 @@
+{
+  "design": "Pass 15: Forecast Council counterfactual research, NOT live rules",
+  "reference": "Forecast Market v0.5",
+  "development_seed_start": 210000,
+  "holdout_seed_start": 211000,
+  "evaluation": {
+    "synthetic_worlds_per_board": 4,
+    "boards_per_set": 80,
+    "horizon_rounds": 3,
+    "next_round_policy": "No edits; choose older storm",
+    "forecast_model": "Two equally sized cards whose contents are hidden; all alternatives share an identical reached board",
+    "interpretation": "Upper bounds based on optimum actions and outcome-aware receiver mappings; not a playable human policy"
+  },
+  "survival": {
+    "development": {
+      "method": "Four possible hidden storm worlds per identical reached board; optimal edit commitment, best scout draft response, optimistic optimal 1-bit signaling upper bound. Next-state heuristic only.",
+      "cases": 80,
+      "horizon": 3,
+      "metric": "survival",
+      "hidden_worlds_per_board": 4,
+      "counts": {
+        "boards": 80,
+        "action_opportunities": 1580,
+        "sum_truthful_left_route": 0.5,
+        "truthful_left_route_useful": 2,
+        "sum_truthful_negative": 1.0,
+        "truthful_negative_useful": 4,
+        "sum_truthful_large": 0.5,
+        "truthful_large_useful": 2,
+        "sum_two_signal_gain": 1.25,
+        "sum_complementarity": 0.25,
+        "two_signal_useful": 4,
+        "strict_two_sensor_synergy": 1,
+        "sum_blind": 63.5,
+        "sum_one_bit_upper": 65.0,
+        "sum_perfect_upper": 65.5,
+        "sum_signal_value": 1.5,
+        "sum_perfect_value": 2.0,
+        "perfect_information_useful": 5,
+        "one_bit_upper_useful": 5
+      },
+      "mean_signal_value": 0.0187,
+      "mean_truthful_gain": {
+        "left_route": 0.0063,
+        "negative": 0.0125,
+        "large": 0.0063
+      },
+      "mean_perfect_information_value": 0.025,
+      "mean_two_signal_gain": 0.0156,
+      "mean_two_sensor_complementarity": 0.0031,
+      "limitations": [
+        "Synthetic hidden storm cards sampled independently of the current storm generator.",
+        "A one-bit partition chosen with full data is an ORACLE bound, not a playable signal rule.",
+        "Truthful signal benchmarks still use an oracle receiver trained on all synthetic worlds.",
+        "Score is a tactical heuristic rather than a multi-round win probability.",
+        "Full voice chat can circumvent structured information sharing.",
+        "One operator edit, not a complete four-player game."
+      ],
+      "witness": {
+        "seed": 210022,
+        "public_board": "PublicForecast(round=2, offered_counts=(2, 2), live_tokens=(Token(id=1, lane=0, row=0, sign=-1, size=1, held=0), Token(id=2, lane=1, row=0, sign=1, size=1, held=0), Token(id=3, lane=1, row=0, sign=1, size=1, held=0), Token(id=4, lane=2, row=1, sign=1, size=2, held=0), Token(id=5, lane=1, row=1, sign=-1, size=1, held=0)), hull=7, power=(0, 0, 0), coolant=3)",
+        "private_worlds": [
+          {
+            "offers": [
+              [
+                [
+                  2,
+                  -1,
+                  2
+                ],
+                [
+                  2,
+                  -1,
+                  1
+                ]
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  -1,
+                  2
+                ]
+              ]
+            ],
+            "best_action": [
+              "hold",
+              4
+            ],
+            "pass_payoff": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "offers": [
+              [
+                [
+                  2,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              [
+                [
+                  1,
+                  -1,
+                  1
+                ],
+                [
+                  2,
+                  -1,
+                  1
+                ]
+              ]
+            ],
+            "best_action": [
+              "shift",
+              1,
+              1
+            ],
+            "pass_payoff": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "offers": [
+              [
+                [
+                  2,
+                  -1,
+                  2
+                ],
+                [
+                  1,
+                  1,
+                  1
+                ]
+              ],
+              [
+                [
+                  1,
+                  -1,
+                  2
+                ],
+                [
+                  2,
+                  1,
+                  1
+                ]
+              ]
+            ],
+            "best_action": [
+              "hold",
+              4
+            ],
+            "pass_payoff": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "offers": [
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  -1,
+                  2
+                ]
+              ],
+              [
+                [
+                  1,
+                  -1,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  1
+                ]
+              ]
+            ],
+            "best_action": [
+              "pass"
+            ],
+            "pass_payoff": [
+              1.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    "holdout": {
+      "method": "Four possible hidden storm worlds per identical reached board; optimal edit commitment, best scout draft response, optimistic optimal 1-bit signaling upper bound. Next-state heuristic only.",
+      "cases": 80,
+      "horizon": 3,
+      "metric": "survival",
+      "hidden_worlds_per_board": 4,
+      "counts": {
+        "boards": 80,
+        "action_opportunities": 1577,
+        "sum_truthful_left_route": 0.5,
+        "truthful_left_route_useful": 2,
+        "sum_truthful_negative": 0.5,
+        "truthful_negative_useful": 2,
+        "sum_truthful_large": 0.25,
+        "truthful_large_useful": 1,
+        "sum_two_signal_gain": 1.25,
+        "sum_complementarity": 0.25,
+        "two_signal_useful": 5,
+        "strict_two_sensor_synergy": 1,
+        "sum_blind": 64.75,
+        "sum_one_bit_upper": 66.0,
+        "sum_perfect_upper": 66.0,
+        "sum_signal_value": 1.25,
+        "sum_perfect_value": 1.25,
+        "perfect_information_useful": 5,
+        "one_bit_upper_useful": 5
+      },
+      "mean_signal_value": 0.0156,
+      "mean_truthful_gain": {
+        "left_route": 0.0063,
+        "negative": 0.0063,
+        "large": 0.0031
+      },
+      "mean_perfect_information_value": 0.0156,
+      "mean_two_signal_gain": 0.0156,
+      "mean_two_sensor_complementarity": 0.0031,
+      "limitations": [
+        "Synthetic hidden storm cards sampled independently of the current storm generator.",
+        "A one-bit partition chosen with full data is an ORACLE bound, not a playable signal rule.",
+        "Truthful signal benchmarks still use an oracle receiver trained on all synthetic worlds.",
+        "Score is a tactical heuristic rather than a multi-round win probability.",
+        "Full voice chat can circumvent structured information sharing.",
+        "One operator edit, not a complete four-player game."
+      ],
+      "witness": {
+        "seed": 211011,
+        "public_board": "PublicForecast(round=2, offered_counts=(2, 2), live_tokens=(Token(id=1, lane=1, row=0, sign=1, size=2, held=0), Token(id=2, lane=2, row=0, sign=-1, size=2, held=0), Token(id=3, lane=1, row=0, sign=-1, size=1, held=0), Token(id=4, lane=1, row=1, sign=-1, size=2, held=0), Token(id=5, lane=2, row=1, sign=1, size=1, held=0)), hull=7, power=(0, 0, 0), coolant=3)",
+        "private_worlds": [
+          {
+            "offers": [
+              [
+                [
+                  0,
+                  -1,
+                  2
+                ],
+                [
+                  0,
+                  -1,
+                  1
+                ]
+              ],
+              [
+                [
+                  2,
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  1
+                ]
+              ]
+            ],
+            "best_action": [
+              "shift",
+              1,
+              1
+            ],
+            "pass_payoff": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "offers": [
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1
+                ]
+              ]
+            ],
+            "best_action": [
+              "shift",
+              1,
+              1
+            ],
+            "pass_payoff": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "offers": [
+              [
+                [
+                  2,
+                  -1,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  2
+                ]
+              ],
+              [
+                [
+                  2,
+                  -1,
+                  2
+                ],
+                [
+                  1,
+                  1,
+                  1
+                ]
+              ]
+            ],
+            "best_action": [
+              "hold",
+              4
+            ],
+            "pass_payoff": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "offers": [
+              [
+                [
+                  0,
+                  -1,
+                  2
+                ],
+                [
+                  1,
+                  1,
+                  2
+                ]
+              ],
+              [
+                [
+                  2,
+                  -1,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  1
+                ]
+              ]
+            ],
+            "best_action": [
+              "pass"
+            ],
+            "pass_payoff": [
+              0.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "heuristic": {
+    "development": {
+      "method": "Four possible hidden storm worlds per identical reached board; optimal edit commitment, best scout draft response, optimistic optimal 1-bit signaling upper bound. Next-state heuristic only.",
+      "cases": 80,
+      "horizon": 3,
+      "metric": "heuristic",
+      "hidden_worlds_per_board": 4,
+      "counts": {
+        "boards": 80,
+        "action_opportunities": 1580,
+        "sum_truthful_left_route": 658.5875,
+        "truthful_left_route_useful": 14,
+        "sum_truthful_negative": 1269.0,
+        "truthful_negative_useful": 14,
+        "sum_truthful_large": 667.55,
+        "truthful_large_useful": 15,
+        "sum_two_signal_gain": 1605.5,
+        "sum_complementarity": 308.775,
+        "two_signal_useful": 19,
+        "strict_two_sensor_synergy": 3,
+        "sum_blind": -16968.45,
+        "sum_one_bit_upper": -14979.9875,
+        "sum_perfect_upper": -14351.725,
+        "sum_signal_value": 1988.4625,
+        "sum_perfect_value": 2616.725,
+        "perfect_information_useful": 36,
+        "one_bit_upper_useful": 36
+      },
+      "mean_signal_value": 24.8558,
+      "mean_truthful_gain": {
+        "left_route": 8.2323,
+        "negative": 15.8625,
+        "large": 8.3444
+      },
+      "mean_perfect_information_value": 32.7091,
+      "mean_two_signal_gain": 20.0688,
+      "mean_two_sensor_complementarity": 3.8597,
+      "limitations": [
+        "Synthetic hidden storm cards sampled independently of the current storm generator.",
+        "A one-bit partition chosen with full data is an ORACLE bound, not a playable signal rule.",
+        "Truthful signal benchmarks still use an oracle receiver trained on all synthetic worlds.",
+        "Score is a tactical heuristic rather than a multi-round win probability.",
+        "Full voice chat can circumvent structured information sharing.",
+        "One operator edit, not a complete four-player game."
+      ]
+    },
+    "holdout": {
+      "method": "Four possible hidden storm worlds per identical reached board; optimal edit commitment, best scout draft response, optimistic optimal 1-bit signaling upper bound. Next-state heuristic only.",
+      "cases": 80,
+      "horizon": 3,
+      "metric": "heuristic",
+      "hidden_worlds_per_board": 4,
+      "counts": {
+        "boards": 80,
+        "action_opportunities": 1577,
+        "perfect_information_useful": 29,
+        "one_bit_upper_useful": 29,
+        "sum_truthful_left_route": 654.8625,
+        "truthful_left_route_useful": 12,
+        "sum_truthful_negative": 651.4375,
+        "truthful_negative_useful": 12,
+        "sum_truthful_large": 337.125,
+        "truthful_large_useful": 7,
+        "sum_two_signal_gain": 1604.2625,
+        "sum_complementarity": 316.0875,
+        "two_signal_useful": 19,
+        "strict_two_sensor_synergy": 4,
+        "sum_blind": -15541.775,
+        "sum_one_bit_upper": -13887.65,
+        "sum_perfect_upper": -13868.675,
+        "sum_signal_value": 1654.125,
+        "sum_perfect_value": 1673.1
+      },
+      "mean_signal_value": 20.6766,
+      "mean_truthful_gain": {
+        "left_route": 8.1858,
+        "negative": 8.143,
+        "large": 4.2141
+      },
+      "mean_perfect_information_value": 20.9137,
+      "mean_two_signal_gain": 20.0533,
+      "mean_two_sensor_complementarity": 3.9511,
+      "limitations": [
+        "Synthetic hidden storm cards sampled independently of the current storm generator.",
+        "A one-bit partition chosen with full data is an ORACLE bound, not a playable signal rule.",
+        "Truthful signal benchmarks still use an oracle receiver trained on all synthetic worlds.",
+        "Score is a tactical heuristic rather than a multi-round win probability.",
+        "Full voice chat can circumvent structured information sharing.",
+        "One operator edit, not a complete four-player game."
+      ]
+    }
+  }
+}
