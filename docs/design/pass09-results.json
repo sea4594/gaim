@@ -1,0 +1,486 @@
+{
+  "cooperation_pair_interactions": {
+    "caveat": "Same-round heuristic only; a co-op pair can be executed by one solo player.",
+    "count": {
+      "legal_pairs": 8258,
+      "seeds_with_at_least_one_strict_complement": 65,
+      "single_actions": 2383,
+      "strict_complements": 135
+    },
+    "example": {
+      "actions": [
+        [
+          "accelerate",
+          2
+        ],
+        [
+          "accelerate",
+          3
+        ]
+      ],
+      "draft": 0,
+      "scores": {
+        "both": 64.4,
+        "first": 60.95,
+        "pass": 63.5,
+        "second": 60.95
+      },
+      "seed": 44000
+    },
+    "pair_categories": {
+      "accelerate+accelerate": 69,
+      "hold+hold": 28,
+      "hold+shift": 16,
+      "shift+shift": 22
+    },
+    "seed_range": [
+      44000,
+      44109
+    ]
+  },
+  "market_24_seed_development": {
+    "policy": "Identical one-round greedy objective, four sequential edits for each forecast choice",
+    "runs": {
+      "1": {
+        "alive": 16,
+        "draft_nonold": 0,
+        "edits": 345,
+        "hp": 72,
+        "power": 169,
+        "rounds": 203,
+        "wins": 12
+      },
+      "2": {
+        "alive": 23,
+        "draft_nonold": 76,
+        "edits": 332,
+        "hp": 114,
+        "power": 194,
+        "rounds": 216,
+        "wins": 21
+      },
+      "3": {
+        "alive": 23,
+        "draft_nonold": 94,
+        "edits": 296,
+        "hp": 118,
+        "power": 194,
+        "rounds": 216,
+        "wins": 17
+      }
+    },
+    "seeds": [
+      31000,
+      31023
+    ],
+    "warning": "More offers can simply make a game easier, while also increasing option-count and screen complexity."
+  },
+  "market_24_seed_holdout": {
+    "policy": "Identical one-round greedy objective, four sequential edits for each forecast choice",
+    "runs": {
+      "1": {
+        "alive": 18,
+        "draft_nonold": 0,
+        "edits": 348,
+        "hp": 60,
+        "power": 164,
+        "rounds": 207,
+        "wins": 9
+      },
+      "2": {
+        "alive": 21,
+        "draft_nonold": 91,
+        "edits": 310,
+        "hp": 101,
+        "power": 178,
+        "rounds": 214,
+        "wins": 13
+      },
+      "3": {
+        "alive": 22,
+        "draft_nonold": 103,
+        "edits": 288,
+        "hp": 93,
+        "power": 174,
+        "rounds": 216,
+        "wins": 13
+      }
+    },
+    "seeds": [
+      32000,
+      32023
+    ],
+    "warning": "More offers can simply make a game easier, while also increasing option-count and screen complexity."
+  },
+  "methodology": {
+    "case_study": "Forecast Market v0.5 is control. All experiments isolated from production. Paired seeds, deterministic simulation.",
+    "limitations": [
+      "No human playtesting or team communication",
+      "Short-horizon heuristic, not optimal planner",
+      "Synthetic finale states sample plausible but not empirically representative play histories",
+      "Research scoring and different objective thresholds do not yield comparable fun or difficulty scores"
+    ]
+  },
+  "mission_finales_one_edit": {
+    "cases": 220,
+    "counts": {
+      "circuit_both_winnable": 6,
+      "circuit_disjoint_winning_plans": 0,
+      "circuit_only_grid_winnable": 16,
+      "circuit_only_mission_winnable": 8,
+      "circuit_winnable": 14,
+      "concord_both_winnable": 9,
+      "concord_disjoint_winning_plans": 0,
+      "concord_only_grid_winnable": 13,
+      "concord_only_mission_winnable": 17,
+      "concord_winnable": 26,
+      "fortress_both_winnable": 3,
+      "fortress_disjoint_winning_plans": 0,
+      "fortress_only_grid_winnable": 19,
+      "fortress_only_mission_winnable": 3,
+      "fortress_winnable": 6,
+      "grid_winnable": 22,
+      "states": 220,
+      "voltage_both_winnable": 9,
+      "voltage_disjoint_winning_plans": 0,
+      "voltage_only_grid_winnable": 13,
+      "voltage_only_mission_winnable": 17,
+      "voltage_winnable": 26
+    },
+    "exact_disjoint_examples": {},
+    "limitations": "Synthetic final states and invented plausible prior achievement history. No estimate of human fun or 9-round solvability.",
+    "max_edits": 1,
+    "seed": 90172
+  },
+  "mission_finales_two_edits_holdout": {
+    "cases": 150,
+    "counts": {
+      "circuit_both_winnable": 6,
+      "circuit_disjoint_winning_plans": 1,
+      "circuit_only_grid_winnable": 11,
+      "circuit_only_mission_winnable": 7,
+      "circuit_winnable": 13,
+      "concord_both_winnable": 6,
+      "concord_disjoint_winning_plans": 1,
+      "concord_only_grid_winnable": 11,
+      "concord_only_mission_winnable": 10,
+      "concord_winnable": 16,
+      "fortress_both_winnable": 4,
+      "fortress_disjoint_winning_plans": 0,
+      "fortress_only_grid_winnable": 13,
+      "fortress_only_mission_winnable": 7,
+      "fortress_winnable": 11,
+      "grid_winnable": 17,
+      "states": 150,
+      "voltage_both_winnable": 8,
+      "voltage_disjoint_winning_plans": 0,
+      "voltage_only_grid_winnable": 9,
+      "voltage_only_mission_winnable": 16,
+      "voltage_winnable": 24
+    },
+    "exact_disjoint_examples": {
+      "circuit": {
+        "coolant": 3,
+        "grid_plan": [
+          [
+            "shift",
+            1,
+            1
+          ],
+          [
+            "shift",
+            4,
+            -1
+          ]
+        ],
+        "history": {
+          "lane_mask": 3,
+          "large_mask": 4,
+          "synchronized": 1
+        },
+        "hp": 5,
+        "mission_plan": [],
+        "power": [
+          3,
+          1,
+          3
+        ],
+        "tokens": [
+          [
+            0,
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            0,
+            -1,
+            1
+          ],
+          [
+            2,
+            0,
+            -1,
+            2
+          ],
+          [
+            2,
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      "concord": {
+        "coolant": 3,
+        "grid_plan": [
+          [
+            "shift",
+            1,
+            1
+          ],
+          [
+            "shift",
+            4,
+            -1
+          ]
+        ],
+        "history": {
+          "lane_mask": 3,
+          "large_mask": 4,
+          "synchronized": 1
+        },
+        "hp": 5,
+        "mission_plan": [
+          [
+            "damp",
+            3
+          ],
+          [
+            "flip",
+            1
+          ]
+        ],
+        "power": [
+          3,
+          1,
+          3
+        ],
+        "tokens": [
+          [
+            0,
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            0,
+            -1,
+            1
+          ],
+          [
+            2,
+            0,
+            -1,
+            2
+          ],
+          [
+            2,
+            0,
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "limitations": "Synthetic final states and invented plausible prior achievement history. No estimate of human fun or 9-round solvability.",
+    "max_edits": 2,
+    "seed": 91337
+  },
+  "mission_full_games_development": {
+    "opening_plan_changes_vs_grid": {
+      "circuit": 0,
+      "concord": 0,
+      "fortress": 0,
+      "voltage": 0
+    },
+    "per_mission": 14,
+    "seed_range": [
+      27100,
+      27113
+    ],
+    "variants": {
+      "circuit": {
+        "counts": {
+          "edits": 188,
+          "hp": 65,
+          "power": 112,
+          "rounds": 126,
+          "survival": 11,
+          "use_accelerate": 36,
+          "use_damp": 30,
+          "use_flip": 6,
+          "use_hold": 66,
+          "use_shift": 50,
+          "wins": 10
+        }
+      },
+      "concord": {
+        "counts": {
+          "edits": 182,
+          "hp": 64,
+          "power": 112,
+          "rounds": 126,
+          "survival": 11,
+          "use_accelerate": 29,
+          "use_damp": 30,
+          "use_flip": 6,
+          "use_hold": 67,
+          "use_shift": 50,
+          "wins": 4
+        }
+      },
+      "fortress": {
+        "counts": {
+          "edits": 184,
+          "hp": 56,
+          "power": 111,
+          "rounds": 126,
+          "survival": 10,
+          "use_accelerate": 26,
+          "use_damp": 32,
+          "use_flip": 6,
+          "use_hold": 71,
+          "use_shift": 49,
+          "wins": 6
+        }
+      },
+      "grid": {
+        "counts": {
+          "edits": 186,
+          "hp": 59,
+          "power": 115,
+          "rounds": 126,
+          "survival": 11,
+          "use_accelerate": 28,
+          "use_damp": 30,
+          "use_flip": 6,
+          "use_hold": 70,
+          "use_shift": 52,
+          "wins": 8
+        }
+      },
+      "voltage": {
+        "counts": {
+          "edits": 183,
+          "hp": 59,
+          "power": 112,
+          "rounds": 126,
+          "survival": 11,
+          "use_accelerate": 28,
+          "use_damp": 30,
+          "use_flip": 6,
+          "use_hold": 70,
+          "use_shift": 49,
+          "wins": 10
+        }
+      }
+    },
+    "warning": "Planner explicitly rewards mission-specific statistics; different action choices can be a result of heuristic design and are not independent evidence of depth."
+  },
+  "mission_full_games_holdout": {
+    "opening_plan_changes_vs_grid": {
+      "circuit": 0,
+      "concord": 0,
+      "fortress": 0,
+      "voltage": 0
+    },
+    "per_mission": 16,
+    "seed_range": [
+      27200,
+      27215
+    ],
+    "variants": {
+      "circuit": {
+        "counts": {
+          "edits": 203,
+          "hp": 83,
+          "power": 126,
+          "rounds": 144,
+          "survival": 15,
+          "use_accelerate": 35,
+          "use_damp": 36,
+          "use_flip": 6,
+          "use_hold": 68,
+          "use_shift": 58,
+          "wins": 15
+        }
+      },
+      "concord": {
+        "counts": {
+          "edits": 207,
+          "hp": 82,
+          "power": 128,
+          "rounds": 144,
+          "survival": 15,
+          "use_accelerate": 40,
+          "use_damp": 36,
+          "use_flip": 4,
+          "use_hold": 71,
+          "use_shift": 56,
+          "wins": 7
+        }
+      },
+      "fortress": {
+        "counts": {
+          "edits": 204,
+          "hp": 82,
+          "power": 126,
+          "rounds": 144,
+          "survival": 15,
+          "use_accelerate": 38,
+          "use_damp": 36,
+          "use_flip": 5,
+          "use_hold": 71,
+          "use_shift": 54,
+          "wins": 7
+        }
+      },
+      "grid": {
+        "counts": {
+          "edits": 208,
+          "hp": 83,
+          "power": 129,
+          "rounds": 144,
+          "survival": 15,
+          "use_accelerate": 37,
+          "use_damp": 36,
+          "use_flip": 5,
+          "use_hold": 72,
+          "use_shift": 58,
+          "wins": 12
+        }
+      },
+      "voltage": {
+        "counts": {
+          "edits": 205,
+          "hp": 85,
+          "power": 129,
+          "rounds": 144,
+          "survival": 15,
+          "use_accelerate": 36,
+          "use_damp": 36,
+          "use_flip": 6,
+          "use_hold": 70,
+          "use_shift": 57,
+          "wins": 14
+        }
+      }
+    },
+    "warning": "Planner explicitly rewards mission-specific statistics; different action choices can be a result of heuristic design and are not independent evidence of depth."
+  },
+  "proposed_follow_up": "Design missions around mid-game irreversible tradeoffs and dedicated human 2-4 player tests. Test longer-horizon planners before changes.",
+  "winner": "Forecast Market v0.5 (2 storm offers), production rules untouched"
+}
