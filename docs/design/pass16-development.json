@@ -1,0 +1,31 @@
+{
+  "method": "Four synthetic hidden worlds per reached board, truthful storm-card predicate, best one-edit fixed action vs two-slot guard (one action actually executes). Both evaluations use 3-round passive continuation heuristic.",
+  "sample": 16,
+  "start": 261600,
+  "horizon": 3,
+  "strict_guard_improvements": 4,
+  "mean_fixed": -225.5594,
+  "mean_guarded_upper": -224.9203,
+  "best_example": {
+    "seed": 261601,
+    "delta": 3.5,
+    "guard": "left",
+    "if_true": [
+      "damp",
+      1
+    ],
+    "if_false": [
+      "hold",
+      4
+    ],
+    "mean_fixed_score": 44.4625,
+    "mean_guarded_score": 47.9625
+  },
+  "limitations": [
+    "Guarded value is an optimistic upper bound using all hidden-world payoffs for choosing branches.",
+    "Two reserved edit slots impose a cost not subtracted from the numeric heuristic.",
+    "Synthetic future cards differ from production storm generator.",
+    "Present public Storm Market reveals cards already; guard only relevant with revised advance-information schedule.",
+    "No evidence about real human communication or quarterbacking."
+  ]
+}
