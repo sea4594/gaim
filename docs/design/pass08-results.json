@@ -1,0 +1,497 @@
+{
+  "aggregate": {
+    "control": {
+      "action_distribution": {
+        "accelerate": 104,
+        "damp": 100,
+        "flip": 17,
+        "hold": 201,
+        "shift": 161
+      },
+      "alive": 47,
+      "edits": 583,
+      "final_hp": 220,
+      "final_power": 372,
+      "paid_drafts": 0,
+      "rounds": 432,
+      "second_offer": 153,
+      "surges": 0,
+      "unused": 1145,
+      "win_rate_paired_policy": 0.6667,
+      "wins": 32
+    },
+    "coolant_bid": {
+      "action_distribution": {
+        "accelerate": 141,
+        "damp": 46,
+        "flip": 19,
+        "hold": 206,
+        "shift": 147
+      },
+      "alive": 41,
+      "edits": 559,
+      "final_hp": 164,
+      "final_power": 373,
+      "paid_drafts": 90,
+      "rounds": 428,
+      "second_offer": 90,
+      "surges": 0,
+      "unused": 1153,
+      "win_rate_paired_policy": 0.6458,
+      "wins": 31
+    },
+    "council": {
+      "action_distribution": {
+        "accelerate": 106,
+        "damp": 113,
+        "flip": 14,
+        "hold": 206,
+        "shift": 158
+      },
+      "alive": 43,
+      "blackouts": 13,
+      "edits": 597,
+      "final_hp": 200,
+      "final_power": 294,
+      "paid_drafts": 0,
+      "rounds": 432,
+      "second_offer": 151,
+      "service": 131,
+      "surges": 0,
+      "unused": 1131,
+      "win_rate_paired_policy": 0.7917,
+      "wins": 38
+    },
+    "council_coolant": {
+      "action_distribution": {
+        "accelerate": 143,
+        "damp": 50,
+        "flip": 16,
+        "hold": 207,
+        "shift": 143
+      },
+      "alive": 36,
+      "blackouts": 13,
+      "edits": 559,
+      "final_hp": 140,
+      "final_power": 294,
+      "paid_drafts": 86,
+      "rounds": 424,
+      "second_offer": 86,
+      "service": 127,
+      "surges": 0,
+      "unused": 1137,
+      "win_rate_paired_policy": 0.6667,
+      "wins": 32
+    },
+    "power_bid": {
+      "action_distribution": {
+        "accelerate": 134,
+        "damp": 119,
+        "flip": 27,
+        "hold": 267,
+        "shift": 146
+      },
+      "alive": 34,
+      "edits": 693,
+      "final_hp": 133,
+      "final_power": 356,
+      "paid_drafts": 6,
+      "rounds": 421,
+      "second_offer": 6,
+      "surges": 0,
+      "unused": 991,
+      "win_rate_paired_policy": 0.4792,
+      "wins": 23
+    },
+    "repair": {
+      "action_distribution": {
+        "accelerate": 103,
+        "damp": 100,
+        "flip": 17,
+        "hold": 202,
+        "repair": 15,
+        "shift": 161
+      },
+      "alive": 48,
+      "edits": 598,
+      "final_hp": 240,
+      "final_power": 369,
+      "paid_drafts": 0,
+      "rounds": 432,
+      "second_offer": 154,
+      "surges": 0,
+      "unused": 1130,
+      "win_rate_paired_policy": 0.6458,
+      "wins": 31
+    },
+    "surge": {
+      "action_distribution": {
+        "accelerate": 85,
+        "damp": 72,
+        "flip": 19,
+        "hold": 172,
+        "shift": 166
+      },
+      "alive": 45,
+      "edits": 514,
+      "final_hp": 220,
+      "final_power": 373,
+      "paid_drafts": 0,
+      "rounds": 432,
+      "second_offer": 131,
+      "surges": 46,
+      "unused": 1214,
+      "win_rate_paired_policy": 0.5833,
+      "wins": 28
+    }
+  },
+  "decision": "NO PROMOTION; retain Forecast Market v0.5 research; production v0.1 unaffected",
+  "engine": "Phase 06 market + Phase 07 Council research wrappers",
+  "games_per_mode": 48,
+  "limitations": [
+    "Council uses easier but conditional scoring; raw wins are not comparable to Standard",
+    "The planner is short-horizon, not optimal and may overvalue surge formations",
+    "Seeds are not confirmed solvable/fair under actual information constraints",
+    "No multiplayer humans, no fun or replayability measurements",
+    "Benchmark omits action debt due to inability to faithfully implement it without changing core edit cap"
+  ],
+  "pass": "08",
+  "policy": "Mode-aware greedy per-edit with public formation forecast and Council timing awareness. NOT optimal and NOT human playtesting.",
+  "raw_data": {
+    "development": {
+      "games_per_mode": 24,
+      "heuristic": "Greedy per-edit same-round utility; Council-aware; no 2+ turn search",
+      "seed_range": [
+        16000,
+        16023
+      ],
+      "variants": {
+        "control": {
+          "totals": {
+            "alive": 24,
+            "edits": 283,
+            "final_hp": 115,
+            "final_power": 188,
+            "paid_drafts": 0,
+            "rounds": 216,
+            "second_offer": 67,
+            "surges": 0,
+            "unused": 581,
+            "wins": 17
+          },
+          "verbs": {
+            "accelerate": 48,
+            "damp": 50,
+            "flip": 9,
+            "hold": 94,
+            "shift": 82
+          }
+        },
+        "coolant_bid": {
+          "totals": {
+            "alive": 23,
+            "edits": 292,
+            "final_hp": 87,
+            "final_power": 189,
+            "paid_drafts": 42,
+            "rounds": 216,
+            "second_offer": 42,
+            "surges": 0,
+            "unused": 572,
+            "wins": 16
+          },
+          "verbs": {
+            "accelerate": 77,
+            "damp": 27,
+            "flip": 9,
+            "hold": 105,
+            "shift": 74
+          }
+        },
+        "council": {
+          "totals": {
+            "alive": 23,
+            "blackouts": 5,
+            "edits": 293,
+            "final_hp": 102,
+            "final_power": 148,
+            "paid_drafts": 0,
+            "rounds": 216,
+            "second_offer": 65,
+            "service": 67,
+            "surges": 0,
+            "unused": 571,
+            "wins": 19
+          },
+          "verbs": {
+            "accelerate": 50,
+            "damp": 55,
+            "flip": 8,
+            "hold": 100,
+            "shift": 80
+          }
+        },
+        "council_coolant": {
+          "totals": {
+            "alive": 19,
+            "blackouts": 8,
+            "edits": 297,
+            "final_hp": 68,
+            "final_power": 146,
+            "paid_drafts": 38,
+            "rounds": 213,
+            "second_offer": 38,
+            "service": 63,
+            "surges": 0,
+            "unused": 555,
+            "wins": 16
+          },
+          "verbs": {
+            "accelerate": 79,
+            "damp": 31,
+            "flip": 8,
+            "hold": 108,
+            "shift": 71
+          }
+        },
+        "power_bid": {
+          "totals": {
+            "alive": 19,
+            "edits": 357,
+            "final_hp": 66,
+            "final_power": 185,
+            "paid_drafts": 3,
+            "rounds": 215,
+            "second_offer": 3,
+            "surges": 0,
+            "unused": 503,
+            "wins": 12
+          },
+          "verbs": {
+            "accelerate": 72,
+            "damp": 62,
+            "flip": 17,
+            "hold": 135,
+            "shift": 71
+          }
+        },
+        "repair": {
+          "totals": {
+            "alive": 24,
+            "edits": 291,
+            "final_hp": 127,
+            "final_power": 186,
+            "paid_drafts": 0,
+            "rounds": 216,
+            "second_offer": 67,
+            "surges": 0,
+            "unused": 573,
+            "wins": 17
+          },
+          "verbs": {
+            "accelerate": 48,
+            "damp": 50,
+            "flip": 9,
+            "hold": 94,
+            "repair": 8,
+            "shift": 82
+          }
+        },
+        "surge": {
+          "totals": {
+            "alive": 24,
+            "edits": 261,
+            "final_hp": 120,
+            "final_power": 189,
+            "paid_drafts": 0,
+            "rounds": 216,
+            "second_offer": 60,
+            "surges": 24,
+            "unused": 603,
+            "wins": 15
+          },
+          "verbs": {
+            "accelerate": 47,
+            "damp": 36,
+            "flip": 13,
+            "hold": 79,
+            "shift": 86
+          }
+        }
+      }
+    },
+    "holdout": {
+      "games_per_mode": 24,
+      "heuristic": "Greedy per-edit same-round utility; Council-aware; no 2+ turn search",
+      "seed_range": [
+        17000,
+        17023
+      ],
+      "variants": {
+        "control": {
+          "totals": {
+            "alive": 23,
+            "edits": 300,
+            "final_hp": 105,
+            "final_power": 184,
+            "paid_drafts": 0,
+            "rounds": 216,
+            "second_offer": 86,
+            "surges": 0,
+            "unused": 564,
+            "wins": 15
+          },
+          "verbs": {
+            "accelerate": 56,
+            "damp": 50,
+            "flip": 8,
+            "hold": 107,
+            "shift": 79
+          }
+        },
+        "coolant_bid": {
+          "totals": {
+            "alive": 18,
+            "edits": 267,
+            "final_hp": 77,
+            "final_power": 184,
+            "paid_drafts": 48,
+            "rounds": 212,
+            "second_offer": 48,
+            "surges": 0,
+            "unused": 581,
+            "wins": 15
+          },
+          "verbs": {
+            "accelerate": 64,
+            "damp": 19,
+            "flip": 10,
+            "hold": 101,
+            "shift": 73
+          }
+        },
+        "council": {
+          "totals": {
+            "alive": 20,
+            "blackouts": 8,
+            "edits": 304,
+            "final_hp": 98,
+            "final_power": 146,
+            "paid_drafts": 0,
+            "rounds": 216,
+            "second_offer": 86,
+            "service": 64,
+            "surges": 0,
+            "unused": 560,
+            "wins": 19
+          },
+          "verbs": {
+            "accelerate": 56,
+            "damp": 58,
+            "flip": 6,
+            "hold": 106,
+            "shift": 78
+          }
+        },
+        "council_coolant": {
+          "totals": {
+            "alive": 17,
+            "blackouts": 5,
+            "edits": 262,
+            "final_hp": 72,
+            "final_power": 148,
+            "paid_drafts": 48,
+            "rounds": 211,
+            "second_offer": 48,
+            "service": 64,
+            "surges": 0,
+            "unused": 582,
+            "wins": 16
+          },
+          "verbs": {
+            "accelerate": 64,
+            "damp": 19,
+            "flip": 8,
+            "hold": 99,
+            "shift": 72
+          }
+        },
+        "power_bid": {
+          "totals": {
+            "alive": 15,
+            "edits": 336,
+            "final_hp": 67,
+            "final_power": 171,
+            "paid_drafts": 3,
+            "rounds": 206,
+            "second_offer": 3,
+            "surges": 0,
+            "unused": 488,
+            "wins": 11
+          },
+          "verbs": {
+            "accelerate": 62,
+            "damp": 57,
+            "flip": 10,
+            "hold": 132,
+            "shift": 75
+          }
+        },
+        "repair": {
+          "totals": {
+            "alive": 24,
+            "edits": 307,
+            "final_hp": 113,
+            "final_power": 183,
+            "paid_drafts": 0,
+            "rounds": 216,
+            "second_offer": 87,
+            "surges": 0,
+            "unused": 557,
+            "wins": 14
+          },
+          "verbs": {
+            "accelerate": 55,
+            "damp": 50,
+            "flip": 8,
+            "hold": 108,
+            "repair": 7,
+            "shift": 79
+          }
+        },
+        "surge": {
+          "totals": {
+            "alive": 21,
+            "edits": 253,
+            "final_hp": 100,
+            "final_power": 184,
+            "paid_drafts": 0,
+            "rounds": 216,
+            "second_offer": 71,
+            "surges": 22,
+            "unused": 611,
+            "wins": 13
+          },
+          "verbs": {
+            "accelerate": 38,
+            "damp": 36,
+            "flip": 6,
+            "hold": 93,
+            "shift": 80
+          }
+        }
+      }
+    }
+  },
+  "scenario_sets": [
+    [
+      16000,
+      16023
+    ],
+    [
+      17000,
+      17023
+    ]
+  ]
+}
