@@ -9,3 +9,6 @@ coverage/
 .env
 .env.*
 !.env.example
+
+# Staged-only GitHub Pages build output
+_site/

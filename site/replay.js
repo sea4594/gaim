@@ -97,3 +97,18 @@ async function initialize() {
   }
 }
 initialize();
+
+// This marker is absent from the older GitHub Pages README view. A successfully
+// published Actions artifact loads build-info.json alongside the replay data.
+async function showDeployment() {
+  try {
+    const response=await fetch('./build-info.json',{cache:'no-store'});
+    if (!response.ok) throw new Error('missing build marker');
+    const build=await response.json();
+    if (build.artifact!=='gaim-pages/pass17') throw new Error('unknown build marker');
+    text('deployment-id',`Pass 17 · ${build.source_commit.slice(0,12)} · static replay`);
+  } catch (_) {
+    text('deployment-id','Not published by the verified Pages workflow');
+  }
+}
+showDeployment();

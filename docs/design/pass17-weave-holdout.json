@@ -1,0 +1,66 @@
+{
+  "version": "pass-17/storm-weave-research",
+  "sample": 32,
+  "start": 270900,
+  "horizon": 4,
+  "initial_action_limit": 10,
+  "evaluated": 32,
+  "weave_better": 3,
+  "weave_worse": 12,
+  "same": 17,
+  "unaffordable": 0,
+  "mean_delta": 77.9234,
+  "witness": {
+    "seed": 270910,
+    "original": [
+      [
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ]
+    ],
+    "baseline": [
+      -1200,
+      1,
+      [
+        "shift",
+        3,
+        -1
+      ]
+    ],
+    "woven": [
+      43.650000000000006,
+      1,
+      [
+        "damp",
+        2
+      ]
+    ]
+  },
+  "limitations": [
+    "Synthetic replacement offers; not shipping procedural distribution",
+    "Same restricted candidate action list, optimized with full knowledge of both cards",
+    "All subsequent edits pass; no multi-player co-authorship tested",
+    "Uses heuristic score, not verified full-game win probability",
+    "Cooldown/cost modeled as one coolant; the simultaneous edit cost is not modeled"
+  ]
+}

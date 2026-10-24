@@ -1,0 +1,41 @@
+name: Deploy verified GAIM preview
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: gaim-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify all gameplay and website contracts
+        run: bash scripts/release_gate.sh
+      - name: Assemble minimal public artifact
+        run: python scripts/build_pages.py --out _site
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload static preview
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Deploy verified preview
+        id: deployment
+        uses: actions/deploy-pages@v4
