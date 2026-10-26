@@ -1,0 +1,88 @@
+{
+  "engine": {
+    "dynamo_aegis": {
+      "wins": 30,
+      "avg_hull": 4.28,
+      "builds": 159,
+      "action_edits": 351
+    },
+    "aegis_switchyard": {
+      "wins": 34,
+      "avg_hull": 5.25,
+      "builds": 160,
+      "action_edits": 354
+    },
+    "dynamo_switchyard": {
+      "wins": 19,
+      "avg_hull": 1.8,
+      "builds": 160,
+      "action_edits": 350
+    },
+    "no_build": {
+      "wins": 0,
+      "avg_hull": 1.8,
+      "builds": 0,
+      "action_edits": 350
+    },
+    "multiple_upgrade_paths_winning": 25
+  },
+  "operations": {
+    "1": {
+      "pass": {
+        "wins": 3,
+        "average_rounds": 5.5,
+        "per_seat_actions": 0.0,
+        "avg_hull": -0.28
+      },
+      "active": {
+        "wins": 11,
+        "average_rounds": 7.55,
+        "per_seat_actions": 2.75,
+        "avg_hull": 1.8
+      }
+    },
+    "2": {
+      "pass": {
+        "wins": 0,
+        "average_rounds": 4.5,
+        "per_seat_actions": 0.0,
+        "avg_hull": -0.38
+      },
+      "active": {
+        "wins": 17,
+        "average_rounds": 7.55,
+        "per_seat_actions": 3.3,
+        "avg_hull": 1.62
+      }
+    },
+    "3": {
+      "pass": {
+        "wins": 0,
+        "average_rounds": 4.35,
+        "per_seat_actions": 0.0,
+        "avg_hull": -1.27
+      },
+      "active": {
+        "wins": 27,
+        "average_rounds": 7.7,
+        "per_seat_actions": 3.29,
+        "avg_hull": 2.7
+      }
+    },
+    "4": {
+      "pass": {
+        "wins": 0,
+        "average_rounds": 4.2,
+        "per_seat_actions": 0.0,
+        "avg_hull": -1.23
+      },
+      "active": {
+        "wins": 37,
+        "average_rounds": 7.92,
+        "per_seat_actions": 3.24,
+        "avg_hull": 4.25
+      }
+    }
+  },
+  "methodology": "Heuristic policies with full public current/next wave only; not difficulty or fun estimates."
+}

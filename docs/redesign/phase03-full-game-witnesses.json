@@ -1,0 +1,3996 @@
+{
+  "engine_contested_seed": {
+    "results": {
+      "aegis_switchyard": {
+        "history": [
+          {
+            "bonus": 0,
+            "build": 1,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [],
+            "free": null,
+            "hull": 6,
+            "levels": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              0
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 0,
+            "raw": [
+              0,
+              0,
+              0
+            ],
+            "round": 1,
+            "shield": 0
+          },
+          {
+            "bonus": 0,
+            "build": null,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [
+              {
+                "kind": "HOLD",
+                "token": "r1t0"
+              },
+              {
+                "kind": "HOLD",
+                "token": "r1t1"
+              }
+            ],
+            "free": null,
+            "hull": 6,
+            "levels": [
+              0,
+              1,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              0
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 0,
+            "raw": [
+              0,
+              0,
+              0
+            ],
+            "round": 2,
+            "shield": 1
+          },
+          {
+            "bonus": 0,
+            "build": null,
+            "damage": 1,
+            "deadline": 0,
+            "edits": [
+              {
+                "delta": -1,
+                "kind": "SHIFT",
+                "token": "r1t0"
+              },
+              {
+                "delta": 1,
+                "kind": "SHIFT",
+                "token": "r1t1"
+              }
+            ],
+            "free": null,
+            "hull": 5,
+            "levels": [
+              0,
+              1,
+              0
+            ],
+            "matched": [
+              0,
+              2,
+              2
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 4,
+            "raw": [
+              1,
+              1,
+              0
+            ],
+            "round": 3,
+            "shield": 1
+          },
+          {
+            "bonus": 0,
+            "build": 1,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [
+              {
+                "kind": "DAMP",
+                "token": "r3t0"
+              },
+              {
+                "kind": "HOLD",
+                "token": "r3t2"
+              }
+            ],
+            "free": null,
+            "hull": 5,
+            "levels": [
+              0,
+              1,
+              0
+            ],
+            "matched": [
+              1,
+              0,
+              0
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 3,
+            "raw": [
+              0,
+              0,
+              0
+            ],
+            "round": 4,
+            "shield": 1
+          },
+          {
+            "bonus": 0,
+            "build": 2,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [
+              {
+                "kind": "DAMP",
+                "token": "r3t2"
+              },
+              {
+                "kind": "HOLD",
+                "token": "r4t2"
+              }
+            ],
+            "free": null,
+            "hull": 5,
+            "levels": [
+              0,
+              2,
+              0
+            ],
+            "matched": [
+              1,
+              0,
+              0
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 2,
+            "raw": [
+              0,
+              0,
+              1
+            ],
+            "round": 5,
+            "shield": 2
+          },
+          {
+            "bonus": 0,
+            "build": 2,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [
+              {
+                "delta": 1,
+                "kind": "SHIFT",
+                "token": "r4t2"
+              },
+              {
+                "kind": "HOLD",
+                "token": "r5t0"
+              }
+            ],
+            "free": null,
+            "hull": 5,
+            "levels": [
+              0,
+              2,
+              1
+            ],
+            "matched": [
+              0,
+              0,
+              2
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 2,
+            "raw": [
+              0,
+              0,
+              0
+            ],
+            "round": 6,
+            "shield": 2
+          },
+          {
+            "bonus": 0,
+            "build": null,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [
+              {
+                "kind": "HOLD",
+                "token": "r6t0"
+              }
+            ],
+            "free": null,
+            "hull": 5,
+            "levels": [
+              0,
+              2,
+              2
+            ],
+            "matched": [
+              0,
+              0,
+              2
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 4,
+            "raw": [
+              0,
+              0,
+              0
+            ],
+            "round": 7,
+            "shield": 2
+          },
+          {
+            "bonus": 0,
+            "build": null,
+            "damage": 1,
+            "deadline": 0,
+            "edits": [],
+            "free": null,
+            "hull": 4,
+            "levels": [
+              0,
+              2,
+              2
+            ],
+            "matched": [
+              0,
+              0,
+              2
+            ],
+            "next_outages": [
+              false,
+              true,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": "WIN",
+            "power": 6,
+            "raw": [
+              0,
+              2,
+              1
+            ],
+            "round": 8,
+            "shield": 2
+          }
+        ],
+        "hull": 4,
+        "levels": [
+          0,
+          2,
+          2
+        ],
+        "outcome": "WIN"
+      },
+      "dynamo_aegis": {
+        "history": [
+          {
+            "bonus": 0,
+            "build": 0,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [],
+            "free": null,
+            "hull": 6,
+            "levels": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              0
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 0,
+            "raw": [
+              0,
+              0,
+              0
+            ],
+            "round": 1,
+            "shield": 0
+          },
+          {
+            "bonus": 0,
+            "build": null,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [
+              {
+                "kind": "HOLD",
+                "token": "r1t0"
+              },
+              {
+                "kind": "HOLD",
+                "token": "r1t1"
+              }
+            ],
+            "free": null,
+            "hull": 6,
+            "levels": [
+              1,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              0
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 0,
+            "raw": [
+              0,
+              0,
+              0
+            ],
+            "round": 2,
+            "shield": 0
+          },
+          {
+            "bonus": 0,
+            "build": null,
+            "damage": 2,
+            "deadline": 0,
+            "edits": [
+              {
+                "delta": -1,
+                "kind": "SHIFT",
+                "token": "r1t0"
+              },
+              {
+                "delta": 1,
+                "kind": "SHIFT",
+                "token": "r1t1"
+              }
+            ],
+            "free": null,
+            "hull": 4,
+            "levels": [
+              1,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              2,
+              2
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 4,
+            "raw": [
+              1,
+              1,
+              0
+            ],
+            "round": 3,
+            "shield": 0
+          },
+          {
+            "bonus": 1,
+            "build": 0,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [
+              {
+                "kind": "DAMP",
+                "token": "r3t0"
+              },
+              {
+                "kind": "HOLD",
+                "token": "r3t2"
+              }
+            ],
+            "free": null,
+            "hull": 4,
+            "levels": [
+              1,
+              0,
+              0
+            ],
+            "matched": [
+              1,
+              0,
+              0
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 4,
+            "raw": [
+              0,
+              0,
+              0
+            ],
+            "round": 4,
+            "shield": 0
+          },
+          {
+            "bonus": 1,
+            "build": 1,
+            "damage": 1,
+            "deadline": 0,
+            "edits": [
+              {
+                "kind": "DAMP",
+                "token": "r3t2"
+              },
+              {
+                "kind": "HOLD",
+                "token": "r4t2"
+              }
+            ],
+            "free": null,
+            "hull": 3,
+            "levels": [
+              2,
+              0,
+              0
+            ],
+            "matched": [
+              1,
+              0,
+              0
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 4,
+            "raw": [
+              0,
+              0,
+              1
+            ],
+            "round": 5,
+            "shield": 0
+          },
+          {
+            "bonus": 1,
+            "build": 1,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [
+              {
+                "delta": 1,
+                "kind": "SHIFT",
+                "token": "r4t2"
+              },
+              {
+                "kind": "HOLD",
+                "token": "r5t0"
+              }
+            ],
+            "free": null,
+            "hull": 3,
+            "levels": [
+              2,
+              1,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              2
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 5,
+            "raw": [
+              0,
+              0,
+              0
+            ],
+            "round": 6,
+            "shield": 1
+          },
+          {
+            "bonus": 1,
+            "build": null,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [
+              {
+                "kind": "HOLD",
+                "token": "r6t0"
+              }
+            ],
+            "free": null,
+            "hull": 3,
+            "levels": [
+              2,
+              2,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              2
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 8,
+            "raw": [
+              0,
+              0,
+              0
+            ],
+            "round": 7,
+            "shield": 2
+          },
+          {
+            "bonus": 1,
+            "build": null,
+            "damage": 1,
+            "deadline": 0,
+            "edits": [],
+            "free": null,
+            "hull": 2,
+            "levels": [
+              2,
+              2,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              2
+            ],
+            "next_outages": [
+              false,
+              true,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": "WIN",
+            "power": 8,
+            "raw": [
+              0,
+              2,
+              1
+            ],
+            "round": 8,
+            "shield": 2
+          }
+        ],
+        "hull": 2,
+        "levels": [
+          2,
+          2,
+          0
+        ],
+        "outcome": "WIN"
+      },
+      "dynamo_switchyard": {
+        "history": [
+          {
+            "bonus": 0,
+            "build": 0,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [],
+            "free": null,
+            "hull": 6,
+            "levels": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              0
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 0,
+            "raw": [
+              0,
+              0,
+              0
+            ],
+            "round": 1,
+            "shield": 0
+          },
+          {
+            "bonus": 0,
+            "build": null,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [
+              {
+                "kind": "HOLD",
+                "token": "r1t0"
+              },
+              {
+                "kind": "HOLD",
+                "token": "r1t1"
+              }
+            ],
+            "free": null,
+            "hull": 6,
+            "levels": [
+              1,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              0
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 0,
+            "raw": [
+              0,
+              0,
+              0
+            ],
+            "round": 2,
+            "shield": 0
+          },
+          {
+            "bonus": 0,
+            "build": null,
+            "damage": 2,
+            "deadline": 0,
+            "edits": [
+              {
+                "delta": -1,
+                "kind": "SHIFT",
+                "token": "r1t0"
+              },
+              {
+                "delta": 1,
+                "kind": "SHIFT",
+                "token": "r1t1"
+              }
+            ],
+            "free": null,
+            "hull": 4,
+            "levels": [
+              1,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              2,
+              2
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 4,
+            "raw": [
+              1,
+              1,
+              0
+            ],
+            "round": 3,
+            "shield": 0
+          },
+          {
+            "bonus": 1,
+            "build": 0,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [
+              {
+                "kind": "DAMP",
+                "token": "r3t0"
+              },
+              {
+                "kind": "HOLD",
+                "token": "r3t2"
+              }
+            ],
+            "free": null,
+            "hull": 4,
+            "levels": [
+              1,
+              0,
+              0
+            ],
+            "matched": [
+              1,
+              0,
+              0
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 4,
+            "raw": [
+              0,
+              0,
+              0
+            ],
+            "round": 4,
+            "shield": 0
+          },
+          {
+            "bonus": 1,
+            "build": 2,
+            "damage": 1,
+            "deadline": 0,
+            "edits": [
+              {
+                "kind": "DAMP",
+                "token": "r3t2"
+              },
+              {
+                "kind": "HOLD",
+                "token": "r4t2"
+              }
+            ],
+            "free": null,
+            "hull": 3,
+            "levels": [
+              2,
+              0,
+              0
+            ],
+            "matched": [
+              1,
+              0,
+              0
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 4,
+            "raw": [
+              0,
+              0,
+              1
+            ],
+            "round": 5,
+            "shield": 0
+          },
+          {
+            "bonus": 1,
+            "build": 2,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [
+              {
+                "delta": 1,
+                "kind": "SHIFT",
+                "token": "r4t2"
+              },
+              {
+                "kind": "HOLD",
+                "token": "r5t0"
+              }
+            ],
+            "free": null,
+            "hull": 3,
+            "levels": [
+              2,
+              0,
+              1
+            ],
+            "matched": [
+              0,
+              0,
+              2
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 5,
+            "raw": [
+              0,
+              0,
+              0
+            ],
+            "round": 6,
+            "shield": 0
+          },
+          {
+            "bonus": 1,
+            "build": null,
+            "damage": 0,
+            "deadline": 0,
+            "edits": [
+              {
+                "kind": "HOLD",
+                "token": "r6t0"
+              }
+            ],
+            "free": null,
+            "hull": 3,
+            "levels": [
+              2,
+              0,
+              2
+            ],
+            "matched": [
+              0,
+              0,
+              2
+            ],
+            "next_outages": [
+              false,
+              false,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": null,
+            "power": 8,
+            "raw": [
+              0,
+              0,
+              0
+            ],
+            "round": 7,
+            "shield": 0
+          },
+          {
+            "bonus": 1,
+            "build": null,
+            "damage": 3,
+            "deadline": 0,
+            "edits": [],
+            "free": null,
+            "hull": 0,
+            "levels": [
+              2,
+              0,
+              2
+            ],
+            "matched": [
+              0,
+              0,
+              2
+            ],
+            "next_outages": [
+              false,
+              true,
+              false
+            ],
+            "offline": [
+              false,
+              false,
+              false
+            ],
+            "outcome": "LOSS_HULL",
+            "power": 8,
+            "raw": [
+              0,
+              2,
+              1
+            ],
+            "round": 8,
+            "shield": 0
+          }
+        ],
+        "hull": 0,
+        "levels": [
+          2,
+          0,
+          2
+        ],
+        "outcome": "LOSS_HULL"
+      }
+    },
+    "seed": 5002,
+    "waves": [
+      [
+        {
+          "lane": 2,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 0,
+          "sign": -1,
+          "strength": 1
+        }
+      ],
+      [
+        {
+          "lane": 2,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 2,
+          "sign": -1,
+          "strength": 2
+        },
+        {
+          "lane": 0,
+          "sign": 1,
+          "strength": 1
+        }
+      ],
+      [
+        {
+          "lane": 0,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 0,
+          "sign": -1,
+          "strength": 1
+        },
+        {
+          "lane": 2,
+          "sign": 1,
+          "strength": 1
+        }
+      ],
+      [
+        {
+          "lane": 0,
+          "sign": 1,
+          "strength": 1
+        },
+        {
+          "lane": 0,
+          "sign": -1,
+          "strength": 1
+        },
+        {
+          "lane": 1,
+          "sign": 1,
+          "strength": 1
+        }
+      ],
+      [
+        {
+          "lane": 2,
+          "sign": 1,
+          "strength": 1
+        },
+        {
+          "lane": 2,
+          "sign": -1,
+          "strength": 2
+        }
+      ],
+      [
+        {
+          "lane": 2,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 2,
+          "sign": -1,
+          "strength": 2
+        }
+      ],
+      [
+        {
+          "lane": 1,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 2,
+          "sign": -1,
+          "strength": 2
+        }
+      ],
+      []
+    ]
+  },
+  "engine_phase02_fixture": {
+    "decisions": {
+      "1": {
+        "build": 0
+      },
+      "3": {
+        "build": 0
+      },
+      "4": {
+        "build": 1
+      },
+      "5": {
+        "build": 1
+      }
+    },
+    "final_levels": [
+      2,
+      2,
+      0
+    ],
+    "history": [
+      {
+        "bonus": 0,
+        "build": 0,
+        "damage": 0,
+        "deadline": 0,
+        "edits": [],
+        "free": null,
+        "hull": 6,
+        "levels": [
+          0,
+          0,
+          0
+        ],
+        "matched": [
+          0,
+          0,
+          0
+        ],
+        "next_outages": [
+          false,
+          false,
+          false
+        ],
+        "offline": [
+          false,
+          false,
+          false
+        ],
+        "outcome": null,
+        "power": 0,
+        "raw": [
+          0,
+          0,
+          0
+        ],
+        "round": 1,
+        "shield": 0
+      },
+      {
+        "bonus": 1,
+        "build": null,
+        "damage": 0,
+        "deadline": 0,
+        "edits": [],
+        "free": null,
+        "hull": 6,
+        "levels": [
+          1,
+          0,
+          0
+        ],
+        "matched": [
+          2,
+          0,
+          0
+        ],
+        "next_outages": [
+          false,
+          false,
+          false
+        ],
+        "offline": [
+          false,
+          false,
+          false
+        ],
+        "outcome": null,
+        "power": 3,
+        "raw": [
+          0,
+          0,
+          0
+        ],
+        "round": 2,
+        "shield": 0
+      },
+      {
+        "bonus": 0,
+        "build": 0,
+        "damage": 0,
+        "deadline": 0,
+        "edits": [],
+        "free": null,
+        "hull": 6,
+        "levels": [
+          1,
+          0,
+          0
+        ],
+        "matched": [
+          0,
+          2,
+          0
+        ],
+        "next_outages": [
+          false,
+          false,
+          false
+        ],
+        "offline": [
+          false,
+          false,
+          false
+        ],
+        "outcome": null,
+        "power": 3,
+        "raw": [
+          0,
+          0,
+          0
+        ],
+        "round": 3,
+        "shield": 0
+      },
+      {
+        "bonus": 1,
+        "build": 1,
+        "damage": 0,
+        "deadline": 0,
+        "edits": [],
+        "free": null,
+        "hull": 6,
+        "levels": [
+          2,
+          0,
+          0
+        ],
+        "matched": [
+          0,
+          0,
+          2
+        ],
+        "next_outages": [
+          false,
+          false,
+          false
+        ],
+        "offline": [
+          false,
+          false,
+          false
+        ],
+        "outcome": null,
+        "power": 4,
+        "raw": [
+          0,
+          0,
+          0
+        ],
+        "round": 4,
+        "shield": 0
+      },
+      {
+        "bonus": 1,
+        "build": 1,
+        "damage": 0,
+        "deadline": 0,
+        "edits": [],
+        "free": null,
+        "hull": 6,
+        "levels": [
+          2,
+          1,
+          0
+        ],
+        "matched": [
+          2,
+          0,
+          0
+        ],
+        "next_outages": [
+          false,
+          false,
+          false
+        ],
+        "offline": [
+          false,
+          false,
+          false
+        ],
+        "outcome": null,
+        "power": 5,
+        "raw": [
+          0,
+          0,
+          0
+        ],
+        "round": 5,
+        "shield": 1
+      },
+      {
+        "bonus": 1,
+        "build": null,
+        "damage": 0,
+        "deadline": 0,
+        "edits": [],
+        "free": null,
+        "hull": 6,
+        "levels": [
+          2,
+          2,
+          0
+        ],
+        "matched": [
+          0,
+          2,
+          0
+        ],
+        "next_outages": [
+          false,
+          false,
+          false
+        ],
+        "offline": [
+          false,
+          false,
+          false
+        ],
+        "outcome": null,
+        "power": 8,
+        "raw": [
+          0,
+          0,
+          0
+        ],
+        "round": 6,
+        "shield": 2
+      },
+      {
+        "bonus": 1,
+        "build": null,
+        "damage": 0,
+        "deadline": 0,
+        "edits": [],
+        "free": null,
+        "hull": 6,
+        "levels": [
+          2,
+          2,
+          0
+        ],
+        "matched": [
+          0,
+          0,
+          2
+        ],
+        "next_outages": [
+          false,
+          false,
+          false
+        ],
+        "offline": [
+          false,
+          false,
+          false
+        ],
+        "outcome": null,
+        "power": 8,
+        "raw": [
+          0,
+          0,
+          0
+        ],
+        "round": 7,
+        "shield": 2
+      },
+      {
+        "bonus": 0,
+        "build": null,
+        "damage": 0,
+        "deadline": 0,
+        "edits": [],
+        "free": null,
+        "hull": 6,
+        "levels": [
+          2,
+          2,
+          0
+        ],
+        "matched": [
+          0,
+          0,
+          0
+        ],
+        "next_outages": [
+          false,
+          false,
+          false
+        ],
+        "offline": [
+          false,
+          false,
+          false
+        ],
+        "outcome": "WIN",
+        "power": 8,
+        "raw": [
+          0,
+          0,
+          0
+        ],
+        "round": 8,
+        "shield": 2
+      }
+    ],
+    "outcome": "WIN",
+    "waves": [
+      [
+        {
+          "lane": 0,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 0,
+          "sign": -1,
+          "strength": 2
+        }
+      ],
+      [
+        {
+          "lane": 1,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 1,
+          "sign": -1,
+          "strength": 2
+        }
+      ],
+      [
+        {
+          "lane": 2,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 2,
+          "sign": -1,
+          "strength": 2
+        }
+      ],
+      [
+        {
+          "lane": 0,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 0,
+          "sign": -1,
+          "strength": 2
+        }
+      ],
+      [
+        {
+          "lane": 1,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 1,
+          "sign": -1,
+          "strength": 2
+        }
+      ],
+      [
+        {
+          "lane": 2,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 2,
+          "sign": -1,
+          "strength": 2
+        }
+      ],
+      [],
+      []
+    ]
+  },
+  "operations_by_player_count": {
+    "1": {
+      "active": {
+        "completed": [
+          "deep_capture",
+          "precision_route"
+        ],
+        "history": [
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "RIGHT",
+                "LEFT",
+                "HOLD",
+                "DAMP"
+              ]
+            ],
+            "hull": 5,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              0
+            ],
+            "missions": [],
+            "order": [
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              0
+            ],
+            "round": 1,
+            "seat_order": [
+              0
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "RIGHT",
+                "HOLD",
+                "DAMP",
+                "DAMP"
+              ]
+            ],
+            "hull": 4,
+            "leaks": [
+              0,
+              1,
+              0
+            ],
+            "matched": [
+              0,
+              1,
+              0
+            ],
+            "missions": [],
+            "order": [
+              [
+                {
+                  "kind": "LEFT",
+                  "token": "r1t0"
+                }
+              ]
+            ],
+            "outcome": null,
+            "played_by": [
+              1
+            ],
+            "round": 2,
+            "seat_order": [
+              0
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "HOLD",
+                "DAMP",
+                "DAMP",
+                "RIGHT"
+              ]
+            ],
+            "hull": 4,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              2
+            ],
+            "missions": [
+              "deep_capture"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "RIGHT",
+                  "token": "r2t1"
+                }
+              ]
+            ],
+            "outcome": null,
+            "played_by": [
+              2
+            ],
+            "round": 3,
+            "seat_order": [
+              0
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "HOLD",
+                "DAMP",
+                "RIGHT",
+                "HOLD"
+              ]
+            ],
+            "hull": 4,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              1,
+              0
+            ],
+            "missions": [
+              "deep_capture"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "DAMP",
+                  "token": "r3t0"
+                }
+              ]
+            ],
+            "outcome": null,
+            "played_by": [
+              3
+            ],
+            "round": 4,
+            "seat_order": [
+              0
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "HOLD",
+                "DAMP",
+                "RIGHT",
+                "HOLD"
+              ]
+            ],
+            "hull": 4,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              1,
+              0,
+              0
+            ],
+            "missions": [
+              "deep_capture"
+            ],
+            "order": [
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              3
+            ],
+            "round": 5,
+            "seat_order": [
+              0
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "HOLD",
+                "DAMP",
+                "RIGHT",
+                "HOLD"
+              ]
+            ],
+            "hull": 4,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              2,
+              0,
+              0
+            ],
+            "missions": [
+              "deep_capture"
+            ],
+            "order": [
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              3
+            ],
+            "round": 6,
+            "seat_order": [
+              0
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "HOLD",
+                "DAMP",
+                "RIGHT",
+                "HOLD"
+              ]
+            ],
+            "hull": 4,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              1,
+              0
+            ],
+            "missions": [
+              "deep_capture",
+              "precision_route"
+            ],
+            "order": [
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              3
+            ],
+            "round": 7,
+            "seat_order": [
+              0
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "HOLD",
+                "DAMP",
+                "RIGHT",
+                "HOLD"
+              ]
+            ],
+            "hull": 4,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              0
+            ],
+            "missions": [
+              "deep_capture",
+              "precision_route"
+            ],
+            "order": [
+              []
+            ],
+            "outcome": "WIN",
+            "played_by": [
+              3
+            ],
+            "round": 8,
+            "seat_order": [
+              0
+            ]
+          }
+        ],
+        "hull": 4,
+        "outcome": "WIN",
+        "played_by": [
+          3
+        ]
+      },
+      "passive": {
+        "hull": -2,
+        "last_round": 3,
+        "outcome": "LOSS_HULL"
+      },
+      "players": 1,
+      "seed": 7000,
+      "starting_hands": [
+        [
+          "RIGHT",
+          "LEFT",
+          "HOLD",
+          "DAMP"
+        ]
+      ],
+      "waves": [
+        [
+          {
+            "lane": 2,
+            "sign": 1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "sign": 1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "sign": 1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "sign": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "sign": 1,
+            "strength": 2
+          },
+          {
+            "lane": 0,
+            "sign": -1,
+            "strength": 2
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 1
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    "2": {
+      "active": {
+        "completed": [
+          "deep_capture",
+          "precision_route"
+        ],
+        "history": [
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "RIGHT",
+                "LEFT",
+                "HOLD"
+              ],
+              [
+                "HOLD",
+                "DAMP",
+                "FLIP"
+              ]
+            ],
+            "hull": 6,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              0
+            ],
+            "missions": [],
+            "order": [
+              [],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              0,
+              0
+            ],
+            "round": 1,
+            "seat_order": [
+              0,
+              1
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "RIGHT",
+                "LEFT",
+                "DAMP"
+              ],
+              [
+                "HOLD",
+                "DAMP",
+                "FLIP"
+              ]
+            ],
+            "hull": 6,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              1
+            ],
+            "missions": [],
+            "order": [
+              [
+                {
+                  "kind": "HOLD",
+                  "token": "r1t2"
+                }
+              ],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              1,
+              0
+            ],
+            "round": 2,
+            "seat_order": [
+              1,
+              0
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "RIGHT",
+                "DAMP",
+                "DAMP"
+              ],
+              [
+                "HOLD",
+                "DAMP",
+                "FLIP"
+              ]
+            ],
+            "hull": 6,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              3,
+              0
+            ],
+            "missions": [
+              "deep_capture"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "LEFT",
+                  "token": "r2t2"
+                }
+              ],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              2,
+              0
+            ],
+            "round": 3,
+            "seat_order": [
+              0,
+              1
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "DAMP",
+                "DAMP",
+                "RIGHT"
+              ],
+              [
+                "HOLD",
+                "FLIP",
+                "RIGHT"
+              ]
+            ],
+            "hull": 6,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              1
+            ],
+            "missions": [
+              "deep_capture"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "RIGHT",
+                  "token": "r3t0"
+                }
+              ],
+              [
+                {
+                  "kind": "DAMP",
+                  "token": "r3t2"
+                }
+              ]
+            ],
+            "outcome": null,
+            "played_by": [
+              3,
+              1
+            ],
+            "round": 4,
+            "seat_order": [
+              1,
+              0
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "DAMP",
+                "RIGHT",
+                "HOLD"
+              ],
+              [
+                "HOLD",
+                "FLIP",
+                "RIGHT"
+              ]
+            ],
+            "hull": 6,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              2,
+              0,
+              0
+            ],
+            "missions": [
+              "deep_capture"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "DAMP",
+                  "token": "r4t2"
+                }
+              ],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              4,
+              1
+            ],
+            "round": 5,
+            "seat_order": [
+              0,
+              1
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "DAMP",
+                "RIGHT",
+                "FLIP"
+              ],
+              [
+                "HOLD",
+                "FLIP",
+                "RIGHT"
+              ]
+            ],
+            "hull": 6,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              1,
+              0
+            ],
+            "missions": [
+              "deep_capture",
+              "precision_route"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "HOLD",
+                  "token": "r5t0"
+                }
+              ],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              5,
+              1
+            ],
+            "round": 6,
+            "seat_order": [
+              1,
+              0
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "DAMP",
+                "RIGHT",
+                "LEFT"
+              ],
+              [
+                "HOLD",
+                "FLIP",
+                "LEFT"
+              ]
+            ],
+            "hull": 6,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              4,
+              0
+            ],
+            "missions": [
+              "deep_capture",
+              "precision_route"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "FLIP",
+                  "token": "r6t0"
+                }
+              ],
+              [
+                {
+                  "kind": "RIGHT",
+                  "token": "r6t2"
+                }
+              ]
+            ],
+            "outcome": null,
+            "played_by": [
+              6,
+              2
+            ],
+            "round": 7,
+            "seat_order": [
+              0,
+              1
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "DAMP",
+                "RIGHT",
+                "LEFT"
+              ],
+              [
+                "HOLD",
+                "FLIP",
+                "LEFT"
+              ]
+            ],
+            "hull": 6,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              0
+            ],
+            "missions": [
+              "deep_capture",
+              "precision_route"
+            ],
+            "order": [
+              [],
+              []
+            ],
+            "outcome": "WIN",
+            "played_by": [
+              6,
+              2
+            ],
+            "round": 8,
+            "seat_order": [
+              1,
+              0
+            ]
+          }
+        ],
+        "hull": 6,
+        "outcome": "WIN",
+        "played_by": [
+          6,
+          2
+        ]
+      },
+      "passive": {
+        "hull": 0,
+        "last_round": 4,
+        "outcome": "LOSS_HULL"
+      },
+      "players": 2,
+      "seed": 7000,
+      "starting_hands": [
+        [
+          "RIGHT",
+          "LEFT",
+          "HOLD"
+        ],
+        [
+          "HOLD",
+          "DAMP",
+          "FLIP"
+        ]
+      ],
+      "waves": [
+        [
+          {
+            "lane": 2,
+            "sign": 1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 2
+          },
+          {
+            "lane": 2,
+            "sign": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "sign": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "sign": 1,
+            "strength": 2
+          },
+          {
+            "lane": 0,
+            "sign": -1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 2
+          },
+          {
+            "lane": 0,
+            "sign": 1,
+            "strength": 1
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    "3": {
+      "active": {
+        "completed": [
+          "deep_capture",
+          "precision_route",
+          "double_pulse"
+        ],
+        "history": [
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "RIGHT",
+                "LEFT",
+                "HOLD"
+              ],
+              [
+                "HOLD",
+                "DAMP",
+                "FLIP"
+              ],
+              [
+                "DAMP",
+                "LEFT",
+                "RIGHT"
+              ]
+            ],
+            "hull": 7,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              0
+            ],
+            "missions": [],
+            "order": [
+              [],
+              [],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              0,
+              0,
+              0
+            ],
+            "round": 1,
+            "seat_order": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "RIGHT",
+                "HOLD",
+                "DAMP"
+              ],
+              [
+                "HOLD",
+                "FLIP",
+                "RIGHT"
+              ],
+              [
+                "DAMP",
+                "LEFT",
+                "RIGHT"
+              ]
+            ],
+            "hull": 7,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              2,
+              0
+            ],
+            "missions": [
+              "deep_capture"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "LEFT",
+                  "token": "r1t3"
+                }
+              ],
+              [
+                {
+                  "kind": "DAMP",
+                  "token": "r1t1"
+                }
+              ],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              1,
+              1,
+              0
+            ],
+            "round": 2,
+            "seat_order": [
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "HOLD",
+                "DAMP",
+                "DAMP"
+              ],
+              [
+                "HOLD",
+                "FLIP",
+                "LEFT"
+              ],
+              [
+                "LEFT",
+                "RIGHT",
+                "HOLD"
+              ]
+            ],
+            "hull": 7,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              1,
+              1
+            ],
+            "missions": [
+              "deep_capture",
+              "precision_route"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "RIGHT",
+                  "token": "r2t1"
+                }
+              ],
+              [
+                {
+                  "kind": "RIGHT",
+                  "token": "r2t3"
+                }
+              ],
+              [
+                {
+                  "kind": "DAMP",
+                  "token": "r2t1"
+                }
+              ]
+            ],
+            "outcome": null,
+            "played_by": [
+              2,
+              2,
+              1
+            ],
+            "round": 3,
+            "seat_order": [
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "HOLD",
+                "DAMP",
+                "DAMP"
+              ],
+              [
+                "HOLD",
+                "FLIP",
+                "LEFT"
+              ],
+              [
+                "LEFT",
+                "RIGHT",
+                "HOLD"
+              ]
+            ],
+            "hull": 7,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              1,
+              1
+            ],
+            "missions": [
+              "deep_capture",
+              "precision_route",
+              "double_pulse"
+            ],
+            "order": [
+              [],
+              [],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              2,
+              2,
+              1
+            ],
+            "round": 4,
+            "seat_order": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "HOLD",
+                "DAMP",
+                "RIGHT"
+              ],
+              [
+                "FLIP",
+                "LEFT",
+                "RIGHT"
+              ],
+              [
+                "LEFT",
+                "RIGHT",
+                "HOLD"
+              ]
+            ],
+            "hull": 7,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              2,
+              0,
+              0
+            ],
+            "missions": [
+              "deep_capture",
+              "precision_route",
+              "double_pulse"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "DAMP",
+                  "token": "r4t2"
+                }
+              ],
+              [
+                {
+                  "kind": "HOLD",
+                  "token": "r4t3"
+                }
+              ],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              3,
+              3,
+              1
+            ],
+            "round": 5,
+            "seat_order": [
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "HOLD",
+                "DAMP",
+                "HOLD"
+              ],
+              [
+                "FLIP",
+                "LEFT",
+                "RIGHT"
+              ],
+              [
+                "LEFT",
+                "RIGHT",
+                "DAMP"
+              ]
+            ],
+            "hull": 6,
+            "leaks": [
+              0,
+              0,
+              1
+            ],
+            "matched": [
+              0,
+              0,
+              3
+            ],
+            "missions": [
+              "deep_capture",
+              "precision_route",
+              "double_pulse"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "RIGHT",
+                  "token": "r4t3"
+                }
+              ],
+              [],
+              [
+                {
+                  "kind": "HOLD",
+                  "token": "r5t3"
+                }
+              ]
+            ],
+            "outcome": null,
+            "played_by": [
+              4,
+              3,
+              2
+            ],
+            "round": 6,
+            "seat_order": [
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "HOLD",
+                "HOLD",
+                "FLIP"
+              ],
+              [
+                "FLIP",
+                "RIGHT",
+                "DAMP"
+              ],
+              [
+                "LEFT",
+                "RIGHT",
+                "RIGHT"
+              ]
+            ],
+            "hull": 6,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              2,
+              0,
+              0
+            ],
+            "missions": [
+              "deep_capture",
+              "precision_route",
+              "double_pulse"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "DAMP",
+                  "token": "r5t3"
+                }
+              ],
+              [
+                {
+                  "kind": "LEFT",
+                  "token": "r5t3"
+                }
+              ],
+              [
+                {
+                  "kind": "DAMP",
+                  "token": "r6t2"
+                }
+              ]
+            ],
+            "outcome": null,
+            "played_by": [
+              5,
+              4,
+              3
+            ],
+            "round": 7,
+            "seat_order": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "HOLD",
+                "HOLD",
+                "FLIP"
+              ],
+              [
+                "FLIP",
+                "RIGHT",
+                "DAMP"
+              ],
+              [
+                "LEFT",
+                "RIGHT",
+                "RIGHT"
+              ]
+            ],
+            "hull": 6,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              0
+            ],
+            "missions": [
+              "deep_capture",
+              "precision_route",
+              "double_pulse"
+            ],
+            "order": [
+              [],
+              [],
+              []
+            ],
+            "outcome": "WIN",
+            "played_by": [
+              5,
+              4,
+              3
+            ],
+            "round": 8,
+            "seat_order": [
+              1,
+              2,
+              0
+            ]
+          }
+        ],
+        "hull": 6,
+        "outcome": "WIN",
+        "played_by": [
+          5,
+          4,
+          3
+        ]
+      },
+      "passive": {
+        "hull": -1,
+        "last_round": 3,
+        "outcome": "LOSS_HULL"
+      },
+      "players": 3,
+      "seed": 7000,
+      "starting_hands": [
+        [
+          "RIGHT",
+          "LEFT",
+          "HOLD"
+        ],
+        [
+          "HOLD",
+          "DAMP",
+          "FLIP"
+        ],
+        [
+          "DAMP",
+          "LEFT",
+          "RIGHT"
+        ]
+      ],
+      "waves": [
+        [
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "sign": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "sign": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "sign": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "sign": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "sign": 1,
+            "strength": 2
+          },
+          {
+            "lane": 0,
+            "sign": -1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "sign": 1,
+            "strength": 2
+          },
+          {
+            "lane": 2,
+            "sign": -1,
+            "strength": 2
+          },
+          {
+            "lane": 2,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "sign": 1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "sign": -1,
+            "strength": 1
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    "4": {
+      "active": {
+        "completed": [
+          "deep_capture",
+          "precision_route",
+          "double_pulse"
+        ],
+        "history": [
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "RIGHT",
+                "LEFT",
+                "HOLD"
+              ],
+              [
+                "HOLD",
+                "DAMP",
+                "FLIP"
+              ],
+              [
+                "DAMP",
+                "LEFT",
+                "RIGHT"
+              ],
+              [
+                "FLIP",
+                "RIGHT",
+                "LEFT"
+              ]
+            ],
+            "hull": 8,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              0
+            ],
+            "missions": [],
+            "order": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "round": 1,
+            "seat_order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "RIGHT",
+                "LEFT",
+                "DAMP"
+              ],
+              [
+                "HOLD",
+                "DAMP",
+                "RIGHT"
+              ],
+              [
+                "DAMP",
+                "LEFT",
+                "RIGHT"
+              ],
+              [
+                "FLIP",
+                "RIGHT",
+                "LEFT"
+              ]
+            ],
+            "hull": 8,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              1,
+              0,
+              1
+            ],
+            "missions": [],
+            "order": [
+              [
+                {
+                  "kind": "HOLD",
+                  "token": "r1t0"
+                }
+              ],
+              [
+                {
+                  "kind": "FLIP",
+                  "token": "r1t3"
+                }
+              ],
+              [],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "round": 2,
+            "seat_order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "RIGHT",
+                "DAMP",
+                "DAMP"
+              ],
+              [
+                "HOLD",
+                "DAMP",
+                "LEFT"
+              ],
+              [
+                "LEFT",
+                "RIGHT",
+                "HOLD"
+              ],
+              [
+                "FLIP",
+                "RIGHT",
+                "LEFT"
+              ]
+            ],
+            "hull": 8,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              4,
+              0
+            ],
+            "missions": [
+              "deep_capture"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "LEFT",
+                  "token": "r2t0"
+                }
+              ],
+              [
+                {
+                  "kind": "RIGHT",
+                  "token": "r1t0"
+                }
+              ],
+              [
+                {
+                  "kind": "DAMP",
+                  "token": "r2t1"
+                }
+              ],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              2,
+              2,
+              1,
+              0
+            ],
+            "round": 3,
+            "seat_order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "RIGHT",
+                "DAMP",
+                "RIGHT"
+              ],
+              [
+                "HOLD",
+                "LEFT",
+                "RIGHT"
+              ],
+              [
+                "LEFT",
+                "RIGHT",
+                "DAMP"
+              ],
+              [
+                "FLIP",
+                "RIGHT",
+                "LEFT"
+              ]
+            ],
+            "hull": 8,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              2,
+              0,
+              0
+            ],
+            "missions": [
+              "deep_capture"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "DAMP",
+                  "token": "r3t2"
+                }
+              ],
+              [
+                {
+                  "kind": "DAMP",
+                  "token": "r3t3"
+                }
+              ],
+              [
+                {
+                  "kind": "HOLD",
+                  "token": "r3t4"
+                }
+              ],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              3,
+              3,
+              2,
+              0
+            ],
+            "round": 4,
+            "seat_order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "RIGHT",
+                "RIGHT",
+                "HOLD"
+              ],
+              [
+                "HOLD",
+                "LEFT",
+                "RIGHT"
+              ],
+              [
+                "LEFT",
+                "RIGHT",
+                "RIGHT"
+              ],
+              [
+                "FLIP",
+                "RIGHT",
+                "LEFT"
+              ]
+            ],
+            "hull": 7,
+            "leaks": [
+              1,
+              0,
+              0
+            ],
+            "matched": [
+              1,
+              2,
+              0
+            ],
+            "missions": [
+              "deep_capture",
+              "precision_route",
+              "double_pulse"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "DAMP",
+                  "token": "r3t4"
+                }
+              ],
+              [],
+              [
+                {
+                  "kind": "DAMP",
+                  "token": "r3t4"
+                }
+              ],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              4,
+              3,
+              3,
+              0
+            ],
+            "round": 5,
+            "seat_order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "RIGHT",
+                "RIGHT",
+                "FLIP"
+              ],
+              [
+                "HOLD",
+                "LEFT",
+                "RIGHT"
+              ],
+              [
+                "LEFT",
+                "RIGHT",
+                "RIGHT"
+              ],
+              [
+                "FLIP",
+                "RIGHT",
+                "LEFT"
+              ]
+            ],
+            "hull": 7,
+            "leaks": [
+              0,
+              0,
+              0
+            ],
+            "matched": [
+              1,
+              1,
+              0
+            ],
+            "missions": [
+              "deep_capture",
+              "precision_route",
+              "double_pulse"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "HOLD",
+                  "token": "r5t1"
+                }
+              ],
+              [],
+              [],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              5,
+              3,
+              3,
+              0
+            ],
+            "round": 6,
+            "seat_order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "RIGHT",
+                "FLIP",
+                "LEFT"
+              ],
+              [
+                "LEFT",
+                "RIGHT",
+                "DAMP"
+              ],
+              [
+                "LEFT",
+                "RIGHT",
+                "RIGHT"
+              ],
+              [
+                "FLIP",
+                "RIGHT",
+                "LEFT"
+              ]
+            ],
+            "hull": 5,
+            "leaks": [
+              0,
+              0,
+              2
+            ],
+            "matched": [
+              2,
+              0,
+              1
+            ],
+            "missions": [
+              "deep_capture",
+              "precision_route",
+              "double_pulse"
+            ],
+            "order": [
+              [
+                {
+                  "kind": "RIGHT",
+                  "token": "r5t1"
+                }
+              ],
+              [
+                {
+                  "kind": "HOLD",
+                  "token": "r6t4"
+                }
+              ],
+              [],
+              []
+            ],
+            "outcome": null,
+            "played_by": [
+              6,
+              4,
+              3,
+              0
+            ],
+            "round": 7,
+            "seat_order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "deadline": 0,
+            "fizzles": 0,
+            "hands": [
+              [
+                "RIGHT",
+                "FLIP",
+                "LEFT"
+              ],
+              [
+                "LEFT",
+                "RIGHT"
+              ],
+              [
+                "LEFT",
+                "RIGHT",
+                "RIGHT"
+              ],
+              [
+                "FLIP",
+                "RIGHT",
+                "LEFT"
+              ]
+            ],
+            "hull": 4,
+            "leaks": [
+              1,
+              0,
+              0
+            ],
+            "matched": [
+              0,
+              0,
+              0
+            ],
+            "missions": [
+              "deep_capture",
+              "precision_route",
+              "double_pulse"
+            ],
+            "order": [
+              [],
+              [
+                {
+                  "kind": "DAMP",
+                  "token": "r6t4"
+                }
+              ],
+              [],
+              []
+            ],
+            "outcome": "WIN",
+            "played_by": [
+              6,
+              5,
+              3,
+              0
+            ],
+            "round": 8,
+            "seat_order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          }
+        ],
+        "hull": 4,
+        "outcome": "WIN",
+        "played_by": [
+          6,
+          5,
+          3,
+          0
+        ]
+      },
+      "passive": {
+        "hull": -2,
+        "last_round": 3,
+        "outcome": "LOSS_HULL"
+      },
+      "players": 4,
+      "seed": 7000,
+      "starting_hands": [
+        [
+          "RIGHT",
+          "LEFT",
+          "HOLD"
+        ],
+        [
+          "HOLD",
+          "DAMP",
+          "FLIP"
+        ],
+        [
+          "DAMP",
+          "LEFT",
+          "RIGHT"
+        ],
+        [
+          "FLIP",
+          "RIGHT",
+          "LEFT"
+        ]
+      ],
+      "waves": [
+        [
+          {
+            "lane": 0,
+            "sign": 1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "sign": 1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "sign": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 2,
+            "sign": 1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "sign": 1,
+            "strength": 2
+          },
+          {
+            "lane": 0,
+            "sign": -1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "sign": -1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "sign": 1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 2
+          },
+          {
+            "lane": 0,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "sign": 1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 2
+          },
+          {
+            "lane": 1,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 1,
+            "sign": 1,
+            "strength": 1
+          }
+        ],
+        [
+          {
+            "lane": 0,
+            "sign": 1,
+            "strength": 2
+          },
+          {
+            "lane": 0,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 2,
+            "sign": 1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "sign": -1,
+            "strength": 1
+          },
+          {
+            "lane": 0,
+            "sign": 1,
+            "strength": 1
+          }
+        ],
+        [],
+        []
+      ]
+    }
+  }
+}
