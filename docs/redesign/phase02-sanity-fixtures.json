@@ -1,0 +1,228 @@
+{
+  "specVersion": "gaim-redesign-phase2/draft-0.1",
+  "warning": "Mechanical smoke fixtures only; Phase 3 must independently implement and replay full game rules.",
+  "engine": {
+    "scenarioId": "A-sanity-dual-system",
+    "rounds": [
+      [
+        {
+          "lane": 0,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 0,
+          "sign": -1,
+          "strength": 2
+        }
+      ],
+      [
+        {
+          "lane": 1,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 1,
+          "sign": -1,
+          "strength": 2
+        }
+      ],
+      [
+        {
+          "lane": 2,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 2,
+          "sign": -1,
+          "strength": 2
+        }
+      ],
+      [
+        {
+          "lane": 0,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 0,
+          "sign": -1,
+          "strength": 2
+        }
+      ],
+      [
+        {
+          "lane": 1,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 1,
+          "sign": -1,
+          "strength": 2
+        }
+      ],
+      [
+        {
+          "lane": 2,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 2,
+          "sign": -1,
+          "strength": 2
+        }
+      ],
+      [],
+      []
+    ],
+    "builds": {
+      "1": 0,
+      "3": 0,
+      "4": 1,
+      "5": 1
+    },
+    "expected": {
+      "hull": 6,
+      "levels": [
+        2,
+        2,
+        0
+      ],
+      "outcome": "WIN"
+    },
+    "noBuildOutcome": "LOSS_SYSTEMS"
+  },
+  "operations": {
+    "scenarioId": "B-2p-defensive-damp",
+    "playerCount": 2,
+    "rounds": [
+      [
+        {
+          "lane": 1,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 1,
+          "sign": -1,
+          "strength": 2
+        },
+        {
+          "lane": 0,
+          "sign": 1,
+          "strength": 1
+        }
+      ],
+      [
+        {
+          "lane": 1,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 1,
+          "sign": -1,
+          "strength": 2
+        },
+        {
+          "lane": 0,
+          "sign": -1,
+          "strength": 1
+        }
+      ],
+      [
+        {
+          "lane": 1,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 1,
+          "sign": -1,
+          "strength": 2
+        },
+        {
+          "lane": 0,
+          "sign": 1,
+          "strength": 1
+        }
+      ],
+      [
+        {
+          "lane": 1,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 1,
+          "sign": -1,
+          "strength": 2
+        },
+        {
+          "lane": 0,
+          "sign": -1,
+          "strength": 1
+        }
+      ],
+      [
+        {
+          "lane": 1,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 1,
+          "sign": -1,
+          "strength": 2
+        },
+        {
+          "lane": 0,
+          "sign": 1,
+          "strength": 1
+        }
+      ],
+      [
+        {
+          "lane": 1,
+          "sign": 1,
+          "strength": 2
+        },
+        {
+          "lane": 1,
+          "sign": -1,
+          "strength": 2
+        },
+        {
+          "lane": 0,
+          "sign": -1,
+          "strength": 1
+        }
+      ],
+      [],
+      []
+    ],
+    "missions": [
+      "deep_capture",
+      "precision_route",
+      "three_stations"
+    ],
+    "damp": {
+      "round": 3,
+      "targetWave": 2,
+      "targetLane": 0
+    },
+    "expected": {
+      "hull": 1,
+      "missionsCompleted": [
+        "deep_capture",
+        "precision_route"
+      ],
+      "outcome": "WIN"
+    },
+    "noDampOutcome": "LOSS_HULL"
+  }
+}
