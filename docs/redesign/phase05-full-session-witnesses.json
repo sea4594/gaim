@@ -1,0 +1,995 @@
+{
+  "description": "Full session decisions; exact reducer replay; no human playtest",
+  "witnesses": {
+    "owned_loss": [
+      {
+        "outcome": "WIN",
+        "hull": 2,
+        "levels": [
+          2,
+          2,
+          0
+        ],
+        "power": 8,
+        "rounds": 8,
+        "counts": {
+          "baseline_edits": 10
+        },
+        "seat_actions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "seat_possible": [
+          7,
+          8,
+          8,
+          7
+        ],
+        "replay": {
+          "seed": 121006,
+          "strategy": "dynamo_aegis",
+          "players": 4,
+          "mode": "baseline",
+          "waves": [
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            []
+          ],
+          "turns": [
+            {
+              "round": 1,
+              "plan": {
+                "edits": [],
+                "build": 0
+              }
+            },
+            {
+              "round": 2,
+              "plan": {
+                "edits": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r1t0"
+                  },
+                  {
+                    "kind": "SHIFT",
+                    "token": "r1t1",
+                    "delta": 1
+                  }
+                ]
+              }
+            },
+            {
+              "round": 3,
+              "plan": {
+                "edits": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r1t0"
+                  },
+                  {
+                    "kind": "SHIFT",
+                    "token": "r2t2",
+                    "delta": 1
+                  }
+                ]
+              }
+            },
+            {
+              "round": 4,
+              "plan": {
+                "edits": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r3t2"
+                  }
+                ],
+                "build": 0
+              }
+            },
+            {
+              "round": 5,
+              "plan": {
+                "edits": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r3t2"
+                  },
+                  {
+                    "kind": "SHIFT",
+                    "token": "r4t2",
+                    "delta": 1
+                  }
+                ],
+                "build": 1
+              }
+            },
+            {
+              "round": 6,
+              "plan": {
+                "edits": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r5t2"
+                  }
+                ],
+                "build": 1
+              }
+            },
+            {
+              "round": 7,
+              "plan": {
+                "edits": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r6t0"
+                  },
+                  {
+                    "kind": "SHIFT",
+                    "token": "r6t2",
+                    "delta": 1
+                  }
+                ]
+              }
+            },
+            {
+              "round": 8,
+              "plan": {
+                "edits": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "outcome": "LOSS_HULL",
+        "hull": 0,
+        "levels": [
+          2,
+          2,
+          0
+        ],
+        "power": 8,
+        "rounds": 8,
+        "counts": {
+          "edit_proposals_lost": 1,
+          "structural_non_editing_seats": 16,
+          "potential_lane_seats": 30,
+          "owned_edits": 9
+        },
+        "seat_actions": [
+          1,
+          1,
+          4,
+          3
+        ],
+        "seat_possible": [
+          7,
+          8,
+          8,
+          7
+        ],
+        "replay": {
+          "seed": 121006,
+          "strategy": "dynamo_aegis",
+          "players": 4,
+          "mode": "owned",
+          "waves": [
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            []
+          ],
+          "turns": [
+            {
+              "round": 1,
+              "orders": {},
+              "build": 0
+            },
+            {
+              "round": 2,
+              "orders": {
+                "2": {
+                  "kind": "HOLD",
+                  "token": "r1t0"
+                }
+              },
+              "build": null
+            },
+            {
+              "round": 3,
+              "orders": {
+                "3": {
+                  "kind": "DAMP",
+                  "token": "r1t0"
+                },
+                "2": {
+                  "kind": "SHIFT",
+                  "token": "r2t2",
+                  "delta": 1
+                }
+              },
+              "build": null
+            },
+            {
+              "round": 4,
+              "orders": {
+                "3": {
+                  "kind": "HOLD",
+                  "token": "r3t2"
+                }
+              },
+              "build": 0
+            },
+            {
+              "round": 5,
+              "orders": {
+                "0": {
+                  "kind": "DAMP",
+                  "token": "r3t2"
+                },
+                "1": {
+                  "kind": "SHIFT",
+                  "token": "r4t2",
+                  "delta": 1
+                }
+              },
+              "build": 1
+            },
+            {
+              "round": 6,
+              "orders": {
+                "2": {
+                  "kind": "HOLD",
+                  "token": "r5t2"
+                }
+              },
+              "build": 1
+            },
+            {
+              "round": 7,
+              "orders": {
+                "3": {
+                  "kind": "HOLD",
+                  "token": "r6t0"
+                },
+                "2": {
+                  "kind": "SHIFT",
+                  "token": "r6t2",
+                  "delta": 1
+                }
+              },
+              "build": null
+            },
+            {
+              "round": 8,
+              "orders": {},
+              "build": null
+            }
+          ]
+        }
+      }
+    ],
+    "rush_rescue": [
+      {
+        "outcome": "LOSS_SYSTEMS",
+        "hull": 4,
+        "levels": [
+          0,
+          2,
+          1
+        ],
+        "power": 6,
+        "rounds": 8,
+        "counts": {
+          "baseline_edits": 10
+        },
+        "seat_actions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "seat_possible": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "replay": {
+          "seed": 121013,
+          "strategy": "aegis_switchyard",
+          "players": 4,
+          "mode": "baseline",
+          "waves": [
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 2
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            []
+          ],
+          "turns": [
+            {
+              "round": 1,
+              "plan": {
+                "edits": [],
+                "build": 1
+              }
+            },
+            {
+              "round": 2,
+              "plan": {
+                "edits": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r1t0"
+                  }
+                ]
+              }
+            },
+            {
+              "round": 3,
+              "plan": {
+                "edits": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r2t0"
+                  },
+                  {
+                    "kind": "HOLD",
+                    "token": "r2t1"
+                  }
+                ]
+              }
+            },
+            {
+              "round": 4,
+              "plan": {
+                "edits": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r2t0",
+                    "delta": 1
+                  },
+                  {
+                    "kind": "SHIFT",
+                    "token": "r2t1",
+                    "delta": -1
+                  }
+                ]
+              }
+            },
+            {
+              "round": 5,
+              "plan": {
+                "edits": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r4t2"
+                  }
+                ]
+              }
+            },
+            {
+              "round": 6,
+              "plan": {
+                "edits": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r4t2",
+                    "delta": 1
+                  },
+                  {
+                    "kind": "HOLD",
+                    "token": "r5t0"
+                  }
+                ],
+                "build": 1
+              }
+            },
+            {
+              "round": 7,
+              "plan": {
+                "edits": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r6t0"
+                  }
+                ],
+                "build": 2
+              }
+            },
+            {
+              "round": 8,
+              "plan": {
+                "edits": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r6t0"
+                  }
+                ],
+                "build": 2
+              }
+            }
+          ]
+        }
+      },
+      {
+        "outcome": "WIN",
+        "hull": 4,
+        "levels": [
+          0,
+          2,
+          2
+        ],
+        "power": 5,
+        "rounds": 8,
+        "counts": {
+          "affordable_construction_rounds": 4,
+          "separate_proposer_and_funder": 4,
+          "rushes": 1
+        },
+        "seat_actions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "seat_possible": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "replay": {
+          "seed": 121013,
+          "strategy": "aegis_switchyard",
+          "players": 4,
+          "mode": "joint_rush",
+          "waves": [
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 2
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            []
+          ],
+          "turns": [
+            {
+              "round": 1,
+              "proposal": 1,
+              "allocation": "standard",
+              "edits": []
+            },
+            {
+              "round": 2,
+              "proposal": null,
+              "allocation": null,
+              "edits": [
+                {
+                  "kind": "DAMP",
+                  "token": "r1t0"
+                }
+              ]
+            },
+            {
+              "round": 3,
+              "proposal": null,
+              "allocation": null,
+              "edits": [
+                {
+                  "kind": "HOLD",
+                  "token": "r2t0"
+                },
+                {
+                  "kind": "HOLD",
+                  "token": "r2t1"
+                }
+              ]
+            },
+            {
+              "round": 4,
+              "proposal": null,
+              "allocation": null,
+              "edits": [
+                {
+                  "kind": "SHIFT",
+                  "token": "r2t0",
+                  "delta": 1
+                },
+                {
+                  "kind": "SHIFT",
+                  "token": "r2t1",
+                  "delta": -1
+                }
+              ]
+            },
+            {
+              "round": 5,
+              "proposal": null,
+              "allocation": null,
+              "edits": [
+                {
+                  "kind": "HOLD",
+                  "token": "r4t2"
+                }
+              ]
+            },
+            {
+              "round": 6,
+              "proposal": 1,
+              "allocation": "standard",
+              "edits": [
+                {
+                  "kind": "SHIFT",
+                  "token": "r4t2",
+                  "delta": 1
+                },
+                {
+                  "kind": "HOLD",
+                  "token": "r5t0"
+                }
+              ]
+            },
+            {
+              "round": 7,
+              "proposal": 2,
+              "allocation": "standard",
+              "edits": [
+                {
+                  "kind": "HOLD",
+                  "token": "r6t0"
+                }
+              ]
+            },
+            {
+              "round": 8,
+              "proposal": 2,
+              "allocation": "rush",
+              "edits": [
+                {
+                  "kind": "DAMP",
+                  "token": "r6t0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

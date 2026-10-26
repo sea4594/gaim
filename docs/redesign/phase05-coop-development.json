@@ -1,0 +1,157 @@
+{
+  "methodology": {
+    "seed_start": 121000,
+    "seed_count": 40,
+    "paired": true,
+    "notes": "Heuristic agent re-used, no human tests; ownership policy filters original agent and is not re-optimized."
+  },
+  "owned": {
+    "1": {
+      "baseline_wins": 34,
+      "owned_wins": 34,
+      "filtered_desired_actions": 0,
+      "minimum_inactive_edit_seat_rounds": 0,
+      "executed_actions_per_seat": [
+        228
+      ],
+      "lane_access_opportunity_per_seat": [
+        236
+      ]
+    },
+    "2": {
+      "baseline_wins": 34,
+      "owned_wins": 18,
+      "filtered_desired_actions": 117,
+      "minimum_inactive_edit_seat_rounds": 0,
+      "executed_actions_per_seat": [
+        84,
+        77
+      ],
+      "lane_access_opportunity_per_seat": [
+        209,
+        183
+      ]
+    },
+    "3": {
+      "baseline_wins": 34,
+      "owned_wins": 31,
+      "filtered_desired_actions": 24,
+      "minimum_inactive_edit_seat_rounds": 316,
+      "executed_actions_per_seat": [
+        91,
+        106,
+        110
+      ],
+      "lane_access_opportunity_per_seat": [
+        232,
+        217,
+        237
+      ]
+    },
+    "4": {
+      "baseline_wins": 34,
+      "owned_wins": 33,
+      "filtered_desired_actions": 19,
+      "minimum_inactive_edit_seat_rounds": 632,
+      "executed_actions_per_seat": [
+        69,
+        66,
+        87,
+        89
+      ],
+      "lane_access_opportunity_per_seat": [
+        222,
+        231,
+        235,
+        227
+      ]
+    }
+  },
+  "joint": {
+    "1": {
+      "baseline": {
+        "wins": 34,
+        "hull_total": 167,
+        "baseline_edits": 338
+      },
+      "standard": {
+        "wins": 34,
+        "hull_total": 167,
+        "affordable_construction_rounds": 160,
+        "separate_proposer_and_funder": 0
+      },
+      "rush": {
+        "wins": 37,
+        "hull_total": 168,
+        "affordable_construction_rounds": 160,
+        "separate_proposer_and_funder": 0,
+        "rushes": 3
+      }
+    },
+    "2": {
+      "baseline": {
+        "wins": 34,
+        "hull_total": 167,
+        "baseline_edits": 338
+      },
+      "standard": {
+        "wins": 34,
+        "hull_total": 167,
+        "affordable_construction_rounds": 160,
+        "separate_proposer_and_funder": 160
+      },
+      "rush": {
+        "wins": 37,
+        "hull_total": 168,
+        "affordable_construction_rounds": 160,
+        "separate_proposer_and_funder": 160,
+        "rushes": 3
+      }
+    },
+    "3": {
+      "baseline": {
+        "wins": 34,
+        "hull_total": 167,
+        "baseline_edits": 338
+      },
+      "standard": {
+        "wins": 34,
+        "hull_total": 167,
+        "affordable_construction_rounds": 160,
+        "separate_proposer_and_funder": 160
+      },
+      "rush": {
+        "wins": 37,
+        "hull_total": 168,
+        "affordable_construction_rounds": 160,
+        "separate_proposer_and_funder": 160,
+        "rushes": 3
+      }
+    },
+    "4": {
+      "baseline": {
+        "wins": 34,
+        "hull_total": 167,
+        "baseline_edits": 338
+      },
+      "standard": {
+        "wins": 34,
+        "hull_total": 167,
+        "affordable_construction_rounds": 160,
+        "separate_proposer_and_funder": 160
+      },
+      "rush": {
+        "wins": 37,
+        "hull_total": 168,
+        "affordable_construction_rounds": 160,
+        "separate_proposer_and_funder": 160,
+        "rushes": 3
+      }
+    }
+  },
+  "guarded": {
+    "cases": 80,
+    "triggered": 40,
+    "equivalent_to_informed_open_order": 80
+  }
+}
