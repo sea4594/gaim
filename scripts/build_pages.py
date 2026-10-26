@@ -8,7 +8,8 @@ import argparse,json,os,shutil,subprocess,tempfile
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
-ASSETS=("index.html", "site/style.css", "site/replay.js", "contracts/golden-traces.v0.1.json")
+ASSETS=("index.html", "site/style.css", "site/replay.js", "contracts/golden-traces.v0.1.json",
+        "crew-lab.html", "site/crew-lab.css", "site/crew-lab.js", "site/crew-lab-data.json")
 MARKER='gaim-pages/pass17'
 
 
@@ -16,7 +17,7 @@ def build(destination:Path):
     destination=destination.resolve()
     if destination==ROOT or ROOT in destination.parents and destination.parts[-1] in ('docs','site','contracts'):
         raise ValueError('refusing to overwrite source tree')
-    data=json.loads((ROOT/ASSETS[-1]).read_text())
+    data=json.loads((ROOT/'contracts/golden-traces.v0.1.json').read_text())
     if data.get('ruleset')!='charge-loom/v0.1' or len(data.get('traces',[]))!=7:
         raise ValueError('verified scenario contract changed unexpectedly')
     html=(ROOT/'index.html').read_text()
@@ -28,6 +29,11 @@ def build(destination:Path):
     for asset in ASSETS:
         target=destination/asset;target.parent.mkdir(parents=True,exist_ok=True)
         shutil.copyfile(ROOT/asset,target)
+    lab=json.loads((ROOT/'site/crew-lab-data.json').read_text())
+    if lab.get('ruleset')!='redesign/phase7-commitment-lab' or len(lab.get('scenarios',{}))!=2:
+        raise ValueError('Phase 7 research lab artifact invalid')
+    if 'site/crew-lab.js' not in (ROOT/'crew-lab.html').read_text():
+        raise ValueError('Lab references are inconsistent')
     # GitHub Pages must not run Jekyll over the artifact.
     (destination/'.nojekyll').write_text('')
     sha=os.environ.get('GITHUB_SHA','')

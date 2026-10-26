@@ -1,0 +1,22 @@
+{
+  "crisis": {
+    "illegal": 124,
+    "legal": 132,
+    "legal_single_seat_changes": 792,
+    "state_changing_changes": 504,
+    "total_seat_combinations": 256,
+    "unique_end_states": 7,
+    "win_loss_changing_changes": 168,
+    "winning": 72
+  },
+  "junction": {
+    "illegal": 52,
+    "legal": 204,
+    "legal_single_seat_changes": 2016,
+    "state_changing_changes": 1536,
+    "total_seat_combinations": 256,
+    "unique_end_states": 9,
+    "win_loss_changing_changes": 0,
+    "winning": 0
+  }
+}

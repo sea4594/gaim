@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="theme-color" content="#111a25"/>
+<title>GAIM — Four-Seat Cooperation Lab</title>
+<link rel="stylesheet" href="site/crew-lab.css"/>
+<script src="site/crew-lab.js" defer></script>
+</head>
+<body>
+<main class="wrap">
+  <header><a href="./index.html" class="back">← GAIM preview</a><p class="eyebrow">REDESIGN PHASE 7 · INTERACTIVE RESEARCH</p><h1>Four seats. One decision.</h1>
+  <p>Explore a real Storm Engine situation. Each teammate commits to one of four duties. The combined crew determines whether the settlement survives.</p></header>
+  <section class="panel" aria-labelledby="setup-heading">
+    <div class="heading"><h2 id="setup-heading">Choose a crisis</h2><span>8-round experimental game</span></div>
+    <select id="scenario" aria-label="Scenario"><option value="crisis">Finale: one hull remaining</option><option value="junction">Midgame: production vs protection</option></select>
+    <p id="intro" class="muted" aria-live="polite">Loading verified prototype decisions…</p>
+    <div class="stats"><div>Hull <strong id="initial-hull">—</strong></div><div>Power <strong id="initial-power">—</strong></div><div>Coolant <strong id="initial-coolant">—</strong></div><div>Systems <strong id="initial-levels">—</strong></div></div>
+  </section>
+  <section class="panel" aria-labelledby="team-heading">
+    <div class="heading"><h2 id="team-heading">The team's commitments</h2><span>4 total workers</span></div>
+    <p class="muted">Choose each seat's job. Two workers can cooperate at a duty, but three cannot. Changing one teammate's decision can change everyone's outcome.</p>
+    <div id="seats" class="seats"></div>
+    <div class="controls"><button id="spread" type="button">Spread duties</button><button id="support" type="button">Try joint engineering</button></div>
+  </section>
+  <section class="panel" aria-labelledby="result-heading">
+    <div class="heading"><h2 id="result-heading">Result</h2><span id="legality">—</span></div>
+    <p class="verdict" id="verdict" aria-live="polite">Calculating…</p><p id="reason" class="muted"></p>
+    <div class="stats" id="result-stats"><div>Hull <strong id="hull">—</strong></div><div>Power <strong id="power">—</strong></div><div>Damage blocked <strong id="blocked">—</strong></div><div>Construction <strong id="pending">—</strong></div></div>
+    <p class="orders-label">Orders actually executed</p><div id="orders" class="orders"></div>
+  </section>
+  <section class="panel note"><h2>What this proves—and what it doesn't</h2>
+    <p>These are <strong>precomputed outcomes from the real Phase 6 experimental Python reducer</strong>, not a second gameplay engine in the browser. The finale also simulates the following empty round to check the actual win condition. No server or account is involved.</p>
+    <p>All seats can make distinct commitments, but many choices are illegal, ineffective, or obvious. This lab does <strong>not</strong> prove four-player fun, fair agency, or quarterbacking resistance. Test with four people, note who suggests each plan, and record when someone feels unnecessary.</p>
+    <p id="audit" class="audit">Loading exhaustive comparison…</p>
+    <a class="back" href="https://github.com/sea4594/gaim">Rules and research on GitHub ↗</a>
+  </section>
+</main>
+</body>
+</html>
