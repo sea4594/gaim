@@ -1,0 +1,174 @@
+{
+  "methodology": {
+    "seeds": "93000..93039",
+    "warning": "Independent experimental scenario generators. Never compare raw wins between different games.",
+    "policies": "Engine reactive two-edit with/without greedy Switchyard free use; Operations sequential reactive hand-aware with per-seat dropouts.",
+    "human_playtests": 0
+  },
+  "engine": {
+    "dynamo_aegis": {
+      "baseline_wins": 32,
+      "free_policy_wins": 32,
+      "free_shifts": 0,
+      "free_helped": 0,
+      "free_hurt": 0,
+      "average_final_hull": 4.03
+    },
+    "aegis_switchyard": {
+      "baseline_wins": 28,
+      "free_policy_wins": 27,
+      "free_shifts": 29,
+      "free_helped": 1,
+      "free_hurt": 2,
+      "average_final_hull": 5.03
+    },
+    "dynamo_switchyard": {
+      "baseline_wins": 23,
+      "free_policy_wins": 23,
+      "free_shifts": 17,
+      "free_helped": 0,
+      "free_hurt": 0,
+      "average_final_hull": 1.82
+    },
+    "pairwise": {
+      "aegis_switchyard_vs_dynamo_switchyard": {
+        "both_win": 20,
+        "only_first_wins": 8,
+        "only_second_wins": 3
+      },
+      "dynamo_aegis_vs_aegis_switchyard": {
+        "both_win": 26,
+        "only_first_wins": 6,
+        "only_second_wins": 2
+      }
+    }
+  },
+  "operations": {
+    "1": {
+      "active_wins": 9,
+      "pass_wins": 1,
+      "pass_completed_two_missions": 1,
+      "pass_completed_deep": 15,
+      "pass_completed_precision": 2,
+      "active_player_actions": [
+        105
+      ],
+      "idle_seat_rounds": [
+        189
+      ],
+      "active_wins_with_any_zero_card_seat": 0,
+      "drop_one_seat_wins": {
+        "0": 1
+      },
+      "drop_one_seat_turned_win_to_loss": {
+        "0": 8
+      },
+      "drop_one_seat_turned_loss_to_win": {
+        "0": 0
+      },
+      "average_hull": 2.17
+    },
+    "2": {
+      "active_wins": 18,
+      "pass_wins": 0,
+      "pass_completed_two_missions": 3,
+      "pass_completed_deep": 23,
+      "pass_completed_precision": 3,
+      "active_player_actions": [
+        168,
+        91
+      ],
+      "idle_seat_rounds": [
+        131,
+        208
+      ],
+      "active_wins_with_any_zero_card_seat": 2,
+      "drop_one_seat_wins": {
+        "0": 1,
+        "1": 11
+      },
+      "drop_one_seat_turned_win_to_loss": {
+        "0": 17,
+        "1": 9
+      },
+      "drop_one_seat_turned_loss_to_win": {
+        "0": 0,
+        "1": 2
+      },
+      "average_hull": 1.62
+    },
+    "3": {
+      "active_wins": 34,
+      "pass_wins": 0,
+      "pass_completed_two_missions": 4,
+      "pass_completed_deep": 30,
+      "pass_completed_precision": 3,
+      "active_player_actions": [
+        200,
+        117,
+        69
+      ],
+      "idle_seat_rounds": [
+        119,
+        202,
+        250
+      ],
+      "active_wins_with_any_zero_card_seat": 7,
+      "drop_one_seat_wins": {
+        "0": 1,
+        "1": 17,
+        "2": 25
+      },
+      "drop_one_seat_turned_win_to_loss": {
+        "0": 33,
+        "1": 18,
+        "2": 9
+      },
+      "drop_one_seat_turned_loss_to_win": {
+        "0": 0,
+        "1": 1,
+        "2": 0
+      },
+      "average_hull": 3.6
+    },
+    "4": {
+      "active_wins": 35,
+      "pass_wins": 0,
+      "pass_completed_two_missions": 8,
+      "pass_completed_deep": 28,
+      "pass_completed_precision": 4,
+      "active_player_actions": [
+        214,
+        135,
+        91,
+        57
+      ],
+      "idle_seat_rounds": [
+        103,
+        182,
+        226,
+        260
+      ],
+      "active_wins_with_any_zero_card_seat": 12,
+      "drop_one_seat_wins": {
+        "0": 3,
+        "1": 20,
+        "2": 30,
+        "3": 34
+      },
+      "drop_one_seat_turned_win_to_loss": {
+        "0": 32,
+        "1": 16,
+        "2": 6,
+        "3": 2
+      },
+      "drop_one_seat_turned_loss_to_win": {
+        "0": 0,
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "average_hull": 4.4
+    }
+  }
+}

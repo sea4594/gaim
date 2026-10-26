@@ -1,0 +1,56 @@
+{
+  "2": {
+    "seeds": 40,
+    "old_wins": 17,
+    "rotated_wins": 16,
+    "fixed_order_card_uses": [
+      193,
+      82
+    ],
+    "rotated_order_card_uses": [
+      136,
+      138
+    ],
+    "rotated_zero_card_wins": 1,
+    "changed_win_to_loss": 5,
+    "changed_loss_to_win": 4
+  },
+  "3": {
+    "seeds": 40,
+    "old_wins": 31,
+    "rotated_wins": 32,
+    "fixed_order_card_uses": [
+      208,
+      116,
+      77
+    ],
+    "rotated_order_card_uses": [
+      126,
+      140,
+      144
+    ],
+    "rotated_zero_card_wins": 1,
+    "changed_win_to_loss": 5,
+    "changed_loss_to_win": 6
+  },
+  "4": {
+    "seeds": 40,
+    "old_wins": 35,
+    "rotated_wins": 38,
+    "fixed_order_card_uses": [
+      218,
+      120,
+      109,
+      66
+    ],
+    "rotated_order_card_uses": [
+      112,
+      124,
+      142,
+      118
+    ],
+    "rotated_zero_card_wins": 4,
+    "changed_win_to_loss": 1,
+    "changed_loss_to_win": 4
+  }
+}
