@@ -1,0 +1,59 @@
+{
+  "start": 232000,
+  "n": 40,
+  "method": "Paired 8-round public-wave games, same build targets; one-ply staffing planner. No independent human play, no unknown future or subjective satisfaction.",
+  "baseline": {
+    "wins": 30,
+    "avg_hull": 3.73
+  },
+  "fixed": {
+    "wins": 24,
+    "avg_hull": 3.92,
+    "per_seat_active_rounds": [
+      149,
+      112,
+      195,
+      151
+    ],
+    "all_seats_active_rounds": 21,
+    "played_rounds": 317,
+    "per_seat_staffed_actions": [
+      149,
+      112,
+      195,
+      151
+    ],
+    "total_roles": {
+      "nav": 317,
+      "control": 317,
+      "engineer": 317,
+      "dispatch": 317
+    },
+    "wins_changed_vs_baseline": 12
+  },
+  "flexible": {
+    "wins": 35,
+    "avg_hull": 5.78,
+    "per_seat_active_rounds": [
+      168,
+      173,
+      223,
+      203
+    ],
+    "all_seats_active_rounds": 49,
+    "played_rounds": 320,
+    "per_seat_staffed_actions": [
+      168,
+      173,
+      223,
+      203
+    ],
+    "total_roles": {
+      "nav": 386,
+      "control": 285,
+      "engineer": 434,
+      "dispatch": 175
+    },
+    "wins_changed_vs_baseline": 5
+  }
+}

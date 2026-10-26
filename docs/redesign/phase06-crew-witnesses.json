@@ -1,0 +1,2419 @@
+{
+  "purpose": "Exact public wavebooks, staffed seats and orders for reproducible full sessions. Research only.",
+  "witnesses": [
+    {
+      "seed": 231001,
+      "mode": "aegis_switchyard",
+      "variants": {
+        "fixed": {
+          "outcome": "LOSS_SYSTEMS",
+          "hull": 6,
+          "power": 1,
+          "levels": [
+            0,
+            2,
+            1
+          ],
+          "rounds": 8,
+          "participation": [
+            5,
+            2,
+            4,
+            6
+          ],
+          "active_seat_rounds": [
+            5,
+            2,
+            4,
+            6
+          ],
+          "all_seats_active_rounds": 0,
+          "role_counts": {
+            "nav": 8,
+            "control": 8,
+            "engineer": 8,
+            "dispatch": 8
+          },
+          "waves": [
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 2
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 2
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            []
+          ],
+          "decisions": [
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ]
+              ],
+              "plan": {
+                "engineer": {
+                  "build": 1
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r1t1",
+                    "delta": 1
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r1t0"
+                  }
+                ]
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ]
+              ],
+              "plan": {
+                "control": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r2t0"
+                  }
+                ],
+                "engineer": {
+                  "service": true
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {
+                "engineer": {
+                  "service": true
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r4t0",
+                    "delta": 1
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r4t2"
+                  }
+                ],
+                "engineer": {
+                  "build": 1
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r5t0"
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r4t2"
+                  }
+                ],
+                "engineer": {
+                  "build": 2
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r5t0",
+                    "delta": -1
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r6t0"
+                  }
+                ],
+                "engineer": {
+                  "service": true
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {
+                "control": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r6t0"
+                  }
+                ],
+                "engineer": {
+                  "build": 2
+                }
+              }
+            }
+          ]
+        },
+        "flexible": {
+          "outcome": "WIN",
+          "hull": 6,
+          "power": 8,
+          "levels": [
+            0,
+            2,
+            2
+          ],
+          "rounds": 8,
+          "participation": [
+            5,
+            2,
+            3,
+            6
+          ],
+          "active_seat_rounds": [
+            5,
+            2,
+            3,
+            6
+          ],
+          "all_seats_active_rounds": 0,
+          "role_counts": {
+            "nav": 9,
+            "control": 5,
+            "engineer": 12,
+            "dispatch": 6
+          },
+          "waves": [
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 2
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 2
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            []
+          ],
+          "decisions": [
+            {
+              "staffing": [
+                1,
+                1,
+                2,
+                0
+              ],
+              "assignment": [
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {
+                "engineer": {
+                  "build": 1
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                0,
+                2,
+                1
+              ],
+              "assignment": [
+                [
+                  "engineer"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r1t1",
+                    "delta": 1
+                  }
+                ],
+                "engineer": {
+                  "build": 1
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                0,
+                2,
+                1
+              ],
+              "assignment": [
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {
+                "engineer": {
+                  "build": 2
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                2,
+                0
+              ],
+              "assignment": [
+                [
+                  "engineer"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {
+                "engineer": {
+                  "build": 2
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r4t0",
+                    "delta": 1
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r4t2"
+                  }
+                ]
+              }
+            },
+            {
+              "staffing": [
+                2,
+                0,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "nav"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r5t0"
+                  }
+                ]
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r5t0",
+                    "delta": -1
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r6t0"
+                  }
+                ]
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {
+                "control": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r6t0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "seed": 231003,
+      "mode": "dynamo_aegis",
+      "variants": {
+        "fixed": {
+          "outcome": "WIN",
+          "hull": 6,
+          "power": 8,
+          "levels": [
+            2,
+            2,
+            0
+          ],
+          "rounds": 8,
+          "participation": [
+            2,
+            4,
+            7,
+            4
+          ],
+          "active_seat_rounds": [
+            2,
+            4,
+            7,
+            4
+          ],
+          "all_seats_active_rounds": 1,
+          "role_counts": {
+            "nav": 8,
+            "control": 8,
+            "engineer": 8,
+            "dispatch": 8
+          },
+          "waves": [
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            []
+          ],
+          "decisions": [
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ]
+              ],
+              "plan": {
+                "engineer": {
+                  "build": 0
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r1t0",
+                    "delta": 1
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r1t1"
+                  }
+                ]
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r2t1"
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r2t2"
+                  }
+                ],
+                "dispatch": {
+                  "kind": "cover",
+                  "lane": 0
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r3t1"
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r2t2"
+                  }
+                ],
+                "engineer": {
+                  "build": 0
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r3t1",
+                    "delta": -1
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r4t1"
+                  }
+                ],
+                "engineer": {
+                  "build": 1
+                },
+                "dispatch": {
+                  "kind": "cover",
+                  "lane": 0
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ]
+              ],
+              "plan": {
+                "engineer": {
+                  "build": 1
+                },
+                "dispatch": {
+                  "kind": "recharge",
+                  "lane": 0
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r6t2"
+                  }
+                ]
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {
+                "control": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r6t2"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "flexible": {
+          "outcome": "LOSS_SYSTEMS",
+          "hull": 6,
+          "power": 8,
+          "levels": [
+            2,
+            2,
+            0
+          ],
+          "rounds": 8,
+          "participation": [
+            6,
+            5,
+            7,
+            8
+          ],
+          "active_seat_rounds": [
+            6,
+            5,
+            7,
+            8
+          ],
+          "all_seats_active_rounds": 4,
+          "role_counts": {
+            "nav": 9,
+            "control": 9,
+            "engineer": 10,
+            "dispatch": 4
+          },
+          "waves": [
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            []
+          ],
+          "decisions": [
+            {
+              "staffing": [
+                1,
+                1,
+                2,
+                0
+              ],
+              "assignment": [
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {
+                "engineer": {
+                  "build": 0
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                2,
+                0
+              ],
+              "assignment": [
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "nav"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r1t0",
+                    "delta": 1
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r1t1"
+                  }
+                ],
+                "engineer": {
+                  "build": 0
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r2t1"
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r2t2"
+                  }
+                ],
+                "dispatch": {
+                  "kind": "cover",
+                  "lane": 0
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                2,
+                0
+              ],
+              "assignment": [
+                [
+                  "engineer"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r3t1"
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r2t2"
+                  }
+                ],
+                "engineer": {
+                  "build": 1
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                0,
+                2,
+                1
+              ],
+              "assignment": [
+                [
+                  "nav"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r3t1",
+                    "delta": -1
+                  }
+                ],
+                "engineer": {
+                  "build": 1
+                },
+                "dispatch": {
+                  "kind": "cover",
+                  "lane": 0
+                }
+              }
+            },
+            {
+              "staffing": [
+                2,
+                2,
+                0,
+                0
+              ],
+              "assignment": [
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "nav"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r5t0"
+                  }
+                ]
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r5t0",
+                    "delta": 1
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r6t0"
+                  }
+                ],
+                "engineer": {
+                  "service": true
+                },
+                "dispatch": {
+                  "kind": "recharge",
+                  "lane": 1
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                2,
+                0,
+                1
+              ],
+              "assignment": [
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "control"
+                ]
+              ],
+              "plan": {
+                "control": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r6t0"
+                  },
+                  {
+                    "kind": "DAMP",
+                    "token": "r7t0"
+                  }
+                ],
+                "dispatch": {
+                  "kind": "cover",
+                  "lane": 1
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "seed": 232005,
+      "mode": "dynamo_switchyard",
+      "variants": {
+        "fixed": {
+          "outcome": "LOSS_HULL",
+          "hull": -1,
+          "power": 4,
+          "levels": [
+            2,
+            0,
+            2
+          ],
+          "rounds": 8,
+          "participation": [
+            4,
+            2,
+            4,
+            2
+          ],
+          "active_seat_rounds": [
+            4,
+            2,
+            4,
+            2
+          ],
+          "all_seats_active_rounds": 0,
+          "role_counts": {
+            "nav": 8,
+            "control": 8,
+            "engineer": 8,
+            "dispatch": 8
+          },
+          "waves": [
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 2
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 2
+              }
+            ],
+            []
+          ],
+          "decisions": [
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ]
+              ],
+              "plan": {
+                "engineer": {
+                  "build": 0
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r1t0"
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r1t1"
+                  }
+                ]
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r1t0",
+                    "delta": -1
+                  }
+                ]
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {}
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r4t1",
+                    "delta": 1
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r4t0"
+                  }
+                ],
+                "engineer": {
+                  "build": 0
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ]
+              ],
+              "plan": {
+                "control": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r5t0"
+                  }
+                ],
+                "engineer": {
+                  "build": 2
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r6t0"
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r6t1"
+                  }
+                ],
+                "engineer": {
+                  "build": 2
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {}
+            }
+          ]
+        },
+        "flexible": {
+          "outcome": "WIN",
+          "hull": 5,
+          "power": 8,
+          "levels": [
+            2,
+            0,
+            2
+          ],
+          "rounds": 8,
+          "participation": [
+            4,
+            4,
+            6,
+            5
+          ],
+          "active_seat_rounds": [
+            4,
+            4,
+            6,
+            5
+          ],
+          "all_seats_active_rounds": 2,
+          "role_counts": {
+            "nav": 10,
+            "control": 7,
+            "engineer": 11,
+            "dispatch": 4
+          },
+          "waves": [
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 2,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 2,
+                "sign": -1,
+                "strength": 1
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 1,
+                "sign": 1,
+                "strength": 2
+              },
+              {
+                "lane": 1,
+                "sign": -1,
+                "strength": 1
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 2
+              }
+            ],
+            [
+              {
+                "lane": 0,
+                "sign": 1,
+                "strength": 1
+              },
+              {
+                "lane": 0,
+                "sign": -1,
+                "strength": 2
+              }
+            ],
+            []
+          ],
+          "decisions": [
+            {
+              "staffing": [
+                1,
+                1,
+                2,
+                0
+              ],
+              "assignment": [
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {
+                "engineer": {
+                  "build": 0
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                2,
+                0
+              ],
+              "assignment": [
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "nav"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r1t0"
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "HOLD",
+                    "token": "r1t1"
+                  }
+                ],
+                "engineer": {
+                  "build": 0
+                }
+              }
+            },
+            {
+              "staffing": [
+                2,
+                1,
+                1,
+                0
+              ],
+              "assignment": [
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "nav"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r1t0",
+                    "delta": -1
+                  },
+                  {
+                    "kind": "SHIFT",
+                    "token": "r1t1",
+                    "delta": 1
+                  }
+                ]
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                2,
+                0
+              ],
+              "assignment": [
+                [
+                  "engineer"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {
+                "engineer": {
+                  "build": 2
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                2,
+                0
+              ],
+              "assignment": [
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {
+                "nav": [
+                  {
+                    "kind": "SHIFT",
+                    "token": "r4t1",
+                    "delta": 1
+                  }
+                ],
+                "control": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r4t0"
+                  }
+                ],
+                "engineer": {
+                  "build": 2
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                0,
+                2
+              ],
+              "assignment": [
+                [
+                  "control"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ]
+              ],
+              "plan": {
+                "control": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r5t0"
+                  }
+                ],
+                "dispatch": {
+                  "kind": "recharge",
+                  "lane": 1
+                }
+              }
+            },
+            {
+              "staffing": [
+                2,
+                0,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "engineer"
+                ],
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "nav"
+                ]
+              ],
+              "plan": {
+                "dispatch": {
+                  "kind": "cover",
+                  "lane": 0
+                }
+              }
+            },
+            {
+              "staffing": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "assignment": [
+                [
+                  "dispatch"
+                ],
+                [
+                  "nav"
+                ],
+                [
+                  "control"
+                ],
+                [
+                  "engineer"
+                ]
+              ],
+              "plan": {
+                "control": [
+                  {
+                    "kind": "DAMP",
+                    "token": "r7t1"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
