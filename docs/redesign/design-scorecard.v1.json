@@ -1,0 +1,33 @@
+{
+  "id": "gaim-redesign-evaluation-v1",
+  "phase": 1,
+  "status": "research-framework-not-production-rules",
+  "rules_controls": {
+    "production": "charge-loom/v0.1",
+    "research": "forecast-market/v0.5"
+  },
+  "player_counts": [1, 2, 3, 4],
+  "session_target_minutes_experienced": [12, 25],
+  "score_range": [0, 4],
+  "dimensions": [
+    {"id": "strategic_depth", "weight": 25},
+    {"id": "cooperation_agency", "weight": 25},
+    {"id": "experience_pacing", "weight": 20},
+    {"id": "replayability", "weight": 15},
+    {"id": "rules_elegance", "weight": 10},
+    {"id": "portrait_suitability", "weight": 5}
+  ],
+  "hard_gates": [
+    "rules_complete",
+    "meaningful_interaction",
+    "strategic_path_diversity",
+    "information_fairness",
+    "rules_and_mobile_ux",
+    "human_evidence_before_fun_claims"
+  ],
+  "phase2_candidates": [
+    {"id": "storm_engine", "kind": "persistent_position"},
+    {"id": "storm_operations", "kind": "mission_cooperation"},
+    {"id": "forecast_market_v05", "kind": "control"}
+  ]
+}
