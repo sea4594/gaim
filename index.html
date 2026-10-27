@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#0b1020">
-  <meta name="description" content="GAIM — a cooperative strategy game in development. Explore a verified Charge Loom match, round by round.">
-  <title>GAIM · Charge Loom — Mechanics Preview</title>
+  <meta name="description" content="Play a complete eight-round experimental GAIM strategy game in your browser and read the full rules.">
+  <title>GAIM · Play Storm Engine</title>
   <link rel="stylesheet" href="./site/style.css">
   <script type="module" src="./site/replay.js"></script>
 </head>
@@ -17,18 +17,18 @@
     </header>
     <main>
       <section class="intro" aria-labelledby="page-title">
-        <p class="eyebrow">COOPERATIVE STRATEGY · 1–4 PLAYERS · PORTRAIT FIRST</p>
-        <h1 id="page-title">Turn the storm<br><em>into your power.</em></h1>
-        <p class="lead">Match opposing charges in the same lane at the right moment. Spend scarce interventions to shift, hold, or damp the danger. Survive nine rounds and power all three capacitors.</p>
+        <p class="eyebrow">BOARD GAME DESIGN LAB · EXPERIMENTAL SOLO GAME · PORTRAIT FIRST</p>
+        <h1 id="page-title">Your first game<br><em>starts here.</em></h1>
+        <p class="lead"><strong>Play an actual eight-round Storm Engine prototype</strong> in your browser. Move charges, build a settlement, face consequences, and see whether the game earns its rules. A complete rulebook is included. This is a solo design test, not deployed online co-op.</p>
         <p class="deploy-stamp">Pages artifact: <strong id="deployment-id">Checking published build…</strong></p>
-        <p><a class="repo-link" href="./strategy-lab.html">Explore the Phase 8 strategy lab in your browser →</a></p>
+        <div class="play-call"><a class="play-cta" href="./play.html">Play the eight-round prototype →</a><a class="repo-link" href="./rules.html">Read the complete rules ↗</a></div>
       </section>
       <section class="preview" aria-labelledby="preview-title">
         <div class="section-head">
-          <div><p class="eyebrow">01 / THE BOARD</p><h2 id="preview-title">A real match, step by step</h2></div>
+          <div><p class="eyebrow">02 / VERIFIED HISTORICAL REPLAY</p><h2 id="preview-title">See the older production v0.1 engine</h2></div>
           <span class="tag">VERIFIED REPLAY · v0.1</span>
         </div>
-        <p class="supporting">This is a read-only replay of a winning run from the tested engine—not a live multiplayer session. Tap through the rounds to see actual charges, edits, and outcomes.</p>
+        <p class="supporting">This read-only replay shows the nine-round Charge Loom v0.1 game. It is <strong>not</strong> the playable Storm Engine prototype above. It is preserved as the technical control for the redesign.</p>
         <div class="game-panel">
           <div class="game-toolbar">
             <label class="scenario-label" for="scenario">SCENARIO
@@ -55,17 +55,17 @@
         </div>
         <p class="caption">Data source: the project's checked-in <code>golden-traces.v0.1.json</code>. New research rules are not yet part of this replay.</p>
       </section>
-      <section class="mechanics" aria-labelledby="mechanics-title"><div class="section-head"><div><p class="eyebrow">02 / THE SYSTEM</p><h2 id="mechanics-title">Simple verbs. Hard consequences.</h2></div></div>
+      <section class="mechanics" aria-labelledby="mechanics-title"><div class="section-head"><div><p class="eyebrow">03 / CHARGE MANIPULATION</p><h2 id="mechanics-title">Simple verbs. Hard consequences.</h2></div></div>
         <div class="mechanic-grid">
           <article><span class="mechanic-icon">↔</span><h3>Shift</h3><p>Move a charge sideways to build or avoid a collision.</p></article>
           <article><span class="mechanic-icon">Ⅱ</span><h3>Hold</h3><p>Delay a charge, but increase its strength and future danger.</p></article>
           <article><span class="mechanic-icon">−</span><h3>Damp</h3><p>Spend coolant to weaken an incoming threat.</p></article>
-          <article><span class="mechanic-icon">⇄</span><h3>Cooperate</h3><p>Up to four shared interventions. The best plans often require combined edits.</p></article>
+          <article><span class="mechanic-icon">⇄</span><h3>Cooperate</h3><p>Up to four shared interventions. Co-op decisions remain an unproven part of the redesign.</p></article>
         </div>
       </section>
       <section class="research" aria-labelledby="research-title">
-        <p class="eyebrow">03 / ON THE WORKBENCH</p><h2 id="research-title">The rules are still evolving.</h2>
-        <p>The board-game redesign provisionally uses <strong>Storm Engine</strong> as its strategic chassis. Forecast Market v0.5 remains a research control; neither has replaced the verified production engine above.</p>
+        <p class="eyebrow">04 / EARLIER EXPERIMENTS</p><h2 id="research-title">The rules are still evolving.</h2>
+        <p><strong>Storm Engine is now directly playable as a solo design experiment.</strong> The production rules and multiplayer engine still use v0.1. We have not proven that the co-op game is fun or balanced.</p>
         <p><strong>Phase 8 now has a live, browser-based strategy explorer.</strong> Choose a storm climate and an eight-round investment plan; compare real reducer-generated outcomes without installing anything.</p>
         <p><a class="repo-link" href="./strategy-lab.html">Open the interactive Storm Strategy Lab →</a></p>
         <p>Our Phase 7 cooperation lab lets you inspect four teammates’ commitments and real counterfactual results. It is an interactive research exhibit, not a deployed multiplayer game.</p>

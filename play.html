@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111827"><meta name="description" content="Play a full eight-round solo research prototype of GAIM Storm Engine in the browser.">
+<title>Play Storm Engine · GAIM research prototype</title>
+<link rel="stylesheet" href="./site/play.css"><script type="module" src="./site/play.js"></script>
+</head><body>
+<div class="wrap">
+<header class="top"><a href="./">◇ GAIM</a><span>PLAYABLE DESIGN TEST · SOLO</span></header>
+<main>
+<section class="hero">
+  <p class="kicker">A complete 8-round game · no login · no download</p>
+  <h1>Keep the lights on.<br><em>Rebuild the settlement.</em></h1>
+  <p class="lede">Guide dangerous energy through three lanes, turn opposite charges into power, and upgrade two settlement systems before the final storm. Every move has a cost.</p>
+  <div class="warning"><strong>What this is:</strong> A playable <strong>solo prototype of the experimental Storm Engine rules</strong>. Not the production v0.1 game, not online multiplayer, and not a validated finished board game.</div>
+</section>
+<section class="rules-short" aria-labelledby="quick-title"><div class="section-head"><h2 id="quick-title">Your mission, in 60 seconds</h2><a href="./rules.html">Complete rules &amp; examples ↗</a></div>
+  <ol><li><strong>Survive eight rounds.</strong> Start with 6 Hull, 2 Power and 2 Coolant. Reach zero Hull and you lose.</li>
+  <li><strong>Match charges.</strong> <span class="positive">+</span> and <span class="negative">−</span> arriving together in one lane cancel. Each matched strength produces one Power; unmatched strength damages Hull.</li>
+  <li><strong>Make up to two interventions.</strong> SHIFT a charge to an adjacent lane, HOLD it one round (it grows stronger), or DAMP it by one strength (costs Coolant).</li>
+  <li><strong>Build strategically.</strong> Spend 2 Power to upgrade Dynamo, Aegis, or Switchyard. Upgrades start next round, and each system has two levels.</li>
+  <li><strong>Win at the deadline.</strong> Finish round 8 alive with at least <strong>two systems at level 2</strong>. Remaining charges at the end also damage Hull.</li></ol>
+  <p class="hint-text">Storms enter at the <strong>FAR</strong> row and move toward the <strong>NEAR</strong> row. NEAR charges will breach when you resolve this round unless held. Your next incoming wave is already visible.</p>
+</section>
+<section class="game" id="game" aria-labelledby="game-title">
+  <div class="section-head"><div><p class="kicker">NOW PLAY</p><h2 id="game-title">The settlement</h2></div><button type="button" class="ghost" id="restart">↻ Restart</button></div>
+  <div class="chooser"><label for="scenario">Choose a storm pattern</label><select id="scenario"><option>Loading…</option></select></div>
+  <p id="scenario-note" class="scenario-note"></p>
+  <div class="resources" aria-label="Settlement resources"><div><span>ROUND</span><strong id="round">– / 8</strong></div><div><span>HULL</span><strong id="hull">6</strong></div><div><span>POWER</span><strong id="power">2</strong></div><div><span>COOLANT</span><strong id="coolant">2</strong></div></div>
+  <div class="status" id="status" role="status" aria-live="polite">Preparing your storm…</div>
+  <div class="board-head"><span>FAR — arrives first</span><span>NEAR — breaches this round ↓</span></div>
+  <div class="board" id="board" aria-label="Three lanes, two displayed time bands"></div>
+  <p class="board-note">Tap a charge to select it. <strong>NEAR</strong> charges are urgent. The board displays the incoming storm and existing charges before your planned edits.</p>
+  <div class="controls-grid">
+  <div class="panel"><h3>1 · Intervene <span id="edit-count">0 / 2</span></h3><p class="sub">Select a charge above, then choose an action. You may also choose no edits.</p>
+    <div id="selected" class="selected">No charge selected</div>
+    <div class="button-grid"><button type="button" id="shift-left">← Shift</button><button type="button" id="shift-right">Shift →</button><button type="button" id="hold">Ⅱ Hold</button><button type="button" id="damp">− Damp</button></div>
+    <div class="actions" id="planned-edits">No edits planned.</div>
+    <button class="ghost small" id="clear-edits" type="button">Clear planned edits</button>
+  </div>
+  <div class="panel"><h3>2 · Build <span>optional</span></h3><p class="sub">A new level costs 2 Power now, and activates at the start of next round.</p>
+    <label class="select-label" for="build">Your construction order</label><select id="build"><option value="">No construction</option></select>
+    <div id="systems" class="systems"></div>
+    <details class="advanced" id="yard-details"><summary>Switchyard's free movement</summary><p>If Switchyard is online, it can SHIFT one extra charge at no cost. Level 1: only FAR charges. Level 2: any charge.</p>
+      <label class="select-label" for="free-token">Charge to shift</label><select id="free-token"></select>
+      <label class="select-label" for="free-dir">Direction</label><select id="free-dir"><option value="-1">← Left</option><option value="1">Right →</option></select>
+    </details>
+  </div>
+  </div>
+  <div class="resolve-area"><p id="error" class="error" role="alert" hidden></p><button type="button" class="primary" id="resolve">Resolve round →</button><button type="button" class="ghost" id="hint">Show a sample plan</button><p class="sub">The sample plan is a test witness, not a guarantee of winning after you deviate from it.</p></div>
+  <div class="report" id="report" aria-live="polite" hidden></div>
+</section>
+<section class="after"><h2>What should this prototype prove?</h2><p>Whether the tactical storm board and persistent construction make an <em>understandable, interesting eight-round game</em>. This does <strong>not</strong> test human cooperation: there are no multiplayer controls here. We will not claim GAIM is production-ready until several people can learn, play and want to replay it.</p><p><a href="./rules.html">Read the entire current rulebook</a> · <a href="./crew-lab.html">Inspect four-seat cooperation research</a></p></section>
+</main><footer>GAIM design lab · This prototype runs entirely in your browser. No accounts, tracking, backend or purchases.</footer>
+</div></body></html>

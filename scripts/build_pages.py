@@ -10,8 +10,9 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 ASSETS=("index.html", "site/style.css", "site/replay.js", "contracts/golden-traces.v0.1.json",
         "crew-lab.html", "site/crew-lab.css", "site/crew-lab.js", "site/crew-lab-data.json",
-        "strategy-lab.html", "site/strategy-lab.css", "site/strategy-lab.js", "site/strategy-lab-data.json")
-MARKER='gaim-pages/redesign-phase08'
+        "strategy-lab.html", "site/strategy-lab.css", "site/strategy-lab.js", "site/strategy-lab-data.json",
+        "play.html", "rules.html", "site/play.css", "site/play.js", "site/play-engine.mjs", "site/play-cases.json")
+MARKER='gaim-pages/phase09-playable-rulebook'
 
 
 def build(destination:Path):
@@ -40,6 +41,8 @@ def build(destination:Path):
         raise ValueError('Phase 8 strategy exhibit invalid')
     if 'site/strategy-lab.js' not in (ROOT/'strategy-lab.html').read_text():
         raise ValueError('Strategy lab references are inconsistent')
+    if 'play.html' not in html or 'rules.html' not in html:
+        raise ValueError('Homepage must feature the playable game and rules')
     if 'strategy-lab.html' not in html:
         raise ValueError('Homepage must link to live strategy lab')
     # GitHub Pages must not run Jekyll over the artifact.
@@ -51,7 +54,7 @@ def build(destination:Path):
     if not (sha=='local-check' or len(sha)>=7 and all(c in '0123456789abcdef' for c in sha.lower())):
         raise ValueError('invalid source commit identifier')
     info={'artifact':MARKER,'source_commit':sha,'replay_ruleset':data['ruleset'],
-          'scenario_count':len(data['traces']),'playable':False}
+          'scenario_count':len(data['traces']),'playable':True,'play_mode':'solo-experimental-storm-engine'}
     (destination/'build-info.json').write_text(json.dumps(info,sort_keys=True,indent=2)+'\n')
     return info
 
