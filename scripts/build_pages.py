@@ -9,8 +9,9 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 ASSETS=("index.html", "site/style.css", "site/replay.js", "contracts/golden-traces.v0.1.json",
-        "crew-lab.html", "site/crew-lab.css", "site/crew-lab.js", "site/crew-lab-data.json")
-MARKER='gaim-pages/pass17'
+        "crew-lab.html", "site/crew-lab.css", "site/crew-lab.js", "site/crew-lab-data.json",
+        "strategy-lab.html", "site/strategy-lab.css", "site/strategy-lab.js", "site/strategy-lab-data.json")
+MARKER='gaim-pages/redesign-phase08'
 
 
 def build(destination:Path):
@@ -34,6 +35,13 @@ def build(destination:Path):
         raise ValueError('Phase 7 research lab artifact invalid')
     if 'site/crew-lab.js' not in (ROOT/'crew-lab.html').read_text():
         raise ValueError('Lab references are inconsistent')
+    strategy=json.loads((ROOT/'site/strategy-lab-data.json').read_text())
+    if strategy.get('ruleset')!='redesign/phase8-scenario-exhibit' or len(strategy.get('climates',{}))!=3:
+        raise ValueError('Phase 8 strategy exhibit invalid')
+    if 'site/strategy-lab.js' not in (ROOT/'strategy-lab.html').read_text():
+        raise ValueError('Strategy lab references are inconsistent')
+    if 'strategy-lab.html' not in html:
+        raise ValueError('Homepage must link to live strategy lab')
     # GitHub Pages must not run Jekyll over the artifact.
     (destination/'.nojekyll').write_text('')
     sha=os.environ.get('GITHUB_SHA','')

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#101623">
+  <meta name="description" content="GAIM Storm Engine: explore competing settlement development plans through verified eight-round experimental games.">
+  <title>GAIM · Storm Strategy Lab</title>
+  <link rel="stylesheet" href="./site/strategy-lab.css">
+  <script type="module" src="./site/strategy-lab.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="top"><a href="./">◇ GAIM</a><span>REDESIGN / PHASE 08</span></header>
+    <p class="kicker">INTERACTIVE RESEARCH EXHIBIT · PORTRAIT-FIRST</p>
+    <h1>What kind of<br><em>storm can we survive?</em></h1>
+    <p class="lead">Choose a climate, a settlement strategy, and a scenario seed. Follow up to eight real experimental rounds to see how early investments change the ending.</p>
+    <p class="notice"><strong>Research, not the shipped game.</strong> All outcomes are precomputed by the audited Python prototype. This is an interactive replay and comparison—not online multiplayer, not human playtesting, and not an optimal strategy solver.</p>
+    <section class="controls-panel" aria-labelledby="choose-title">
+      <h2 id="choose-title">Design your approach</h2>
+      <label for="climate">01 / STORM CLIMATE</label>
+      <select id="climate"><option value="harvest">Resonant Harvest</option><option value="fracture">Fractured Currents</option><option value="siege">Shatter Siege</option></select>
+      <p class="choice-desc" id="climate-desc"></p>
+      <label for="strategy">02 / UPGRADE PATH</label>
+      <select id="strategy"><option value="dynamo_aegis">Dynamo + Aegis</option><option value="aegis_switchyard">Aegis + Switchyard</option><option value="dynamo_switchyard">Dynamo + Switchyard</option></select>
+      <div class="legend"><span>DYNAMO / collision power</span><span>AEGIS / hull protection</span><span>SWITCHYARD / lane shifting</span></div>
+      <label for="seed">03 / SCENARIO SEED <span class="detail">(same seed across all upgrade plans)</span></label>
+      <select id="seed"><option value="82000">82000</option><option value="82001">82001</option><option value="82002">82002</option><option value="82003">82003</option><option value="82004">82004</option></select>
+    </section>
+    <section aria-label="Recorded eight-round game" class="replay">
+      <div class="section-title"><h2>Replayed decisions</h2><span class="chip">VERIFIED REDUCER</span></div>
+      <div class="play-status" id="play-status" aria-live="polite">Loading…</div>
+      <div class="stats"><div><small>HULL</small><strong id="hull">—</strong></div><div><small>POWER</small><strong id="power">—</strong></div><div><small>COOLANT</small><strong id="coolant">—</strong></div></div>
+      <div class="systems" id="systems" aria-label="Built settlement infrastructure"></div>
+      <div class="board-wrap"><div class="board-head"><span>LANE</span><span>FAR</span><span>MID</span><span>NOW</span></div><div class="board" id="board" aria-label="Charge positions after the selected round"></div></div>
+      <div class="event"><h3>What happened this round</h3><p id="event">—</p><div id="edits" class="edits"></div></div>
+      <div class="round-ctrl"><button id="previous" type="button">← Prev</button><div><label for="round">ROUND <strong id="round-label">1 / 8</strong></label><input type="range" id="round" min="1" max="8" value="1" step="1"></div><button id="next" type="button">Next →</button></div>
+    </section>
+    <section class="comparison" aria-labelledby="compare-title"><h2 id="compare-title">Which plan usually survives?</h2><p>Same storm seed and same basic reactive policy, but three different preselected upgrade priorities. These figures cover <strong>40 independent holdout scenarios</strong> for the selected climate. They are not human win rates.</p><div id="comparison" class="comparison-grid"></div><p id="set-note" class="small-note"></p></section>
+    <section class="discussion"><h2>Try a team discussion</h2><p id="discussion-prompt"></p><p>Have each player independently propose which systems to develop, then explain the tradeoff. Compare the resulting plan in the replay above. This prompts discussion; it <strong>does not measure</strong> quarterbacking or independent agency.</p><a class="text-link" href="./crew-lab.html">Try the four-seat commitment experiment</a></section>
+    <footer><a href="./">← Return to GAIM homepage</a><span>Experiment generated offline · No player data collected</span></footer>
+  </main>
+</body>
+</html>
