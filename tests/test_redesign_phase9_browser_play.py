@@ -123,7 +123,7 @@ console.log('35 randomized full-session browser/Python comparisons matched');
             target=Path(d)
             info=build(target)
             self.assertTrue(info['playable'])
-            self.assertEqual(info['play_mode'],'solo-experimental-storm-engine')
+            self.assertEqual(info['play_mode'],'solo-phase1-beacon')
             for name in ('play.html','rules.html','site/play.js','site/play-engine.mjs','site/play-cases.json'):
                 self.assertTrue((target/name).is_file(),name)
             html=(target/'index.html').read_text()

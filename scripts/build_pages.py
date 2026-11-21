@@ -11,8 +11,8 @@ ROOT=Path(__file__).resolve().parents[1]
 ASSETS=("index.html", "site/style.css", "site/replay.js", "contracts/golden-traces.v0.1.json",
         "crew-lab.html", "site/crew-lab.css", "site/crew-lab.js", "site/crew-lab-data.json",
         "strategy-lab.html", "site/strategy-lab.css", "site/strategy-lab.js", "site/strategy-lab-data.json",
-        "play.html", "rules.html", "site/play.css", "site/play.js", "site/play-engine.mjs", "site/play-cases.json")
-MARKER='gaim-pages/phase09-playable-rulebook'
+        "play.html", "rules.html", "site/play.css", "site/play.js", "site/play-engine.mjs", "site/play-cases.json", "site/storm-v2.mjs", "site/phase1-cases.json")
+MARKER='gaim-pages/phase1-beacon-playable'
 
 
 def build(destination:Path):
@@ -54,7 +54,7 @@ def build(destination:Path):
     if not (sha=='local-check' or len(sha)>=7 and all(c in '0123456789abcdef' for c in sha.lower())):
         raise ValueError('invalid source commit identifier')
     info={'artifact':MARKER,'source_commit':sha,'replay_ruleset':data['ruleset'],
-          'scenario_count':len(data['traces']),'playable':True,'play_mode':'solo-experimental-storm-engine'}
+          'scenario_count':len(data['traces']),'playable':True,'play_mode':'solo-phase1-beacon'}
     (destination/'build-info.json').write_text(json.dumps(info,sort_keys=True,indent=2)+'\n')
     return info
 

@@ -11,7 +11,7 @@ class PagesDeployment(unittest.TestCase):
             self.assertEqual(actual,set(ASSETS)|{'.nojekyll','build-info.json'})
             self.assertEqual(result['artifact'],MARKER)
             self.assertEqual(result['playable'],True)
-            self.assertEqual(result['play_mode'],'solo-experimental-storm-engine')
+            self.assertEqual(result['play_mode'],'solo-phase1-beacon')
             self.assertIn('play.html',actual)
             self.assertIn('rules.html',actual)
             self.assertEqual(result['scenario_count'],7)
