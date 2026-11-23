@@ -13,7 +13,7 @@ DATA=json.loads((ROOT/'site/phase1-cases.json').read_text())
 
 class Phase1BeaconTests(unittest.TestCase):
     def test_exact_python_replay_of_three_js_witnesses(self):
-        self.assertEqual(DATA['ruleset'],'gaim/phase1-beacon-v1')
+        self.assertEqual(DATA['ruleset'],'gaim/phase1-beacon-v2')
         self.assertEqual(len(DATA['games']),3)
         for case in DATA['games']:
             with self.subTest(case=case['id']):
@@ -51,7 +51,7 @@ class Phase1BeaconTests(unittest.TestCase):
                     if choices:edits.append(rng.choice(choices))
                 p=dict(edits=edits,build=None,charge=False,shield=0,free=None)
                 if s['power']>=2 and rng.random()<.5:
-                    options=['charge'] if s['beacon']<3 else []
+                    options=['charge'] if r<8 and s['beacon']<3 and any(lv[i]>0 and not s['outages'][i] for i in range(3)) else []
                     options += [i for i in range(3) if r<8 and lv[i]<2 and not s['outages'][i]]
                     if options:
                         project=rng.choice(options)
@@ -63,10 +63,17 @@ class Phase1BeaconTests(unittest.TestCase):
                 if lv[2]>0 and not s['outages'][2] and rng.random()<.5:
                     for t in rng.sample(board,len(board)):
                         if t['id'] in {a['token'] for a in edits}:continue
-                        if lv[2]==1 and t['depth']!=2:continue
-                        deltas=[d for d in (-1,1) if t['lane']+d in (0,1,2)]
+                        deltas=[d for d in (-2,-1,1,2) if abs(d)<=lv[2] and t['lane']+d in (0,1,2)]
                         if deltas:p['free']=dict(token=t['id'],delta=rng.choice(deltas));break
-                s=step(s,p)
+                try:
+                    following=step(s,p)
+                except ValueError as e:
+                    if p['charge'] and 'polarity collision' in str(e):
+                        p['charge']=False  # Without a match, the Beacon cannot be charged.
+                        following=step(s,p)
+                    else:
+                        raise
+                s=following
                 decisions.append(dict(plan=p,expected=s))
             random_cases.append(dict(waves=waves,decisions=decisions))
         js=r'''

@@ -11,17 +11,17 @@
 <section class="hero">
   <p class="kicker">A complete 8-round game · no login · no download</p>
   <h1>Survive the storm.<br><em>Activate the Beacon.</em></h1>
-  <p class="lede">Guide opposing charges into collisions, invest in complementary infrastructure, and charge three Beacon cells before the eighth storm ends. Every Power spent on progress is Power unavailable for protection.</p>
+  <p class="lede">Guide opposing charges into collisions, invest in complementary infrastructure, and charge three Beacon cells before the final storm, then survive it. Every Power spent on progress is Power unavailable for protection.</p>
   <div class="warning"><strong>What this is:</strong> A playable <strong>Phase 1 solo redesign</strong> of Storm Engine, designed to test meaningful resource decisions. It is not the historical reducer, production v0.1 game, online multiplayer, or a validated finished board game.</div>
 </section>
 <section class="rules-short" aria-labelledby="quick-title"><div class="section-head"><h2 id="quick-title">Your mission, in 60 seconds</h2><a href="./rules.html">Complete rules &amp; examples ↗</a></div>
   <ol><li><strong>Survive eight rounds.</strong> Start with 6 Hull, 2 Power and 2 Coolant. Reach zero Hull and you lose.</li>
   <li><strong>Match charges.</strong> <span class="positive">+</span> and <span class="negative">−</span> arriving together in one lane cancel. Each matched strength produces one Power; unmatched strength threatens Hull.</li>
   <li><strong>Make up to two interventions.</strong> SHIFT a charge to an adjacent lane, HOLD it one round (it grows stronger), or DAMP it by one strength (costs Coolant).</li>
-  <li><strong>Build strategically.</strong> Use your project slot to spend 2 Power on a system upgrade OR one Beacon cell. Upgrades activate next round; the Beacon needs three cells.</li>
+  <li><strong>Build strategically.</strong> Use your project slot to upgrade a system or charge a Beacon cell for 2 Power. Charging requires an online upgraded system and a same-round polarity collision. Finish all three Beacon cells by round 7; round 8 is survival only. Upgrades activate next round.</li>
   <li><strong>Shield deliberately.</strong> Spend up to 2 Power to absorb leakage damage. Aegis increases the protection per Power spent, but shields never work automatically.</li>
-  <li><strong>Win at the deadline.</strong> Finish round 8 alive with <strong>three Beacon cells charged and at least one upgraded system online</strong>. Remaining charges at the end still damage Hull.</li></ol>
-  <p class="hint-text">Storms enter at the <strong>FAR</strong> row and move toward the <strong>NEAR</strong> row. NEAR charges will breach when you resolve this round unless held. The next incoming wave is previewed for planning. Upgrade Dynamo for energy, Aegis for efficient shielding, or Switchyard for flexible charge movement.</p>
+  <li><strong>Win at the deadline.</strong> Finish Beacon charging by the end of round 7, then survive round 8 with <strong>at least one upgraded system online</strong>. Remaining charges at the end still damage Hull.</li></ol>
+  <p class="hint-text">Storms enter at the <strong>FAR</strong> row and move toward the <strong>NEAR</strong> row. NEAR charges will breach when you resolve this round unless held. The next incoming wave is previewed for planning. A blocked network or a round without matches cannot charge the Beacon. Upgrade Dynamo for energy, Aegis for efficient shielding, or Switchyard for flexible charge movement.</p>
 </section>
 <section class="game" id="game" aria-labelledby="game-title">
   <div class="section-head"><div><p class="kicker">NOW PLAY</p><h2 id="game-title">The settlement</h2></div><button type="button" class="ghost" id="restart">↻ Restart</button></div>
@@ -39,10 +39,10 @@
     <div class="actions" id="planned-edits">No edits planned.</div>
     <button class="ghost small" id="clear-edits" type="button">Clear planned edits</button>
   </div>
-  <div class="panel"><h3>2 · Project <span>one per round</span></h3><p class="sub">Choose a 2-Power project: build an upgrade (starts next round), or charge one of three Beacon cells (immediate).</p>
+  <div class="panel"><h3>2 · Project <span>one per round</span></h3><p class="sub">Choose one 2-Power project: build an upgrade (starts next round), or charge one Beacon cell. Beacon charging also requires an online system and a collision this round. Round 8 has no projects.</p>
     <label class="select-label" for="project">Your project order</label><select id="project"><option value="">No project</option></select>
     <div id="systems" class="systems"></div><h3 class="shield-heading">3 · Shield <span>optional</span></h3><p class="sub">Pay Power before the storm resolves. Shields absorb damage this round, with Aegis multiplying their strength.</p><label class="select-label" for="shield">Spend Power on shielding</label><select id="shield"><option value="0">No shielding</option></select><p class="sub" id="shield-effect"></p>
-    <details class="advanced" id="yard-details"><summary>Switchyard's free movement</summary><p>If Switchyard is online, it can SHIFT one extra charge at no cost. Level 1: only FAR charges. Level 2: any charge.</p>
+    <details class="advanced" id="yard-details" open><summary>Switchyard: one free Shift each round</summary><p>When online, Switchyard can move any FAR or NEAR charge for free. At level 1, shift one lane. At level 2, shift one or two lanes. This is separate from your two paid interventions.</p>
       <label class="select-label" for="free-token">Charge to shift</label><select id="free-token"></select>
       <label class="select-label" for="free-dir">Direction</label><select id="free-dir"><option value="-1">← Left</option><option value="1">Right →</option></select>
     </details>

@@ -1,5 +1,5 @@
 {
-  "ruleset": "gaim/phase1-beacon-v1",
+  "ruleset": "gaim/phase1-beacon-v2",
   "games": [
     {
       "id": "5000",
@@ -360,17 +360,15 @@
               {
                 "kind": "DAMP",
                 "token": "r1t0"
-              },
-              {
-                "delta": -1,
-                "kind": "SHIFT",
-                "token": "r1t1"
               }
             ],
             "build": null,
             "charge": false,
             "shield": 0,
-            "free": null
+            "free": {
+              "token": "r1t1",
+              "delta": -1
+            }
           },
           "after": {
             "round": 3,
@@ -558,17 +556,15 @@
                   {
                     "kind": "DAMP",
                     "token": "r1t0"
-                  },
-                  {
-                    "delta": -1,
-                    "kind": "SHIFT",
-                    "token": "r1t1"
                   }
                 ],
                 "build": null,
                 "charge": false,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r1t1",
+                  "delta": -1
+                },
                 "matched": [
                   1,
                   0,
@@ -836,17 +832,15 @@
                   {
                     "kind": "DAMP",
                     "token": "r1t0"
-                  },
-                  {
-                    "delta": -1,
-                    "kind": "SHIFT",
-                    "token": "r1t1"
                   }
                 ],
                 "build": null,
                 "charge": false,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r1t1",
+                  "delta": -1
+                },
                 "matched": [
                   1,
                   0,
@@ -967,17 +961,15 @@
               {
                 "kind": "DAMP",
                 "token": "r3t0"
-              },
-              {
-                "delta": -1,
-                "kind": "SHIFT",
-                "token": "r3t1"
               }
             ],
             "build": null,
             "charge": true,
             "shield": 0,
-            "free": null
+            "free": {
+              "token": "r3t1",
+              "delta": -1
+            }
           },
           "after": {
             "round": 5,
@@ -1165,17 +1157,15 @@
                   {
                     "kind": "DAMP",
                     "token": "r1t0"
-                  },
-                  {
-                    "delta": -1,
-                    "kind": "SHIFT",
-                    "token": "r1t1"
                   }
                 ],
                 "build": null,
                 "charge": false,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r1t1",
+                  "delta": -1
+                },
                 "matched": [
                   1,
                   0,
@@ -1257,17 +1247,15 @@
                   {
                     "kind": "DAMP",
                     "token": "r3t0"
-                  },
-                  {
-                    "delta": -1,
-                    "kind": "SHIFT",
-                    "token": "r3t1"
                   }
                 ],
                 "build": null,
                 "charge": true,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r3t1",
+                  "delta": -1
+                },
                 "matched": [
                   1,
                   0,
@@ -1343,17 +1331,14 @@
             "beacon": 1
           },
           "plan": {
-            "edits": [
-              {
-                "delta": 1,
-                "kind": "SHIFT",
-                "token": "r4t0"
-              }
-            ],
+            "edits": [],
             "build": null,
             "charge": true,
             "shield": 0,
-            "free": null
+            "free": {
+              "token": "r4t0",
+              "delta": 1
+            }
           },
           "after": {
             "round": 6,
@@ -1549,17 +1534,15 @@
                   {
                     "kind": "DAMP",
                     "token": "r1t0"
-                  },
-                  {
-                    "delta": -1,
-                    "kind": "SHIFT",
-                    "token": "r1t1"
                   }
                 ],
                 "build": null,
                 "charge": false,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r1t1",
+                  "delta": -1
+                },
                 "matched": [
                   1,
                   0,
@@ -1641,17 +1624,15 @@
                   {
                     "kind": "DAMP",
                     "token": "r3t0"
-                  },
-                  {
-                    "delta": -1,
-                    "kind": "SHIFT",
-                    "token": "r3t1"
                   }
                 ],
                 "build": null,
                 "charge": true,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r3t1",
+                  "delta": -1
+                },
                 "matched": [
                   1,
                   0,
@@ -1688,17 +1669,14 @@
               },
               {
                 "round": 5,
-                "edits": [
-                  {
-                    "delta": 1,
-                    "kind": "SHIFT",
-                    "token": "r4t0"
-                  }
-                ],
+                "edits": [],
                 "build": null,
                 "charge": true,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r4t0",
+                  "delta": 1
+                },
                 "matched": [
                   0,
                   2,
@@ -1784,11 +1762,6 @@
           "plan": {
             "edits": [
               {
-                "delta": -1,
-                "kind": "SHIFT",
-                "token": "r5t0"
-              },
-              {
                 "delta": 1,
                 "kind": "SHIFT",
                 "token": "r5t1"
@@ -1797,7 +1770,10 @@
             "build": null,
             "charge": true,
             "shield": 0,
-            "free": null
+            "free": {
+              "token": "r5t0",
+              "delta": -1
+            }
           },
           "after": {
             "round": 7,
@@ -1993,17 +1969,15 @@
                   {
                     "kind": "DAMP",
                     "token": "r1t0"
-                  },
-                  {
-                    "delta": -1,
-                    "kind": "SHIFT",
-                    "token": "r1t1"
                   }
                 ],
                 "build": null,
                 "charge": false,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r1t1",
+                  "delta": -1
+                },
                 "matched": [
                   1,
                   0,
@@ -2085,17 +2059,15 @@
                   {
                     "kind": "DAMP",
                     "token": "r3t0"
-                  },
-                  {
-                    "delta": -1,
-                    "kind": "SHIFT",
-                    "token": "r3t1"
                   }
                 ],
                 "build": null,
                 "charge": true,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r3t1",
+                  "delta": -1
+                },
                 "matched": [
                   1,
                   0,
@@ -2132,17 +2104,14 @@
               },
               {
                 "round": 5,
-                "edits": [
-                  {
-                    "delta": 1,
-                    "kind": "SHIFT",
-                    "token": "r4t0"
-                  }
-                ],
+                "edits": [],
                 "build": null,
                 "charge": true,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r4t0",
+                  "delta": 1
+                },
                 "matched": [
                   0,
                   2,
@@ -2181,11 +2150,6 @@
                 "round": 6,
                 "edits": [
                   {
-                    "delta": -1,
-                    "kind": "SHIFT",
-                    "token": "r5t0"
-                  },
-                  {
                     "delta": 1,
                     "kind": "SHIFT",
                     "token": "r5t1"
@@ -2194,7 +2158,10 @@
                 "build": null,
                 "charge": true,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r5t0",
+                  "delta": -1
+                },
                 "matched": [
                   0,
                   1,
@@ -2280,11 +2247,6 @@
           "plan": {
             "edits": [
               {
-                "delta": 1,
-                "kind": "SHIFT",
-                "token": "r6t0"
-              },
-              {
                 "kind": "HOLD",
                 "token": "r6t1"
               }
@@ -2292,7 +2254,10 @@
             "build": null,
             "charge": false,
             "shield": 0,
-            "free": null
+            "free": {
+              "token": "r6t0",
+              "delta": 1
+            }
           },
           "after": {
             "round": 8,
@@ -2496,17 +2461,15 @@
                   {
                     "kind": "DAMP",
                     "token": "r1t0"
-                  },
-                  {
-                    "delta": -1,
-                    "kind": "SHIFT",
-                    "token": "r1t1"
                   }
                 ],
                 "build": null,
                 "charge": false,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r1t1",
+                  "delta": -1
+                },
                 "matched": [
                   1,
                   0,
@@ -2588,17 +2551,15 @@
                   {
                     "kind": "DAMP",
                     "token": "r3t0"
-                  },
-                  {
-                    "delta": -1,
-                    "kind": "SHIFT",
-                    "token": "r3t1"
                   }
                 ],
                 "build": null,
                 "charge": true,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r3t1",
+                  "delta": -1
+                },
                 "matched": [
                   1,
                   0,
@@ -2635,17 +2596,14 @@
               },
               {
                 "round": 5,
-                "edits": [
-                  {
-                    "delta": 1,
-                    "kind": "SHIFT",
-                    "token": "r4t0"
-                  }
-                ],
+                "edits": [],
                 "build": null,
                 "charge": true,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r4t0",
+                  "delta": 1
+                },
                 "matched": [
                   0,
                   2,
@@ -2684,11 +2642,6 @@
                 "round": 6,
                 "edits": [
                   {
-                    "delta": -1,
-                    "kind": "SHIFT",
-                    "token": "r5t0"
-                  },
-                  {
                     "delta": 1,
                     "kind": "SHIFT",
                     "token": "r5t1"
@@ -2697,7 +2650,10 @@
                 "build": null,
                 "charge": true,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r5t0",
+                  "delta": -1
+                },
                 "matched": [
                   0,
                   1,
@@ -2736,11 +2692,6 @@
                 "round": 7,
                 "edits": [
                   {
-                    "delta": 1,
-                    "kind": "SHIFT",
-                    "token": "r6t0"
-                  },
-                  {
                     "kind": "HOLD",
                     "token": "r6t1"
                   }
@@ -2748,7 +2699,10 @@
                 "build": null,
                 "charge": false,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r6t0",
+                  "delta": 1
+                },
                 "matched": [
                   0,
                   1,
@@ -3015,17 +2969,15 @@
                   {
                     "kind": "DAMP",
                     "token": "r1t0"
-                  },
-                  {
-                    "delta": -1,
-                    "kind": "SHIFT",
-                    "token": "r1t1"
                   }
                 ],
                 "build": null,
                 "charge": false,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r1t1",
+                  "delta": -1
+                },
                 "matched": [
                   1,
                   0,
@@ -3107,17 +3059,15 @@
                   {
                     "kind": "DAMP",
                     "token": "r3t0"
-                  },
-                  {
-                    "delta": -1,
-                    "kind": "SHIFT",
-                    "token": "r3t1"
                   }
                 ],
                 "build": null,
                 "charge": true,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r3t1",
+                  "delta": -1
+                },
                 "matched": [
                   1,
                   0,
@@ -3154,17 +3104,14 @@
               },
               {
                 "round": 5,
-                "edits": [
-                  {
-                    "delta": 1,
-                    "kind": "SHIFT",
-                    "token": "r4t0"
-                  }
-                ],
+                "edits": [],
                 "build": null,
                 "charge": true,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r4t0",
+                  "delta": 1
+                },
                 "matched": [
                   0,
                   2,
@@ -3203,11 +3150,6 @@
                 "round": 6,
                 "edits": [
                   {
-                    "delta": -1,
-                    "kind": "SHIFT",
-                    "token": "r5t0"
-                  },
-                  {
                     "delta": 1,
                     "kind": "SHIFT",
                     "token": "r5t1"
@@ -3216,7 +3158,10 @@
                 "build": null,
                 "charge": true,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r5t0",
+                  "delta": -1
+                },
                 "matched": [
                   0,
                   1,
@@ -3255,11 +3200,6 @@
                 "round": 7,
                 "edits": [
                   {
-                    "delta": 1,
-                    "kind": "SHIFT",
-                    "token": "r6t0"
-                  },
-                  {
                     "kind": "HOLD",
                     "token": "r6t1"
                   }
@@ -3267,7 +3207,10 @@
                 "build": null,
                 "charge": false,
                 "shieldSpent": 0,
-                "free": null,
+                "free": {
+                  "token": "r6t0",
+                  "delta": 1
+                },
                 "matched": [
                   0,
                   1,

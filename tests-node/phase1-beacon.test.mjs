@@ -24,7 +24,8 @@ test('three complete Phase 1 winning examples are exact deterministic states',()
 test('Beacon and construction compete for one project slot; valid builds activate only next round',()=>{
  let s=newGame(blank());
  assert.throws(()=>step(s,{charge:true,build:1}),/Beacon OR construction/);
- assert.throws(()=>step(s,{charge:true,shield:1}),/Not enough Power/);
+ const network=structuredClone(s);network.levels[0]=1;
+ assert.throws(()=>step(network,{charge:true,shield:1}),/Not enough Power/);
  assert.throws(()=>step(s,{charge:1}),/true or false/);
  assert.throws(()=>step(s,{charge:true,shield:-1}),/Shield must cost/);
  s=step(s,{build:1});assert.deepEqual(s.levels,[0,0,0]);assert.equal(s.pending,1);
@@ -33,6 +34,8 @@ test('Beacon and construction compete for one project slot; valid builds activat
  assert.throws(()=>step(x,{charge:true}),/already charged/);
  x=newGame(blank());x.round=8;
  assert.throws(()=>step(x,{build:1}),/Construction unavailable/);
+ x.levels[0]=1;
+ assert.throws(()=>step(x,{charge:true}),/before the final storm/);
 });
 test('Aegis requires a paid shield, and outages disable its multiplier',()=>{
  const waves=blank();waves[0]=[{lane:1,sign:1,strength:3}];
@@ -54,6 +57,31 @@ test('forecast and status do not affect reducer, invalid edits are rejected',()=
  assert.throws(()=>step(s,{edits:[{kind:'SHIFT',token:'unknown',delta:1}]}),/not available/);
  assert.throws(()=>step(s,{edits:[{kind:'SHIFT',token:'r1t0',delta:-1}]}),/adjacent lane/);
  assert.throws(()=>step(s,{edits:[{kind:'DAMP',token:'r1t0'},{kind:'HOLD',token:'r1t0'}]}),/one paid intervention/);
+});
+test('Beacon requires a working upgraded network AND at least one collision during its charging round',()=>{
+ const waves=blank();waves[0]=[{lane:0,sign:1,strength:1},{lane:0,sign:-1,strength:1}];
+ let s=newGame(waves);
+ assert.throws(()=>step(s,{charge:true}),/online upgraded system/);
+ s=step(s,{build:0});
+ s.power=2; // Restore Power to isolate the timing requirement.
+ const notYet=structuredClone(s);notYet.board=[];
+ assert.throws(()=>step(notYet,{charge:true}),/polarity collision/);
+
+ const successful=step(s,{charge:true});
+ assert.equal(successful.beacon,1);
+ assert.equal(successful.history.at(-1).matched[0],1);
+ const offline=structuredClone(s);offline.outages[0]=true;
+ assert.throws(()=>step(offline,{charge:true}),/online upgraded system/);
+});
+test('Switchyard level 1 can move urgent NEAR charges; level 2 can shift across two lanes',()=>{
+ const waves=blank();waves[0]=[{lane:0,sign:1,strength:1}];
+ let s=step(newGame(waves),{});
+ s.levels[2]=1;
+ assert.deepEqual(step(s,{}).history.at(-1).raw,[1,0,0]);
+ assert.deepEqual(step(s,{free:{token:'r1t0',delta:1}}).history.at(-1).raw,[0,1,0]);
+ assert.throws(()=>step(s,{free:{token:'r1t0',delta:2}}),/Invalid Switchyard/);
+ s.levels[2]=2;
+ assert.deepEqual(step(s,{free:{token:'r1t0',delta:2}}).history.at(-1).raw,[0,0,1]);
 });
 test('winning objective cannot be met without Beacon and an online system',()=>{
  let s=newGame(blank());

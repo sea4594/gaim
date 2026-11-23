@@ -30,6 +30,9 @@ def step(state, plan=None):
     if type(shield) is not int or shield < 0 or shield > 2: raise ValueError('Invalid shield')
     if charge and build is not None: raise ValueError('Beacon and build are mutually exclusive')
     if charge and s['beacon'] >= 3: raise ValueError('Beacon is already charged')
+    if charge and r == 8: raise ValueError('The Beacon must be fully charged before the final storm')
+    if charge and not any(lv > 0 and not offline[i] for i, lv in enumerate(s['levels'])):
+        raise ValueError('The Beacon needs at least one online upgraded system')
     if charge and s['power'] < 2: raise ValueError('Not enough Power to charge Beacon')
     if s['power']-(2 if charge or build is not None else 0) < shield:
         raise ValueError('Not enough Power for the shield')
@@ -47,7 +50,7 @@ def step(state, plan=None):
     if free is not None:
         if s['levels'][2] == 0 or offline[2]: raise ValueError('Switchyard is unavailable')
         t = token_by_id(s['board'], free['token'])
-        if t is None or (s['levels'][2] == 1 and t['depth'] != 2) or free.get('delta') not in (-1,1):
+        if t is None or free.get('delta') not in (-2,-1,1,2) or abs(free['delta']) > s['levels'][2] or t['lane']+free['delta'] not in (0,1,2):
             raise ValueError('Invalid Switchyard move')
     if build is not None:
         s['power'] -= 2
@@ -61,14 +64,16 @@ def step(state, plan=None):
         apply_edit(s['board'], a, stopped)
     if free is not None:
         t = token_by_id(s['board'], free['token'])
-        if t is None or (s['levels'][2] == 1 and t['depth'] != 2):
-            raise ValueError('Switchyard target no longer available')
-        apply_edit(s['board'], dict(free, kind='SHIFT'), stopped)
+        if t is None or t['lane']+free['delta'] not in (0,1,2):
+            raise ValueError('Switchyard target no longer available or legal')
+        t['lane'] += free['delta']
     s['coolant'] -= damp_count
     s['board'], breached = move_and_breach(s['board'], stopped)
     event = resolve(breached)
     total_match = event['total_match']
     raw = event['raw_damage']
+    if charge and total_match == 0:
+        raise ValueError('Charging the Beacon requires a polarity collision this round')
     bonus = s['levels'][0] if (s['levels'][0] > 0 and not offline[0] and
         ((s['levels'][0] == 1 and event['matches'][0] > 0) or
          (s['levels'][0] == 2 and total_match > 0))) else 0

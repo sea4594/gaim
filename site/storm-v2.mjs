@@ -1,5 +1,5 @@
 /**
- * GAIM improvement Phase 1: distinct solo prototype ruleset.
+ * GAIM improvement Phase 1: Beacon network iteration (v2) solo ruleset.
  * Historical Phase 3 engine remains untouched for reference parity.
  * Deterministic and entirely local; no random or network behavior.
  */
@@ -47,6 +47,8 @@ export function step(state,plan={}){
   if(!Number.isInteger(shield)||shield<0||shield>2)throw Error('Shield must cost 0, 1 or 2 Power');
   if(charge&&build!==null)throw Error('Choose Beacon OR construction, not both');
   if(charge&&s.beacon>=3)throw Error('Beacon is already charged');
+  if(charge&&r===8)throw Error('The Beacon must be fully charged before the final storm');
+  if(charge&&!s.levels.some((lev,i)=>lev>0&&!offline[i]))throw Error('The Beacon needs at least one online upgraded system');
   if(charge&&s.power<2)throw Error('Not enough Power to charge Beacon');
   if(s.power-(build!==null||charge?2:0)<shield)throw Error('Not enough Power for the shield');
   if(edits.length>2)throw Error('Only two paid interventions per round');
@@ -63,7 +65,7 @@ export function step(state,plan={}){
   if(free!==null){
     if(s.levels[2]===0||offline[2])throw Error('Switchyard is unavailable');
     const t=target(s.board,free.token);
-    if(!t || (s.levels[2]===1 && t.depth!==2) || ![-1,1].includes(free.delta))throw Error('Invalid Switchyard move');
+    if(!t || ![-2,-1,1,2].includes(free.delta) || Math.abs(free.delta)>s.levels[2] || ![0,1,2].includes(t.lane+free.delta))throw Error('Invalid Switchyard move');
   }
   if(build!==null){s.power-=2;s.pending=build;}
   if(charge){s.power-=2;s.beacon++;}
@@ -71,9 +73,8 @@ export function step(state,plan={}){
   const stopped=new Set();for(const a of edits)apply(s.board,a,stopped);
   if(free!==null){
     const t=target(s.board,free.token);
-    if(!t || (s.levels[2]===1 && t.depth!==2))throw Error('Switchyard target no longer available');
-    validateEdit(s.board,{...free,kind:'SHIFT'});
-    apply(s.board,{...free,kind:'SHIFT'},stopped);
+    if(!t || ![0,1,2].includes(t.lane+free.delta))throw Error('Switchyard target no longer available or legal');
+    t.lane+=free.delta;
   }
   s.coolant-=damp;
   const breached=[];const kept=[];
@@ -89,6 +90,7 @@ export function step(state,plan={}){
     matches[lane]=Math.min(positive,negative);leaks[lane]=Math.abs(positive-negative);
   }
   const total_match=matches.reduce((a,b)=>a+b,0),raw=leaks.reduce((a,b)=>a+b,0);
+  if(charge&&total_match===0)throw Error('Charging the Beacon requires a polarity collision this round');
   const bonus=s.levels[0]>0&&!offline[0]&&((s.levels[0]===1&&matches[0]>0)||(s.levels[0]===2&&total_match>0))?s.levels[0]:0;
   const defense=shield*(1+(offline[1]?0:s.levels[1])),damage=Math.max(0,raw-defense);
   s.power=Math.min(8,s.power+total_match+bonus);s.hull-=damage;
